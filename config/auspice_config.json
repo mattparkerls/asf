@@ -3,7 +3,7 @@
   "maintainers": [
     {"name": "Matt Parker", "url": "https://github.com/mattparkerls"}
   ],
-  "build_url": "https://github.com/nextstrain/",
+  "build_url": "https://github.com/mattparkerls/asf",
   "colorings": [
     {
       "key": "gt",
