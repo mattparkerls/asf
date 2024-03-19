@@ -3,7 +3,7 @@
   "meta": {
     "title": "Nextstrain build for African swine fever virus",
     "updated": "2024-03-19",
-    "build_url": "https://github.com/nextstrain/",
+    "build_url": "https://github.com/mattparkerls/asf",
     "maintainers": [
       {
         "name": "Matt Parker",
