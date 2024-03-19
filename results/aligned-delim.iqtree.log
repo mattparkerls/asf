@@ -1,0 +1,110 @@
+IQ-TREE multicore version 2.2.6 COVID-edition for Mac OS X 64-bit built Dec  8 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Matts-MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -ntmax 1 -s results/aligned-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05 -nt AUTO -redo
+Seed:    32587 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Mar 19 17:13:50 2024
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file results/aligned-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.072649 secs using 94.57% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.107573 secs using 75.43% CPU
+Alignment has 23 sequences with 190584 columns, 544 distinct patterns
+37 parsimony-informative, 2184 singleton sites, 188363 constant sites
+                                                                                                                                              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.40803e-05 secs using 78.9% CPU
+   1  urn.local...157-hhviqz2                                                                                                                         0.00%    passed     97.64%
+   2  Korea_DELIM-RZSKGTGWOJGIWWUHKTDJ_YC1_DELIM-RZSKGTGWOJGIWWUHKTDJ_2019                                                                            0.86%    passed     99.66%
+   3  Korea_DELIM-RZSKGTGWOJGIWWUHKTDJ_PC1432_DELIM-RZSKGTGWOJGIWWUHKTDJ_2021                                                                         1.06%    passed     99.55%
+   4  Korea_DELIM-RZSKGTGWOJGIWWUHKTDJ_CW714_DELIM-RZSKGTGWOJGIWWUHKTDJ_2020                                                                          0.95%    passed     99.55%
+   5  Vietnam_DELIM-RZSKGTGWOJGIWWUHKTDJ_Pig_DELIM-RZSKGTGWOJGIWWUHKTDJ_RG-7_DELIM-RZSKGTGWOJGIWWUHKTDJ_01                                            0.63%    passed     99.09%
+   6  VNUA-ASFV-05L1_DELIM-RZSKGTGWOJGIWWUHKTDJ_HaNam_DELIM-RZSKGTGWOJGIWWUHKTDJ_VN_DELIM-RZSKGTGWOJGIWWUHKTDJ_2020                                   2.29%    passed     99.53%
+   7  China_DELIM-RZSKGTGWOJGIWWUHKTDJ_2018_DELIM-RZSKGTGWOJGIWWUHKTDJ_AnhuiXCGQ                                                                      0.63%    passed     98.95%
+   8  China_DELIM-RZSKGTGWOJGIWWUHKTDJ_LN_DELIM-RZSKGTGWOJGIWWUHKTDJ_2018_DELIM-RZSKGTGWOJGIWWUHKTDJ_2                                                0.63%    passed     99.11%
+   9  Mon_Dom                                                                                                                                         0.63%    passed     99.19%
+  10  Pig_DELIM-RZSKGTGWOJGIWWUHKTDJ_HLJ_DELIM-RZSKGTGWOJGIWWUHKTDJ_2018                                                                              0.63%    passed     99.20%
+  11  CN_DELIM-RZSKGTGWOJGIWWUHKTDJ_2019_DELIM-RZSKGTGWOJGIWWUHKTDJ_InnerMongolia-AES01                                                               0.63%    passed     98.83%
+  12  pig_DELIM-RZSKGTGWOJGIWWUHKTDJ_HuB1_DELIM-RZSKGTGWOJGIWWUHKTDJ_2019                                                                             5.27%    passed     70.71%
+  13  ASFV-wbBS01                                                                                                                                     0.63%    passed     98.87%
+  14  K1-1_DELIM-RZSKGTGWOJGIWWUHKTDJ_Liver_DELIM-RZSKGTGWOJGIWWUHKTDJ_Kupang_DELIM-RZSKGTGWOJGIWWUHKTDJ_Indonesia_DELIM-RZSKGTGWOJGIWWUHKTDJ_2023    2.10%    passed     99.90%
+  15  S-S-VR-413000-00015                                                                                                                             0.62%    passed     99.23%
+  16  S-S-VR-413000-00008                                                                                                                             0.61%    passed     99.15%
+  17  S-S-VR-413000-00002                                                                                                                             0.62%    passed     99.26%
+  18  Vietnam_DELIM-RZSKGTGWOJGIWWUHKTDJ_Pig_DELIM-RZSKGTGWOJGIWWUHKTDJ_RG-6_DELIM-RZSKGTGWOJGIWWUHKTDJ_01                                            0.63%    passed     98.58%
+  19  Vietnam_DELIM-RZSKGTGWOJGIWWUHKTDJ_Pig_DELIM-RZSKGTGWOJGIWWUHKTDJ_RG-5_DELIM-RZSKGTGWOJGIWWUHKTDJ_01                                            0.63%    passed     94.41%
+  20  wildboar_DELIM-RZSKGTGWOJGIWWUHKTDJ_SNJ_DELIM-RZSKGTGWOJGIWWUHKTDJ_2020                                                                         0.69%    passed     98.97%
+  21  Vietnam_DELIM-RZSKGTGWOJGIWWUHKTDJ_Pig_DELIM-RZSKGTGWOJGIWWUHKTDJ_RG-4_DELIM-RZSKGTGWOJGIWWUHKTDJ_01                                            0.73%    passed     99.15%
+  22  HuB20                                                                                                                                           1.19%    passed     95.83%
+  23  ASF_DELIM-RZSKGTGWOJGIWWUHKTDJ_IND_DELIM-RZSKGTGWOJGIWWUHKTDJ_20_DELIM-RZSKGTGWOJGIWWUHKTDJ_CAD_DELIM-RZSKGTGWOJGIWWUHKTDJ_543                 14.27%    failed      0.09%
+****  TOTAL                                                                                                                                           1.61%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000524703 for long alignment
+Checking for duplicate sequences: done in 5.29289e-05 secs using 81.24% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+397 trees examined
+Threads: 1 / Time: 1.001 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -276596
+Determining AUTO threadcount: done in 1.00083 secs using 99.81% CPU
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -276408.641
+2. Current log-likelihood: -276036.748
+Optimal log-likelihood: -276036.303
+Rate parameters:  A-C: 0.93034  A-G: 1.99517  A-T: 1.02255  C-G: 0.70963  C-T: 1.88945  G-T: 1.00000
+Base frequencies:  A: 0.307  C: 0.193  G: 0.192  T: 0.308
+Parameters optimization took 2 rounds (0.012 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00115895 secs using 98.45% CPU
+Computing ML distances took 0.001224 sec (of wall-clock time) 0.001197 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 3.19481e-05 secs using 153.4% CPU
+Constructing RapidNJ tree: done in 6.79493e-05 secs using 164.8% CPU
+Computing RapidNJ tree took 0.000144 sec (of wall-clock time) 0.000215 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -276162.132
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.00734901 secs using 195.9% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -276035.905
+Optimizing NNI: done in 0.0257471 secs using 198.6% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -276035.905 / CPU time: 0.039
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -276035.905
+Optimal log-likelihood: -276035.865
+Rate parameters:  A-C: 0.93949  A-G: 1.98867  A-T: 1.04252  C-G: 0.73399  C-T: 1.95133  G-T: 1.00000
+Base frequencies:  A: 0.307  C: 0.193  G: 0.192  T: 0.308
+Parameters optimization took 1 rounds (0.004 sec)
+BEST SCORE FOUND : -276035.865
+Total tree length: 0.013
+
+Total number of iterations: 2
+CPU time used for tree search: 0.077 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.039 sec (0h:0m:0s)
+Total CPU time used: 1.112 sec (0h:0m:1s)
+Total wall-clock time used: 1.075 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned-delim.fasta.treefile
+  Likelihood distances:          results/aligned-delim.fasta.mldist
+  Screen log file:               results/aligned-delim.fasta.log
+
+Date and Time: Tue Mar 19 17:13:51 2024

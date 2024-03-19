@@ -1,0 +1,33 @@
+Map from character to field name
+A:	China
+B:	India
+C:	Mongolia
+D:	South Korea
+E:	Viet Nam
+F:	?
+
+
+Substitution rate (mu): 4.29251
+
+Equilibrium frequencies (pi_i):
+  A: 0.2071
+  B: 0.1805
+  C: 0.2037
+  D: 0.1653
+  E: 0.2434
+
+Symmetrized rates from j->i (W_ij):
+	A	B	C	D	E
+  A	0	1.2481	1.5715	1.0489	2.099
+  B	1.2481	0	1.0487	1.0492	1.0514
+  C	1.5715	1.0487	0	1.0472	1.0466
+  D	1.0489	1.0492	1.0472	0	1.0473
+  E	2.099	1.0514	1.0466	1.0473	0
+
+Actual rates from j->i (Q_ij):
+	A	B	C	D	E
+  A	0	0.2584	0.3254	0.2172	0.4346
+  B	0.2253	0	0.1893	0.1894	0.1898
+  C	0.3201	0.2136	0	0.2133	0.2132
+  D	0.1734	0.1734	0.1731	0	0.1731
+  E	0.511	0.256	0.2548	0.255	0
