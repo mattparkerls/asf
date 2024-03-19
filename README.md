@@ -1,5 +1,26 @@
-# Nextstrain build for Zika virus tutorial
+# Nextstrain repository for African swine fever virus
 
-This repository provides the data and scripts associated with the [Zika virus tutorial](https://nextstrain.org/docs/getting-started/zika-tutorial).
+This repository contains two workflows for the analysis of African swine fever virus data:
 
-See the [original Zika build repository](https://github.com/nextstrain/zika) for more about the public build.
+- [`ingest/`](./ingest) - Download data from GenBank, clean and curate it and upload it to S3
+- [`phylogenetic/`](./phylogenetic) - Filter sequences, align, construct phylogeny and export for visualization
+
+Each folder contains a README.md with more information. 
+
+## Installation
+
+Follow the [standard installation instructions](https://docs.nextstrain.org/en/latest/install.html) for Nextstrain's suite of software tools.
+
+## Quickstart
+
+Run the default phylogenetic workflow via:
+```
+git clone https://github.com/mattparkerls/asf-asia.git
+cd asf-asia/
+nextstrain build .
+nextstrain view .
+```
+
+## Documentation
+
+- [Running a pathogen workflow](https://docs.nextstrain.org/en/latest/tutorials/running-a-workflow.html)
