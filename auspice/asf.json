@@ -35,17 +35,7 @@
       {
         "key": "country",
         "title": "Country",
-        "type": "categorical",
-        "scale": [
-          [
-            "China",
-            "#4379CD"
-          ],
-          [
-            "Italy",
-            "#5098B9"
-          ]
-        ]
+        "type": "categorical"
       }
     ],
     "filters": [
@@ -57,13 +47,33 @@
       {
         "key": "country",
         "demes": {
+          "China": {
+            "latitude": 33.394333,
+            "longitude": 104.689839
+          },
+          "Serbia": {
+            "latitude": 43.745902,
+            "longitude": 20.848918
+          },
+          "Poland": {
+            "latitude": 52.0977181,
+            "longitude": 19.0258159
+          },
           "Germany": {
             "latitude": 51.1657,
             "longitude": 10.4515
           },
-          "South Africa": {
-            "latitude": -28.8166235,
-            "longitude": 24.991639
+          "Uganda": {
+            "latitude": 1.861287,
+            "longitude": 32.55149
+          },
+          "Timor-Leste": {
+            "latitude": -8.809397,
+            "longitude": 125.909527
+          },
+          "Italy": {
+            "latitude": 43.382775,
+            "longitude": 12.183629
           },
           "India": {
             "latitude": 21.077353,
@@ -73,49 +83,33 @@
             "latitude": 0.0236,
             "longitude": 37.9062
           },
-          "Tanzania": {
-            "latitude": -6.5247123,
-            "longitude": 35.7878438
-          },
           "South Korea": {
             "latitude": 36.609249,
             "longitude": 127.917932
           },
-          "Russia": {
-            "latitude": 64.6863136,
-            "longitude": 97.7453061
+          "Viet Nam": {
+            "latitude": 16.16667,
+            "longitude": 107.83333
           },
           "France": {
             "latitude": 46.2276,
             "longitude": 2.2137
           },
+          "Tanzania": {
+            "latitude": -6.5247123,
+            "longitude": 35.7878438
+          },
           "Mongolia": {
             "latitude": 47.504782,
             "longitude": 102.997672
           },
-          "Uganda": {
-            "latitude": 1.861287,
-            "longitude": 32.55149
+          "South Africa": {
+            "latitude": -28.8166235,
+            "longitude": 24.991639
           },
-          "Serbia": {
-            "latitude": 43.745902,
-            "longitude": 20.848918
-          },
-          "Italy": {
-            "latitude": 43.382775,
-            "longitude": 12.183629
-          },
-          "Timor-Leste": {
-            "latitude": -8.809397,
-            "longitude": 125.909527
-          },
-          "China": {
-            "latitude": 33.394333,
-            "longitude": 104.689839
-          },
-          "Poland": {
-            "latitude": 52.0977181,
-            "longitude": 19.0258159
+          "Russia": {
+            "latitude": 64.6863136,
+            "longitude": 97.7453061
           }
         }
       }
