@@ -46,8 +46,7 @@ reference = "data/reference_asf.gb", # pre-loaded
 colors = "config/colors.tsv", # pre-loaded
 lat_longs = "config/lat_longs.tsv", # pre-loaded
 auspice_config = "config/auspice_config.json" # pre-loaded
-
-# need to fix, currently doesn't filter anything 
+ 
 rule filter:
     message:
         """
@@ -63,7 +62,7 @@ rule filter:
     output:
         sequences = "results/filtered.fasta"
     params:
-        min_date = 2018
+        min_date = 2009 # filter only older than 2009
     shell:
         """
         augur filter \
@@ -82,7 +81,7 @@ rule align:
           - filling gaps with N
         """
     input:
-        sequences = input_fasta, # replace with rules.filter.output.sequences eventually when filter() is fixed
+        sequences = rules.filter.output.sequences, #input_fasta, # replace with rules.filter.output.sequences eventually when filter() is fixed
         reference = reference
     output:
         alignment = "results/aligned.fasta"
