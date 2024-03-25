@@ -1,23 +1,196 @@
 accession	virus	strain	country	date
-MK128995.1	African swine fever virus	China/2018/AnhuiXCGQ	China	2018-09-02
-MK333180.1	African swine fever virus	Pig/HLJ/2018	China	2018-09-05
+PP478517.1	African swine fever virus	NJS23-1	China	2023-XX-XX
+PP478518.1	African swine fever virus	NJS23-2	China	2023-XX-XX
 OR958825.1	African swine fever virus	China/LN/2018/2	China	2018-10-16
-MK645909.1	African swine fever virus	ASFV-wbBS01	China	2018-11-01
-ON075797.1	African swine fever virus	Korea/YC1/2019	South Korea	2019-XX-XX
+OZ005798.1	African swine fever virus	KE/2013/Busia.3.field	Kenya	2013-02-XX
+OZ005800.1	African swine fever virus	KE/2013/Siaya.4	Kenya	2013-09-13
+OZ005801.1	African swine fever virus	KE/2013/Busia.3.WSL	Kenya	2013-02-XX
+OZ005803.1	African swine fever virus	KE/2012/Busia.564	Kenya	2012-09-28
+OZ005804.1	African swine fever virus	KE/2013/Karen.1	Kenya	2013-09-01
+PP107957.1	African swine fever virus	NAM P1/1995	Namibia	1995-10-XX
+OZ002814.1	African swine fever virus	UG/2013/Alupe.1	Uganda	2013-02-XX
+OZ002854.1	African swine fever virus	KE/2013/Kiambu.2	Kenya	2013-08-XX
+OZ003275.1	African swine fever virus	KE/2013/Busia.8	Kenya	2013-10-XX
+OZ003747.1	African swine fever virus	KE/2013/Nakuru.1	Kenya	2013-08-XX
+OR863252.1	African swine fever virus	ASFV Lv17/WB/Rie1i	Latvia	2017-02-XX
+OR863253.1	African swine fever virus	ASFV Lv17/WB/Rie1s	Latvia	2017-XX-XX
+OR660695.1	African swine fever virus	DG_6511_21_	Serbia	2021-XX-XX
+OR660696.1	African swine fever virus	DG_6314_19	Serbia	2019-XX-XX
+OR660697.1	African swine fever virus	DG_167_20_2	Serbia	2020-XX-XX
+OR660698.1	African swine fever virus	DG_6759_19	Serbia	2019-XX-XX
+OR660699.1	African swine fever virus	7540/22	Serbia	2022-XX-XX
+OQ971722.1	African swine fever virus	Cameroon/2018/C-F3	Cameroon	2018-XX-XX
+OQ971723.1	African swine fever virus	Cameroon/2016/C1	Cameroon	2016-XX-XX
+OQ971724.1	African swine fever virus	Cameroon/2016/C5	Cameroon	2016-XX-XX
+OQ971725.1	African swine fever virus	Cameroon/2017/C-A2	Cameroon	2017-XX-XX
+OQ971726.1	African swine fever virus	Cameroon/2018/C02	Cameroon	2018-XX-XX
+OP781308.1	African swine fever virus	MAU/01/2007	Mauritius	2007-XX-XX
+OP781309.1	African swine fever virus	MAD/01/1998	Madagascar	1998-XX-XX
+OP781310.1	African swine fever virus	MAL/04/2011	Malawi	2011-XX-XX
+OP781311.1	African swine fever virus	ZIM/2015	Zimbabwe	2015-XX-XX
+OP781312.1	African swine fever virus	RSA/08/2019	South Africa	2019-XX-XX
+OP781313.1	African swine fever virus	MOZ/01/2005	Mozambique	2005-XX-XX
+OP718533.1	African swine fever virus	Ghana2022-34	Ghana	2022-03-07
+OP718534.1	African swine fever virus	Ghana2022_40	Ghana	2022-03-11
+OP718535.1	African swine fever virus	Ghana2022_62	Ghana	2022-02-03
+OR604566.1	African swine fever virus	K1-1/Liver/Kupang/Indonesia/ 2023	Indonesia	2023-05-XX
+OR271565.1	African swine fever virus	Mon_WB	Mongolia	2021-01-XX
 OR271566.1	African swine fever virus	Mon_Dom	Mongolia	2019-01-XX
-MK940252.1	African swine fever virus	CN/2019/InnerMongolia-AES01	China	2019-02-19
-OQ737679.1	African swine fever virus	pig/HuB1/2019	China	2019-05-14
+OR460730.1	African swine fever virus	21730_1474/RM/2022 Italy	Italy	2022-XX-XX
+OR460731.1	African swine fever virus	47169.12_1495/GE/2022 Italy	Italy	2022-XX-XX
+OR460732.1	African swine fever virus	47169.16_1499/GE/2022_Ita	Italy	2022-XX-XX
+OR460733.1	African swine fever virus	47169.14_1497/AL/2022 Italy	Italy	2022-XX-XX
+OR460734.1	African swine fever virus	34612_2115/RM/2022 Italy	Italy	2022-XX-XX
+OR460735.1	African swine fever virus	34616_2119/RM2022 Italy	Italy	2022-XX-XX
+OR460736.1	African swine fever virus	50665.1_2170/AL/2022 Italy	Italy	2022-XX-XX
+OR460737.1	African swine fever virus	50665.4_2159/AL/2022 Italy	Italy	2022-XX-XX
+OR460738.1	African swine fever virus	50665.5_2168/AL/2022 Italy	Italy	2022-XX-XX
+OR460739.1	African swine fever virus	50665.8_2167/AL/2022 Italy	Italy	2022-XX-XX
+OR460740.1	African swine fever virus	50665.9_2157/AL/2022 Italy	Italy	2022-XX-XX
+OR460741.1	African swine fever virus	50665.12_2152/GE/2022 Italy	Italy	2022-XX-XX
+OQ434234.1	African swine fever virus	TAN/01/2011	Tanzania	2011-XX-XX
+OL845883.1	African swine fever virus	PPA989_1a	France	2008-10-12
+OL845884.1	African swine fever virus	PPA989_5a	France	2020-09-03
+OL845885.1	African swine fever virus	PPA989_10a	France	2020-08-06
+OR420801.1	African swine fever virus	Lisbon 1957	Portugal	1957-XX-XX
+OR387519.1	African swine fever virus	CAM1982	Cameroon	1982-XX-XX
+OR387520.1	African swine fever virus	CAM1994/1	Cameroon	1994-09-19
+OR387521.1	African swine fever virus	CMR2018/lab1	Cameroon	2018-XX-XX
+OR180305.1	African swine fever virus	Korea/PC1432/2021	South Korea	2021-XX-XX
+OR126359.1	African swine fever virus	Pig/Hubei/628/2020	China	2020-06-XX
 OR162436.1	African swine fever virus	Korea/CW714/2020	South Korea	2020-XX-XX
 OR159217.1	African swine fever virus	S-S-VR-413000-00015	South Korea	2020-XX-XX
 OR159218.1	African swine fever virus	S-S-VR-413000-00008	South Korea	2020-XX-XX
 OR159219.1	African swine fever virus	S-S-VR-413000-00002	South Korea	2020-XX-XX
+OQ737679.1	African swine fever virus	pig/HuB1/2019	China	2019-05-14
+OR180113.1	African swine fever virus	ASFV JS	China	2022-XX-XX
+OK358852.1	African swine fever virus	HK_NT_202103	Hong Kong	2021-03-XX
+OP510032.1	African swine fever virus	ASFV/Primorsky_19/DP-8235	Russia	2019-09-17
+OP510033.1	African swine fever virus	ASFV/Zabaykali_20/DP-4905	Russia	2020-07-14
+OP672342.1	African swine fever virus	Nigeria-RV502	Nigeria	2020-07-24
+OQ504954.1	African swine fever virus	Pig/Henan/123014/2022	China	2022-01-21
+OQ504955.1	African swine fever virus	Pig/Inner Mongolia/DQDM/2022	China	2022-05-09
+OQ504956.1	African swine fever virus	Pig/Jiangsu/LG/2021	China	2021-12-05
+ON409979.1	African swine fever virus	TAN/17/Kibaha	Tanzania	2017-XX-XX
+ON409980.1	African swine fever virus	TAN/16/Magu	Tanzania	2016-XX-XX
+ON409981.1	African swine fever virus	TAN/08/Mazimbu	Tanzania	2008-XX-XX
+ON409982.1	African swine fever virus	TAN/17/Mbagala	Tanzania	2017-XX-XX
+ON409983.1	African swine fever virus	TAN/20/Morogoro	Tanzania	2020-XX-XX
+OP605386.1	African swine fever virus	20355/RM/2022_Italy	Italy	2022-XX-XX
+OL622042.1	African swine fever virus	wild boar/SNJ/2020	China	2020-03-03
+OP612151.1	African swine fever virus	SY-2	China	2021-10-XX
+OX376250.1	African swine fever virus	2020ASP02805	Germany	2020-11-16
+OX376251.1	African swine fever virus	2021ASP01919	Germany	2021-04-19
+OX376252.1	African swine fever virus	2021ASP00703	Germany	2021-02-09
+OX376253.1	African swine fever virus	2021ASP01957	Germany	2021-04-20
+OX376254.1	African swine fever virus	2021ASP00484	Germany	2021-01-21
+OX376255.1	African swine fever virus	2021ASP00902	Germany	2021-02-18
+OX376256.1	African swine fever virus	2020ASP01832	Germany	2020-09-20
+OX376257.1	African swine fever virus	2021ASP02148	Germany	2021-04-29
+OX376258.1	African swine fever virus	2020ASP02894	Germany	2020-11-26
+OX376259.1	African swine fever virus	2021ASP02665	Germany	2021-05-11
+OX376260.1	African swine fever virus	2021ASP01917	Germany	2021-04-19
+OX376261.1	African swine fever virus	2020ASP02103	Germany	2020-10-07
+OX376262.1	African swine fever virus	2021ASP00921	Germany	2021-02-22
+OX376263.1	African swine fever virus	2021ASP02207	Germany	2021-05-06
+OX376264.1	African swine fever virus	2021ASP03380	Germany	2021-07-16
+OX376265.1	African swine fever virus	2021ASP03384	Germany	2021-07-16
+OX376266.1	African swine fever virus	2021ASP03643	Germany	2021-07-26
+OX376267.1	African swine fever virus	2021ASP03251	Germany	2021-07-12
+OX376268.1	African swine fever virus	2021ASP03144	Germany	2021-06-29
+OX376271.1	African swine fever virus	2021ASP03658	Germany	2021-07-27
+OX376272.1	African swine fever virus	2021ASP03740	Germany	2021-07-29
+OX376273.1	African swine fever virus	2021ASP03711	Germany	2021-07-28
+ON380539.1	African swine fever virus	HB03A	China	2020-XX-XX
+ON380540.1	African swine fever virus	HB31A	China	2020-XX-XX
+OM161110.1	African swine fever virus	SY-1	China	2020-06-XX
+OL322096.1	African swine fever virus	Vietnam/Pig/RG-1/01	Viet Nam	2020-XX-XX
+OL322097.1	African swine fever virus	Vietnam/Pig/RG-2/01	Viet Nam	2020-XX-XX
+OL322098.1	African swine fever virus	Vietnam/Pig/RG-3/01	Viet Nam	2020-XX-XX
 OL322099.1	African swine fever virus	Vietnam/Pig/RG-4/01	Viet Nam	2020-XX-XX
 OL322100.1	African swine fever virus	Vietnam/Pig/RG-5/01	Viet Nam	2020-XX-XX
 OL322101.1	African swine fever virus	Vietnam/Pig/RG-6/01	Viet Nam	2020-XX-XX
 OL322102.1	African swine fever virus	Vietnam/Pig/RG-7/01	Viet Nam	2020-XX-XX
-MW465755.1	African swine fever virus	VNUA-ASFV-05L1/HaNam/VN/2020	Viet Nam	2020-XX-XX
+OM799941.1	African swine fever virus	ASFV/Kaliningrad_17/WB-13869	Russia	2017-11-07
+OM966714.1	African swine fever virus	ASFV/Kaliningrad_18/WB-12523	Russia	2018-08-07
+OM966715.1	African swine fever virus	ASFV/Kaliningrad_18/WB-12524	Russia	2018-07-30
+OM966716.1	African swine fever virus	ASFV/Kaliningrad_18/WB-9735	Russia	2018-07-03
+OM966717.1	African swine fever virus	ASFV/Kaliningrad_18/WB-9763	Russia	2018-07-07
+OM966718.1	African swine fever virus	ASFV/Kaliningrad_18/WB-9766	Russia	2018-07-08
+OM966719.1	African swine fever virus	ASFV/Kaliningrad_19/WB-10168	Russia	2019-05-13
+OM966720.1	African swine fever virus	ASFV/Kaliningrad_18/WB-12516	Russia	2018-08-07
+OM966721.1	African swine fever virus	ASFV/Kaliningrad_18/WB-9734	Russia	2018-06-25
+ON263123.1	African swine fever virus	GZ201801_2	China	2018-12-22
+ON400500.1	African swine fever virus	YNFN202103	China	2021-03-XX
+ON185726.2	African swine fever virus	Dr-1980	Dominican Republic	1980-XX-XX
+ON075797.1	African swine fever virus	Korea/YC1/2019	South Korea	2019-XX-XX
+MW528217.1	African swine fever virus	ASFV/ARRIAH/CV-1/30	Russia	2019-02-28
+MW528218.1	African swine fever virus	ASFV/ARRIAH/CV-1/50	Russia	2020-05-26
+MZ325862.1	African swine fever virus	ASFV/Zabaykali/WB-5314/2020	Russia	2020-08-04
+ON108571.3	African swine fever virus	2802/AL/2022 Italy	Italy	2022-XX-XX
+OM481275.1	African swine fever virus	ABTCVSCK_ASF001	India	2020-XX-XX
+OM481276.1	African swine fever virus	ABTCVSCK_ASF007	India	2021-XX-XX
+OL692743.1	African swine fever virus	IND/AS/SD-02/2020	India	2020-04-XX
+OL692744.1	African swine fever virus	IND/AR/SD-61/2020	India	2020-04-XX
+MW033528.1	African swine fever virus	ASFV-wbShX01	China	2019-11-01
+MZ614662.1	African swine fever virus	CADC_HN09	China	2019-XX-XX
 OK236383.1	African swine fever virus	ASF/IND/20/CAD/543	India	2020-02-XX
-OL622042.1	African swine fever virus	wild boar/SNJ/2020	China	2020-03-03
+MW856067.1	African swine fever virus	BUR/18/Rutana	Burundi	2018-XX-XX
+MW856068.1	African swine fever virus	MAL/19/Karonga	Malawi	2019-XX-XX
+MW306190.1	African swine fever virus	ASFV/Amur 19/WB-6905	Russia	2019-08-29
+MW306191.1	African swine fever virus	ASFV/Primorsky 19/WB-6723	Russia	2019-08-28
+MW306192.1	African swine fever virus	ASFV/Ulyanovsk 19/WB-5699	Russia	2019-08-21
 MW521382.1	African swine fever virus	HuB20	China	2020-10-01
-OR180305.1	African swine fever virus	Korea/PC1432/2021	South Korea	2021-XX-XX
-OR604566.1	African swine fever virus	K1-1/Liver/Kupang/Indonesia/ 2023	Indonesia	2023-05-XX
+MW396979.1	African swine fever virus	ASFV/Timor-Leste/2019/1	Timor-Leste	2019-XX-XX
+MW656282.1	African swine fever virus	Pig/Heilongjiang/HRB1/2020	China	2020-09-12
+MW361944.1	African swine fever virus	China/GD/2019	China	2019-07-14
+MW465755.1	African swine fever virus	VNUA-ASFV-05L1/HaNam/VN/2020	Viet Nam	2020-XX-XX
+MT956648.1	African swine fever virus	Uvira B53	Democratic Republic of the Congo	2019-01-XX
+MT459800.1	African swine fever virus	ASFV/Kabardino-Balkaria 19/WB-964	Russia	2019-03-26
+MT847620.1	African swine fever virus	Pol17_55892_C754	Poland	2019-XX-XX
+MT847621.1	African swine fever virus	Pol18_28298_O111	Poland	2019-XX-XX
+MT847622.1	African swine fever virus	Pol17_31177_O81	Poland	2019-XX-XX
+MT847623.2	African swine fever virus	Pol19_53050_C1959/19	Poland	2019-XX-XX
+LR813622.1	African swine fever virus	Tanzania/Rukwa/2017/1	Tanzania	2017-03-24
+MT496893.1	African swine fever virus	GZ201801	China	2018-12-22
+MK940252.1	African swine fever virus	CN/2019/InnerMongolia-AES01	China	2019-02-19
+MN270969.1	African swine fever virus	56/Ca/1978	Italy	1978-XX-XX
+MN270970.1	African swine fever virus	57/Ca/1979	Italy	1979-XX-XX
+MN270971.1	African swine fever virus	139/Nu/1981	Italy	1981-XX-XX
+MN270972.1	African swine fever virus	140/Or/1985	Italy	1985-XX-XX
+MN270973.1	African swine fever virus	85/Ca/1985	Italy	1985-XX-XX
+MN270974.1	African swine fever virus	141/Nu/1990	Italy	1990-XX-XX
+MN270975.1	African swine fever virus	142/Nu/1995	Italy	1995-XX-XX
+MN270976.1	African swine fever virus	60/Nu/1997	Italy	1997-XX-XX
+MN270977.1	African swine fever virus	26/Ss/2004	Italy	2004-XX-XX
+MN270978.1	African swine fever virus	72407/Ss/2005	Italy	2005-XX-XX
+MN270979.1	African swine fever virus	97/Ot/2012	Italy	2012-XX-XX
+MN270980.1	African swine fever virus	22653/Ca/2014	Italy	2014-XX-XX
+MN630494.2	African swine fever virus	Zaire	Zaire	1977-XX-XX
+MN641876.2	African swine fever virus	RSA_W1_1999	South Africa	1999-XX-XX
+MN641877.2	African swine fever virus	RSA_2_2004	South Africa	2004-XX-XX
+MN393476.1	African swine fever virus	ASFV Wuhan 2019-1	China	2019-08-19
+MN393477.1	African swine fever virus	ASFV Wuhan 2019-2	China	2019-08-19
+MN913970.1	African swine fever virus	OmLF2	France	2017-12-21
+MN318203.3	African swine fever virus	LIV_5_40	Zambia	1983-XX-XX
+MN336500.3	African swine fever virus	RSA_2_2008	South Africa	2008-XX-XX
+MN394630.3	African swine fever virus	SPEC_57	South Africa	1985-XX-XX
+MK628478.1	African swine fever virus	ASFV/LT14/1490	Lithuania	2014-01-XX
+MN194591.1	African swine fever virus	ASFV/Kyiv/2016/131	Ukraine	2016-04-11
+MK645909.1	African swine fever virus	ASFV-wbBS01	China	2018-11-01
+MK333180.1	African swine fever virus	Pig/HLJ/2018	China	2018-09-05
+MK333181.1	African swine fever virus	DB/LN/2018	China	2018-09-XX
+MK128995.1	African swine fever virus	China/2018/AnhuiXCGQ	China	2018-09-02
+MH766894.3	African swine fever virus	ASFV-SY18	China	2018-07-XX
+MG939583.1	African swine fever virus	Pol16_20186_o7	Poland	2017-12-XX
+MG939584.1	African swine fever virus	Pol16_20538_o9	Poland	2017-12-XX
+MG939585.1	African swine fever virus	Pol16_20540_o10	Poland	2017-12-XX
+MG939586.1	African swine fever virus	Pol16_29413_o23	Poland	2017-12-XX
+MG939587.1	African swine fever virus	Pol17_03029_C201	Poland	2017-12-XX
+MG939588.1	African swine fever virus	Pol17_04461_C210	Poland	2017-12-XX
+MG939589.1	African swine fever virus	Pol17_05838_C220	Poland	2017-12-XX
+MH681419.1	African swine fever virus	ASFV/POL/2015/Podlaskie	Poland	2015-XX-XX
+KX354450.1	African swine fever virus	47/Ss/2008	Italy	2008-XX-XX
+KM102979.1	African swine fever virus	26544/OG10	Italy	2010-XX-XX
+KP843857.1	African swine fever virus	Odintsovo_02/14	Russia	2014-02-XX
+KJ747406.1	African swine fever virus	Kashino 04/13	Russia	2013-03-01

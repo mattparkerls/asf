@@ -4,102 +4,278 @@ Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan
 
 Host:    Matts-MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
 Command: iqtree2 -ntmax 1 -s results/aligned-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05 -nt AUTO -redo
-Seed:    32587 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Tue Mar 19 17:13:50 2024
+Seed:    988285 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar 25 14:00:56 2024
 Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
 
 Reading alignment file results/aligned-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.072649 secs using 94.57% CPU
+Reading fasta file: done in 0.615113 secs using 93.1% CPU
 Alignment most likely contains DNA/RNA sequences
-Constructing alignment: done in 0.107573 secs using 75.43% CPU
-Alignment has 23 sequences with 190584 columns, 544 distinct patterns
-37 parsimony-informative, 2184 singleton sites, 188363 constant sites
+Constructing alignment: done in 0.299127 secs using 85.4% CPU
+Alignment has 196 sequences with 190584 columns, 24856 distinct patterns
+33826 parsimony-informative, 33989 singleton sites, 122769 constant sites
                                                                                                                                               Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 2.40803e-05 secs using 78.9% CPU
-   1  urn.local...157-hhviqz2                                                                                                                         0.00%    passed     97.64%
-   2  Korea_DELIM-RZSKGTGWOJGIWWUHKTDJ_YC1_DELIM-RZSKGTGWOJGIWWUHKTDJ_2019                                                                            0.86%    passed     99.66%
-   3  Korea_DELIM-RZSKGTGWOJGIWWUHKTDJ_PC1432_DELIM-RZSKGTGWOJGIWWUHKTDJ_2021                                                                         1.06%    passed     99.55%
-   4  Korea_DELIM-RZSKGTGWOJGIWWUHKTDJ_CW714_DELIM-RZSKGTGWOJGIWWUHKTDJ_2020                                                                          0.95%    passed     99.55%
-   5  Vietnam_DELIM-RZSKGTGWOJGIWWUHKTDJ_Pig_DELIM-RZSKGTGWOJGIWWUHKTDJ_RG-7_DELIM-RZSKGTGWOJGIWWUHKTDJ_01                                            0.63%    passed     99.09%
-   6  VNUA-ASFV-05L1_DELIM-RZSKGTGWOJGIWWUHKTDJ_HaNam_DELIM-RZSKGTGWOJGIWWUHKTDJ_VN_DELIM-RZSKGTGWOJGIWWUHKTDJ_2020                                   2.29%    passed     99.53%
-   7  China_DELIM-RZSKGTGWOJGIWWUHKTDJ_2018_DELIM-RZSKGTGWOJGIWWUHKTDJ_AnhuiXCGQ                                                                      0.63%    passed     98.95%
-   8  China_DELIM-RZSKGTGWOJGIWWUHKTDJ_LN_DELIM-RZSKGTGWOJGIWWUHKTDJ_2018_DELIM-RZSKGTGWOJGIWWUHKTDJ_2                                                0.63%    passed     99.11%
-   9  Mon_Dom                                                                                                                                         0.63%    passed     99.19%
-  10  Pig_DELIM-RZSKGTGWOJGIWWUHKTDJ_HLJ_DELIM-RZSKGTGWOJGIWWUHKTDJ_2018                                                                              0.63%    passed     99.20%
-  11  CN_DELIM-RZSKGTGWOJGIWWUHKTDJ_2019_DELIM-RZSKGTGWOJGIWWUHKTDJ_InnerMongolia-AES01                                                               0.63%    passed     98.83%
-  12  pig_DELIM-RZSKGTGWOJGIWWUHKTDJ_HuB1_DELIM-RZSKGTGWOJGIWWUHKTDJ_2019                                                                             5.27%    passed     70.71%
-  13  ASFV-wbBS01                                                                                                                                     0.63%    passed     98.87%
-  14  K1-1_DELIM-RZSKGTGWOJGIWWUHKTDJ_Liver_DELIM-RZSKGTGWOJGIWWUHKTDJ_Kupang_DELIM-RZSKGTGWOJGIWWUHKTDJ_Indonesia_DELIM-RZSKGTGWOJGIWWUHKTDJ_2023    2.10%    passed     99.90%
-  15  S-S-VR-413000-00015                                                                                                                             0.62%    passed     99.23%
-  16  S-S-VR-413000-00008                                                                                                                             0.61%    passed     99.15%
-  17  S-S-VR-413000-00002                                                                                                                             0.62%    passed     99.26%
-  18  Vietnam_DELIM-RZSKGTGWOJGIWWUHKTDJ_Pig_DELIM-RZSKGTGWOJGIWWUHKTDJ_RG-6_DELIM-RZSKGTGWOJGIWWUHKTDJ_01                                            0.63%    passed     98.58%
-  19  Vietnam_DELIM-RZSKGTGWOJGIWWUHKTDJ_Pig_DELIM-RZSKGTGWOJGIWWUHKTDJ_RG-5_DELIM-RZSKGTGWOJGIWWUHKTDJ_01                                            0.63%    passed     94.41%
-  20  wildboar_DELIM-RZSKGTGWOJGIWWUHKTDJ_SNJ_DELIM-RZSKGTGWOJGIWWUHKTDJ_2020                                                                         0.69%    passed     98.97%
-  21  Vietnam_DELIM-RZSKGTGWOJGIWWUHKTDJ_Pig_DELIM-RZSKGTGWOJGIWWUHKTDJ_RG-4_DELIM-RZSKGTGWOJGIWWUHKTDJ_01                                            0.73%    passed     99.15%
-  22  HuB20                                                                                                                                           1.19%    passed     95.83%
-  23  ASF_DELIM-RZSKGTGWOJGIWWUHKTDJ_IND_DELIM-RZSKGTGWOJGIWWUHKTDJ_20_DELIM-RZSKGTGWOJGIWWUHKTDJ_CAD_DELIM-RZSKGTGWOJGIWWUHKTDJ_543                 14.27%    failed      0.09%
-****  TOTAL                                                                                                                                           1.61%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Analyzing sequences: done in 0.0146141 secs using 98.53% CPU
+   1  urn.local...157-hhviqz2                                                                                                                         0.00%    passed     67.20%
+   2  PPA989_1a                                                                                                                                       3.92%    passed     84.65%
+   3  PPA989_5a                                                                                                                                       3.91%    passed     84.46%
+   4  PPA989_10a                                                                                                                                      3.91%    passed     84.24%
+   5  47169.12_1495_DELIM-ZQVWGXSYZHJJSBUECRJS_GE_DELIM-ZQVWGXSYZHJJSBUECRJS_2022Italy                                                                0.01%    passed     65.68%
+   6  47169.14_1497_DELIM-ZQVWGXSYZHJJSBUECRJS_AL_DELIM-ZQVWGXSYZHJJSBUECRJS_2022Italy                                                                0.01%    passed     65.52%
+   7  50665.4_2159_DELIM-ZQVWGXSYZHJJSBUECRJS_AL_DELIM-ZQVWGXSYZHJJSBUECRJS_2022Italy                                                                 0.01%    passed     65.25%
+   8  50665.12_2152_DELIM-ZQVWGXSYZHJJSBUECRJS_GE_DELIM-ZQVWGXSYZHJJSBUECRJS_2022Italy                                                                0.01%    passed     65.52%
+   9  50665.9_2157_DELIM-ZQVWGXSYZHJJSBUECRJS_AL_DELIM-ZQVWGXSYZHJJSBUECRJS_2022Italy                                                                 0.01%    passed     65.69%
+  10  50665.1_2170_DELIM-ZQVWGXSYZHJJSBUECRJS_AL_DELIM-ZQVWGXSYZHJJSBUECRJS_2022Italy                                                                 0.01%    passed     66.14%
+  11  50665.5_2168_DELIM-ZQVWGXSYZHJJSBUECRJS_AL_DELIM-ZQVWGXSYZHJJSBUECRJS_2022Italy                                                                 0.01%    passed     65.78%
+  12  50665.8_2167_DELIM-ZQVWGXSYZHJJSBUECRJS_AL_DELIM-ZQVWGXSYZHJJSBUECRJS_2022Italy                                                                 0.01%    passed     65.86%
+  13  2802_DELIM-ZQVWGXSYZHJJSBUECRJS_AL_DELIM-ZQVWGXSYZHJJSBUECRJS_2022Italy                                                                         0.00%    passed     66.65%
+  14  47169.16_1499_DELIM-ZQVWGXSYZHJJSBUECRJS_GE_DELIM-ZQVWGXSYZHJJSBUECRJS_2022_Ita                                                                 0.01%    passed     65.39%
+  15  China_DELIM-ZQVWGXSYZHJJSBUECRJS_LN_DELIM-ZQVWGXSYZHJJSBUECRJS_2018_DELIM-ZQVWGXSYZHJJSBUECRJS_2                                                0.63%    passed     73.14%
+  16  China_DELIM-ZQVWGXSYZHJJSBUECRJS_2018_DELIM-ZQVWGXSYZHJJSBUECRJS_AnhuiXCGQ                                                                      0.63%    passed     72.37%
+  17  Mon_Dom                                                                                                                                         0.63%    passed     73.65%
+  18  Mon_WB                                                                                                                                          1.75%    passed     78.16%
+  19  Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_HLJ_DELIM-ZQVWGXSYZHJJSBUECRJS_2018                                                                              0.63%    passed     73.43%
+  20  DB_DELIM-ZQVWGXSYZHJJSBUECRJS_LN_DELIM-ZQVWGXSYZHJJSBUECRJS_2018                                                                                0.63%    passed     73.43%
+  21  ASFV-SY18                                                                                                                                       0.63%    passed     73.49%
+  22  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Primorsky19_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-6723                                                                  0.71%    passed     72.70%
+  23  GZ201801                                                                                                                                        0.63%    passed     72.54%
+  24  SY-2                                                                                                                                            0.63%    passed     72.85%
+  25  SY-1                                                                                                                                            0.63%    passed     73.34%
+  26  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Amur19_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-6905                                                                       0.70%    passed     73.27%
+  27  ASFVJS                                                                                                                                          0.01%    passed     66.40%
+  28  Korea_DELIM-ZQVWGXSYZHJJSBUECRJS_PC1432_DELIM-ZQVWGXSYZHJJSBUECRJS_2021                                                                         1.06%    passed     75.68%
+  29  Korea_DELIM-ZQVWGXSYZHJJSBUECRJS_YC1_DELIM-ZQVWGXSYZHJJSBUECRJS_2019                                                                            0.86%    passed     76.78%
+  30  Korea_DELIM-ZQVWGXSYZHJJSBUECRJS_CW714_DELIM-ZQVWGXSYZHJJSBUECRJS_2020                                                                          0.95%    passed     75.34%
+  31  DG_6511_21_                                                                                                                                     0.26%    passed     74.52%
+  32  DG_6759_19                                                                                                                                      0.29%    passed     76.02%
+  33  7540_DELIM-ZQVWGXSYZHJJSBUECRJS_22                                                                                                              0.26%    passed     75.68%
+  34  DG_6314_19                                                                                                                                      0.26%    passed     74.19%
+  35  Vietnam_DELIM-ZQVWGXSYZHJJSBUECRJS_Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_RG-7_DELIM-ZQVWGXSYZHJJSBUECRJS_01                                            0.63%    passed     71.50%
+  36  IND_DELIM-ZQVWGXSYZHJJSBUECRJS_AS_DELIM-ZQVWGXSYZHJJSBUECRJS_SD-02_DELIM-ZQVWGXSYZHJJSBUECRJS_2020                                              0.13%    passed     68.20%
+  37  IND_DELIM-ZQVWGXSYZHJJSBUECRJS_AR_DELIM-ZQVWGXSYZHJJSBUECRJS_SD-61_DELIM-ZQVWGXSYZHJJSBUECRJS_2020                                              0.13%    passed     68.01%
+  38  VNUA-ASFV-05L1_DELIM-ZQVWGXSYZHJJSBUECRJS_HaNam_DELIM-ZQVWGXSYZHJJSBUECRJS_VN_DELIM-ZQVWGXSYZHJJSBUECRJS_2020                                   2.29%    passed     90.59%
+  39  ZIM_DELIM-ZQVWGXSYZHJJSBUECRJS_2015                                                                                                             3.18%    passed     81.05%
+  40  RSA_DELIM-ZQVWGXSYZHJJSBUECRJS_08_DELIM-ZQVWGXSYZHJJSBUECRJS_2019                                                                               3.18%    passed     80.61%
+  41  MOZ_DELIM-ZQVWGXSYZHJJSBUECRJS_01_DELIM-ZQVWGXSYZHJJSBUECRJS_2005                                                                               3.18%    passed     80.13%
+  42  21730_1474_DELIM-ZQVWGXSYZHJJSBUECRJS_RM_DELIM-ZQVWGXSYZHJJSBUECRJS_2022Italy                                                                   0.00%    passed     66.79%
+  43  34616_2119_DELIM-ZQVWGXSYZHJJSBUECRJS_RM2022Italy                                                                                               0.00%    passed     66.79%
+  44  20355_DELIM-ZQVWGXSYZHJJSBUECRJS_RM_DELIM-ZQVWGXSYZHJJSBUECRJS_2022_Italy                                                                       0.00%    passed     66.43%
+  45  34612_2115_DELIM-ZQVWGXSYZHJJSBUECRJS_RM_DELIM-ZQVWGXSYZHJJSBUECRJS_2022Italy                                                                   0.01%    passed     65.85%
+  46  GZ201801_2                                                                                                                                      0.63%    passed     75.03%
+  47  CN_DELIM-ZQVWGXSYZHJJSBUECRJS_2019_DELIM-ZQVWGXSYZHJJSBUECRJS_InnerMongolia-AES01                                                               0.63%    passed     71.73%
+  48  ASFVWuhan2019-1                                                                                                                                 0.13%    passed     68.45%
+  49  ASFVWuhan2019-2                                                                                                                                 0.13%    passed     68.45%
+  50  Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_Hubei_DELIM-ZQVWGXSYZHJJSBUECRJS_628_DELIM-ZQVWGXSYZHJJSBUECRJS_2020                                             0.64%    passed     71.61%
+  51  ASFV-wbShX01                                                                                                                                    0.63%    passed     73.23%
+  52  2020ASP02805                                                                                                                                    0.01%    passed     64.07%
+  53  2020ASP02894                                                                                                                                    0.01%    passed     64.11%
+  54  2021ASP03740                                                                                                                                    0.01%    passed     63.90%
+  55  2021ASP01919                                                                                                                                    0.01%    passed     64.00%
+  56  2021ASP00484                                                                                                                                    0.01%    passed     64.73%
+  57  2021ASP00902                                                                                                                                    0.01%    passed     63.65%
+  58  2021ASP01917                                                                                                                                    0.01%    passed     64.56%
+  59  2021ASP00703                                                                                                                                    0.01%    passed     64.72%
+  60  2021ASP02207                                                                                                                                    0.01%    passed     64.19%
+  61  2021ASP02148                                                                                                                                    0.01%    passed     63.99%
+  62  2020ASP01832                                                                                                                                    0.02%    passed     62.37%
+  63  2020ASP02103                                                                                                                                    0.01%    passed     64.25%
+  64  2021ASP03144                                                                                                                                    0.01%    passed     64.53%
+  65  2021ASP01957                                                                                                                                    0.01%    passed     64.59%
+  66  2021ASP00921                                                                                                                                    0.01%    passed     64.61%
+  67  2021ASP02665                                                                                                                                    0.00%    passed     65.59%
+  68  2021ASP03711                                                                                                                                    0.01%    passed     63.95%
+  69  2021ASP03643                                                                                                                                    0.01%    passed     64.36%
+  70  2021ASP03658                                                                                                                                    0.01%    passed     64.54%
+  71  2021ASP03251                                                                                                                                    0.01%    passed     65.08%
+  72  2021ASP03380                                                                                                                                    0.09%    passed     67.51%
+  73  2021ASP03384                                                                                                                                    0.05%    passed     63.48%
+  74  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Kaliningrad_17_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-13869                                                              0.77%    passed     69.51%
+  75  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Kaliningrad_18_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-12524                                                              0.77%    passed     70.15%
+  76  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Kaliningrad_18_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-12523                                                              0.78%    passed     67.37%
+  77  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Kaliningrad_18_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-9766                                                               0.77%    passed     69.09%
+  78  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Kaliningrad_19_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-10168                                                              0.77%    passed     70.29%
+  79  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Kaliningrad_18_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-9734                                                               0.77%    passed     69.27%
+  80  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Kaliningrad_18_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-12516                                                              0.77%    passed     69.95%
+  81  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Kaliningrad_18_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-9735                                                               0.77%    passed     69.46%
+  82  Pol17_55892_C754                                                                                                                                0.63%    passed     71.67%
+  83  Pol17_31177_O81                                                                                                                                 0.63%    passed     72.88%
+  84  Pol19_53050_C1959_DELIM-ZQVWGXSYZHJJSBUECRJS_19                                                                                                 0.63%    passed     72.22%
+  85  Pol18_28298_O111                                                                                                                                0.63%    passed     72.01%
+  86  Pol17_04461_C210                                                                                                                                0.63%    passed     71.74%
+  87  Pol16_20186_o7                                                                                                                                  0.63%    passed     71.78%
+  88  Pol16_20540_o10                                                                                                                                 0.63%    passed     72.11%
+  89  Pol16_29413_o23                                                                                                                                 0.63%    passed     71.73%
+  90  Pol17_03029_C201                                                                                                                                0.63%    passed     71.25%
+  91  Pol17_05838_C220                                                                                                                                0.64%    passed     72.26%
+  92  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Kaliningrad_18_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-9763                                                               0.77%    passed     70.02%
+  93  S-S-VR-413000-00015                                                                                                                             0.62%    passed     73.92%
+  94  S-S-VR-413000-00008                                                                                                                             0.61%    passed     72.90%
+  95  S-S-VR-413000-00002                                                                                                                             0.62%    passed     74.32%
+  96  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Primorsky_19_DELIM-ZQVWGXSYZHJJSBUECRJS_DP-8235                                                                 0.01%    passed     66.75%
+  97  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Zabaykali_20_DELIM-ZQVWGXSYZHJJSBUECRJS_DP-4905                                                                 0.00%    passed     66.31%
+  98  pig_DELIM-ZQVWGXSYZHJJSBUECRJS_HuB1_DELIM-ZQVWGXSYZHJJSBUECRJS_2019                                                                             5.27%    passed     71.61%
+  99  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Timor-Leste_DELIM-ZQVWGXSYZHJJSBUECRJS_2019_DELIM-ZQVWGXSYZHJJSBUECRJS_1                                        0.01%    passed     66.63%
+ 100  ABTCVSCK_ASF001                                                                                                                                 0.02%    passed     64.77%
+ 101  ABTCVSCK_ASF007                                                                                                                                 0.01%    passed     64.87%
+ 102  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Ulyanovsk19_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-5699                                                                  0.70%    passed     72.72%
+ 103  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Kabardino-Balkaria19_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-964                                                          0.70%    passed     72.09%
+ 104  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_LT14_DELIM-ZQVWGXSYZHJJSBUECRJS_1490                                                                            0.63%    passed     71.50%
+ 105  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_POL_DELIM-ZQVWGXSYZHJJSBUECRJS_2015_DELIM-ZQVWGXSYZHJJSBUECRJS_Podlaskie                                        0.63%    passed     71.93%
+ 106  ASFV-wbBS01                                                                                                                                     0.63%    passed     71.50%
+ 107  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Zabaykali_DELIM-ZQVWGXSYZHJJSBUECRJS_WB-5314_DELIM-ZQVWGXSYZHJJSBUECRJS_2020                                    0.71%    passed     73.36%
+ 108  CADC_HN09                                                                                                                                       0.18%    passed     72.17%
+ 109  K1-1_DELIM-ZQVWGXSYZHJJSBUECRJS_Liver_DELIM-ZQVWGXSYZHJJSBUECRJS_Kupang_DELIM-ZQVWGXSYZHJJSBUECRJS_Indonesia_DELIM-ZQVWGXSYZHJJSBUECRJS_2023    2.10%    passed     88.68%
+ 110  Vietnam_DELIM-ZQVWGXSYZHJJSBUECRJS_Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_RG-1_DELIM-ZQVWGXSYZHJJSBUECRJS_01                                            0.27%    passed     72.21%
+ 111  MAU_DELIM-ZQVWGXSYZHJJSBUECRJS_01_DELIM-ZQVWGXSYZHJJSBUECRJS_2007                                                                               3.47%    passed     78.14%
+ 112  MAD_DELIM-ZQVWGXSYZHJJSBUECRJS_01_DELIM-ZQVWGXSYZHJJSBUECRJS_1998                                                                               3.47%    passed     76.01%
+ 113  MAL_DELIM-ZQVWGXSYZHJJSBUECRJS_04_DELIM-ZQVWGXSYZHJJSBUECRJS_2011                                                                               3.18%    passed     81.34%
+ 114  HK_NT_202103                                                                                                                                    0.16%    passed     70.21%
+ 115  Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_Heilongjiang_DELIM-ZQVWGXSYZHJJSBUECRJS_HRB1_DELIM-ZQVWGXSYZHJJSBUECRJS_2020                                     0.65%    passed     69.77%
+ 116  Vietnam_DELIM-ZQVWGXSYZHJJSBUECRJS_Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_RG-6_DELIM-ZQVWGXSYZHJJSBUECRJS_01                                            0.63%    passed     67.71%
+ 117  Pol16_20538_o9                                                                                                                                  0.63%    passed     73.81%
+ 118  TAN_DELIM-ZQVWGXSYZHJJSBUECRJS_01_DELIM-ZQVWGXSYZHJJSBUECRJS_2011                                                                               2.59%    passed     75.92%
+ 119  Tanzania_DELIM-ZQVWGXSYZHJJSBUECRJS_Rukwa_DELIM-ZQVWGXSYZHJJSBUECRJS_2017_DELIM-ZQVWGXSYZHJJSBUECRJS_1                                          3.90%    passed     82.96%
+ 120  TAN_DELIM-ZQVWGXSYZHJJSBUECRJS_20_DELIM-ZQVWGXSYZHJJSBUECRJS_Morogoro                                                                           3.83%    passed     82.81%
+ 121  MAL_DELIM-ZQVWGXSYZHJJSBUECRJS_19_DELIM-ZQVWGXSYZHJJSBUECRJS_Karonga                                                                            3.82%    passed     81.71%
+ 122  TAN_DELIM-ZQVWGXSYZHJJSBUECRJS_17_DELIM-ZQVWGXSYZHJJSBUECRJS_Kibaha                                                                             3.20%    passed     86.64%
+ 123  TAN_DELIM-ZQVWGXSYZHJJSBUECRJS_17_DELIM-ZQVWGXSYZHJJSBUECRJS_Mbagala                                                                           10.28%    failed      0.50%
+ 124  wildboar_DELIM-ZQVWGXSYZHJJSBUECRJS_SNJ_DELIM-ZQVWGXSYZHJJSBUECRJS_2020                                                                         0.71%    passed     66.93%
+ 125  ASFVLv17_DELIM-ZQVWGXSYZHJJSBUECRJS_WB_DELIM-ZQVWGXSYZHJJSBUECRJS_Rie1i                                                                         0.01%    passed     65.05%
+ 126  ASFVLv17_DELIM-ZQVWGXSYZHJJSBUECRJS_WB_DELIM-ZQVWGXSYZHJJSBUECRJS_Rie1s                                                                         0.02%    passed     63.90%
+ 127  DG_167_20_2                                                                                                                                     0.18%    passed     65.48%
+ 128  HB03A                                                                                                                                           0.69%    passed     67.55%
+ 129  HB31A                                                                                                                                           0.72%    passed     68.89%
+ 130  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_ARRIAH_DELIM-ZQVWGXSYZHJJSBUECRJS_CV-1_DELIM-ZQVWGXSYZHJJSBUECRJS_30                                            2.20%    passed     84.93%
+ 131  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_ARRIAH_DELIM-ZQVWGXSYZHJJSBUECRJS_CV-1_DELIM-ZQVWGXSYZHJJSBUECRJS_50                                            2.20%    passed     81.60%
+ 132  Kashino04_DELIM-ZQVWGXSYZHJJSBUECRJS_13                                                                                                         0.64%    passed     75.06%
+ 133  Vietnam_DELIM-ZQVWGXSYZHJJSBUECRJS_Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_RG-3_DELIM-ZQVWGXSYZHJJSBUECRJS_01                                            0.63%    passed     52.58%
+ 134  Odintsovo_02_DELIM-ZQVWGXSYZHJJSBUECRJS_14                                                                                                      0.67%    passed     78.40%
+ 135  Vietnam_DELIM-ZQVWGXSYZHJJSBUECRJS_Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_RG-5_DELIM-ZQVWGXSYZHJJSBUECRJS_01                                            0.63%    passed     50.62%
+ 136  Vietnam_DELIM-ZQVWGXSYZHJJSBUECRJS_Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_RG-2_DELIM-ZQVWGXSYZHJJSBUECRJS_01                                            0.63%    passed     49.66%
+ 137  YNFN202103                                                                                                                                      6.60%    failed      4.03%
+ 138  HuB20                                                                                                                                           1.17%    passed     93.54%
+ 139  Vietnam_DELIM-ZQVWGXSYZHJJSBUECRJS_Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_RG-4_DELIM-ZQVWGXSYZHJJSBUECRJS_01                                            0.73%    passed     76.22%
+ 140  ASFV_DELIM-ZQVWGXSYZHJJSBUECRJS_Kyiv_DELIM-ZQVWGXSYZHJJSBUECRJS_2016_DELIM-ZQVWGXSYZHJJSBUECRJS_131                                             0.07%    passed     69.37%
+ 141  Ghana2022-34                                                                                                                                    3.83%    passed     76.02%
+ 142  Ghana2022_40                                                                                                                                    3.85%    passed     75.39%
+ 143  Ghana2022_62                                                                                                                                    3.83%    passed     71.18%
+ 144  Nigeria-RV502                                                                                                                                   3.98%    passed     71.22%
+ 145  NJS23-1                                                                                                                                         3.54%    passed     52.18%
+ 146  NJS23-2                                                                                                                                         3.52%    passed     53.06%
+ 147  Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_Henan_DELIM-ZQVWGXSYZHJJSBUECRJS_123014_DELIM-ZQVWGXSYZHJJSBUECRJS_2022                                          3.69%    passed     48.51%
+ 148  Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_InnerMongolia_DELIM-ZQVWGXSYZHJJSBUECRJS_DQDM_DELIM-ZQVWGXSYZHJJSBUECRJS_2022                                    3.72%    passed     45.42%
+ 149  Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_Jiangsu_DELIM-ZQVWGXSYZHJJSBUECRJS_LG_DELIM-ZQVWGXSYZHJJSBUECRJS_2021                                            3.65%    passed     48.06%
+ 150  ASF_DELIM-ZQVWGXSYZHJJSBUECRJS_IND_DELIM-ZQVWGXSYZHJJSBUECRJS_20_DELIM-ZQVWGXSYZHJJSBUECRJS_CAD_DELIM-ZQVWGXSYZHJJSBUECRJS_543                 14.38%    failed      0.28%
+ 151  Cameroon_DELIM-ZQVWGXSYZHJJSBUECRJS_2018_DELIM-ZQVWGXSYZHJJSBUECRJS_C-F3                                                                        5.08%    passed     57.24%
+ 152  CMR2018_DELIM-ZQVWGXSYZHJJSBUECRJS_lab1                                                                                                         5.60%    passed     45.85%
+ 153  Cameroon_DELIM-ZQVWGXSYZHJJSBUECRJS_2017_DELIM-ZQVWGXSYZHJJSBUECRJS_C-A2                                                                        5.09%    passed     58.03%
+ 154  Cameroon_DELIM-ZQVWGXSYZHJJSBUECRJS_2016_DELIM-ZQVWGXSYZHJJSBUECRJS_C1                                                                          5.15%    passed     60.27%
+ 155  Cameroon_DELIM-ZQVWGXSYZHJJSBUECRJS_2018_DELIM-ZQVWGXSYZHJJSBUECRJS_C02                                                                         5.13%    passed     60.78%
+ 156  Cameroon_DELIM-ZQVWGXSYZHJJSBUECRJS_2016_DELIM-ZQVWGXSYZHJJSBUECRJS_C5                                                                          5.19%    passed     60.82%
+ 157  CAM1982                                                                                                                                         5.17%    passed     51.07%
+ 158  Dr-1980                                                                                                                                         4.77%    passed     58.12%
+ 159  56_DELIM-ZQVWGXSYZHJJSBUECRJS_Ca_DELIM-ZQVWGXSYZHJJSBUECRJS_1978                                                                                4.79%    passed     56.29%
+ 160  57_DELIM-ZQVWGXSYZHJJSBUECRJS_Ca_DELIM-ZQVWGXSYZHJJSBUECRJS_1979                                                                                4.79%    passed     56.28%
+ 161  139_DELIM-ZQVWGXSYZHJJSBUECRJS_Nu_DELIM-ZQVWGXSYZHJJSBUECRJS_1981                                                                               4.79%    passed     56.97%
+ 162  140_DELIM-ZQVWGXSYZHJJSBUECRJS_Or_DELIM-ZQVWGXSYZHJJSBUECRJS_1985                                                                               4.74%    passed     59.73%
+ 163  85_DELIM-ZQVWGXSYZHJJSBUECRJS_Ca_DELIM-ZQVWGXSYZHJJSBUECRJS_1985                                                                                5.62%    passed     43.16%
+ 164  60_DELIM-ZQVWGXSYZHJJSBUECRJS_Nu_DELIM-ZQVWGXSYZHJJSBUECRJS_1997                                                                                5.69%    passed     43.27%
+ 165  72407_DELIM-ZQVWGXSYZHJJSBUECRJS_Ss_DELIM-ZQVWGXSYZHJJSBUECRJS_2005                                                                             5.66%    passed     45.85%
+ 166  22653_DELIM-ZQVWGXSYZHJJSBUECRJS_Ca_DELIM-ZQVWGXSYZHJJSBUECRJS_2014                                                                             5.60%    passed     45.85%
+ 167  26_DELIM-ZQVWGXSYZHJJSBUECRJS_Ss_DELIM-ZQVWGXSYZHJJSBUECRJS_2004                                                                                4.67%    passed     69.32%
+ 168  47_DELIM-ZQVWGXSYZHJJSBUECRJS_Ss_DELIM-ZQVWGXSYZHJJSBUECRJS_2008                                                                                4.67%    passed     70.18%
+ 169  97_DELIM-ZQVWGXSYZHJJSBUECRJS_Ot_DELIM-ZQVWGXSYZHJJSBUECRJS_2012                                                                                4.67%    passed     68.72%
+ 170  141_DELIM-ZQVWGXSYZHJJSBUECRJS_Nu_DELIM-ZQVWGXSYZHJJSBUECRJS_1990                                                                               4.69%    passed     67.64%
+ 171  142_DELIM-ZQVWGXSYZHJJSBUECRJS_Nu_DELIM-ZQVWGXSYZHJJSBUECRJS_1995                                                                               4.69%    passed     67.21%
+ 172  26544_DELIM-ZQVWGXSYZHJJSBUECRJS_OG10                                                                                                           5.23%    passed     49.76%
+ 173  CAM1994_DELIM-ZQVWGXSYZHJJSBUECRJS_1                                                                                                            5.12%    passed     53.33%
+ 174  Lisbon1957                                                                                                                                      2.25%    passed     65.53%
+ 175  OmLF2                                                                                                                                           2.47%    passed     90.94%
+ 176  Zaire                                                                                                                                           4.67%    failed      0.00%
+ 177  RSA_2_2004                                                                                                                                      2.85%    failed      0.00%
+ 178  RSA_W1_1999                                                                                                                                     3.67%    failed      0.00%
+ 179  RSA_2_2008                                                                                                                                      1.86%    failed      0.00%
+ 180  SPEC_57                                                                                                                                         2.43%    failed      0.00%
+ 181  LIV_5_40                                                                                                                                        4.51%    failed      0.00%
+ 182  NAMP1_DELIM-ZQVWGXSYZHJJSBUECRJS_1995                                                                                                           5.72%    failed      2.70%
+ 183  TAN_DELIM-ZQVWGXSYZHJJSBUECRJS_08_DELIM-ZQVWGXSYZHJJSBUECRJS_Mazimbu                                                                            8.18%    passed     36.68%
+ 184  KE_DELIM-ZQVWGXSYZHJJSBUECRJS_2013_DELIM-ZQVWGXSYZHJJSBUECRJS_Busia.3.field                                                                     6.56%    passed     10.75%
+ 185  KE_DELIM-ZQVWGXSYZHJJSBUECRJS_2013_DELIM-ZQVWGXSYZHJJSBUECRJS_Busia.3.WSL                                                                       5.04%    passed     39.98%
+ 186  KE_DELIM-ZQVWGXSYZHJJSBUECRJS_2013_DELIM-ZQVWGXSYZHJJSBUECRJS_Siaya.4                                                                           6.47%    passed     12.16%
+ 187  KE_DELIM-ZQVWGXSYZHJJSBUECRJS_2012_DELIM-ZQVWGXSYZHJJSBUECRJS_Busia.564                                                                         6.56%    passed     10.37%
+ 188  UG_DELIM-ZQVWGXSYZHJJSBUECRJS_2013_DELIM-ZQVWGXSYZHJJSBUECRJS_Alupe.1                                                                           6.56%    passed     10.32%
+ 189  KE_DELIM-ZQVWGXSYZHJJSBUECRJS_2013_DELIM-ZQVWGXSYZHJJSBUECRJS_Busia.8                                                                           5.64%    passed     23.79%
+ 190  KE_DELIM-ZQVWGXSYZHJJSBUECRJS_2013_DELIM-ZQVWGXSYZHJJSBUECRJS_Karen.1                                                                           6.56%    passed     10.07%
+ 191  KE_DELIM-ZQVWGXSYZHJJSBUECRJS_2013_DELIM-ZQVWGXSYZHJJSBUECRJS_Kiambu.2                                                                          6.49%    passed     12.74%
+ 192  KE_DELIM-ZQVWGXSYZHJJSBUECRJS_2013_DELIM-ZQVWGXSYZHJJSBUECRJS_Nakuru.1                                                                          5.63%    passed     27.06%
+ 193  TAN_DELIM-ZQVWGXSYZHJJSBUECRJS_16_DELIM-ZQVWGXSYZHJJSBUECRJS_Magu                                                                               6.70%    passed      5.73%
+ 194  BUR_DELIM-ZQVWGXSYZHJJSBUECRJS_18_DELIM-ZQVWGXSYZHJJSBUECRJS_Rutana                                                                             9.93%    failed      1.17%
+ 195  UviraB53                                                                                                                                        8.15%    passed     15.10%
+ 196  China_DELIM-ZQVWGXSYZHJJSBUECRJS_GD_DELIM-ZQVWGXSYZHJJSBUECRJS_2019                                                                             9.42%    failed      0.19%
+****  TOTAL                                                                                                                                           2.14%  12 sequences failed composition chi2 test (p-value<5%; df=3)
 NOTE: minimal branch length is reduced to 0.000000524703 for long alignment
-Checking for duplicate sequences: done in 5.29289e-05 secs using 81.24% CPU
+NOTE: DB_DELIM-ZQVWGXSYZHJJSBUECRJS_LN_DELIM-ZQVWGXSYZHJJSBUECRJS_2018 is identical to Pig_DELIM-ZQVWGXSYZHJJSBUECRJS_HLJ_DELIM-ZQVWGXSYZHJJSBUECRJS_2018 but kept for subsequent analysis
+NOTE: 34616_2119_DELIM-ZQVWGXSYZHJJSBUECRJS_RM2022Italy is identical to 21730_1474_DELIM-ZQVWGXSYZHJJSBUECRJS_RM_DELIM-ZQVWGXSYZHJJSBUECRJS_2022Italy but kept for subsequent analysis
+NOTE: ASFVWuhan2019-2 is identical to ASFVWuhan2019-1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0143719 secs using 98.17% CPU
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.703 seconds
 
-NOTE: 0 MB RAM (0 GB) is required!
+NOTE: 157 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 1 CPU cores
-Increase to 10 rounds for branch lengths
-397 trees examined
-Threads: 1 / Time: 1.001 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -276596
-Determining AUTO threadcount: done in 1.00083 secs using 99.81% CPU
+2 trees examined
+Threads: 1 / Time: 1.089 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2426642
+Determining AUTO threadcount: done in 1.09381 secs using 94.74% CPU
 BEST NUMBER OF THREADS: 1
 
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -276408.641
-2. Current log-likelihood: -276036.748
-Optimal log-likelihood: -276036.303
-Rate parameters:  A-C: 0.93034  A-G: 1.99517  A-T: 1.02255  C-G: 0.70963  C-T: 1.88945  G-T: 1.00000
-Base frequencies:  A: 0.307  C: 0.193  G: 0.192  T: 0.308
-Parameters optimization took 2 rounds (0.012 sec)
+1. Initial log-likelihood: -805166.935
+2. Current log-likelihood: -788493.775
+3. Current log-likelihood: -788477.762
+Optimal log-likelihood: -788477.753
+Rate parameters:  A-C: 1.20838  A-G: 4.09573  A-T: 1.40726  C-G: 1.54735  C-T: 3.95547  G-T: 1.00000
+Base frequencies:  A: 0.306  C: 0.193  G: 0.192  T: 0.309
+Parameters optimization took 3 rounds (8.993 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.00115895 secs using 98.45% CPU
-Computing ML distances took 0.001224 sec (of wall-clock time) 0.001197 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 3.19481e-05 secs using 153.4% CPU
-Constructing RapidNJ tree: done in 6.79493e-05 secs using 164.8% CPU
-Computing RapidNJ tree took 0.000144 sec (of wall-clock time) 0.000215 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -276162.132
+Calculating distance matrix: done in 1.05515 secs using 99.83% CPU
+Computing ML distances took 1.074937 sec (of wall-clock time) 1.072047 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000671148 secs using 184.5% CPU
+Constructing RapidNJ tree: done in 0.00167894 secs using 189.2% CPU
+Computing RapidNJ tree took 0.002643 sec (of wall-clock time) 0.004714 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -793540.675
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
-Optimizing NNI: done in 0.00734901 secs using 195.9% CPU
+Optimizing NNI: done in 8.45505 secs using 98.29% CPU
 Estimate model parameters (epsilon = 0.500)
-BETTER TREE FOUND at iteration 1: -276035.905
-Optimizing NNI: done in 0.0257471 secs using 198.6% CPU
+BETTER TREE FOUND at iteration 1: -788052.470
+Optimizing NNI: done in 11.4627 secs using 98.85% CPU
 Finish initializing candidate tree set (4)
-Current best tree score: -276035.905 / CPU time: 0.039
+Current best tree score: -788052.470 / CPU time: 21.476
 Number of iterations: 2
-TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:1s
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:41s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -276035.905
-Optimal log-likelihood: -276035.865
-Rate parameters:  A-C: 0.93949  A-G: 1.98867  A-T: 1.04252  C-G: 0.73399  C-T: 1.95133  G-T: 1.00000
-Base frequencies:  A: 0.307  C: 0.193  G: 0.192  T: 0.308
-Parameters optimization took 1 rounds (0.004 sec)
-BEST SCORE FOUND : -276035.865
-Total tree length: 0.013
+1. Initial log-likelihood: -788052.470
+Optimal log-likelihood: -788052.468
+Rate parameters:  A-C: 1.20871  A-G: 4.09607  A-T: 1.40969  C-G: 1.54886  C-T: 3.95500  G-T: 1.00000
+Base frequencies:  A: 0.306  C: 0.193  G: 0.192  T: 0.309
+Parameters optimization took 1 rounds (1.338 sec)
+BEST SCORE FOUND : -788052.468
+Total tree length: 0.604
 
 Total number of iterations: 2
-CPU time used for tree search: 0.077 sec (0h:0m:0s)
-Wall-clock time used for tree search: 0.039 sec (0h:0m:0s)
-Total CPU time used: 1.112 sec (0h:0m:1s)
-Total wall-clock time used: 1.075 sec (0h:0m:1s)
+CPU time used for tree search: 21.193 sec (0h:0m:21s)
+Wall-clock time used for tree search: 21.477 sec (0h:0m:21s)
+Total CPU time used: 42.008 sec (0h:0m:42s)
+Total wall-clock time used: 42.733 sec (0h:0m:42s)
 
 Analysis results written to: 
   IQ-TREE report:                results/aligned-delim.fasta.iqtree
@@ -107,4 +283,4 @@ Analysis results written to:
   Likelihood distances:          results/aligned-delim.fasta.mldist
   Screen log file:               results/aligned-delim.fasta.log
 
-Date and Time: Tue Mar 19 17:13:51 2024
+Date and Time: Mon Mar 25 14:01:41 2024

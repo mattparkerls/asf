@@ -20,6 +20,11 @@ environment*
 .tox/
 .cache/
 
+# For R #
+##############
+.RData
+.Rhistory
+
 # Compiled source #
 ###################
 *.com

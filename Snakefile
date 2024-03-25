@@ -1,8 +1,9 @@
+# 1) create metadata.tsv file
 '''rule parse:
     input:
-        sequences = "data/sequences_asia.fasta" # original sequences
+        sequences = "data/sequences_all_subset.fasta" # subsetting sequences after running scripts/clean_sequences.R
     output:
-        sequences = "results/sequences.fasta",
+        sequences = "results/sequences.fasta", # this is the output to use for the rest of the rules below
         metadata = "results/metadata.tsv"
     params:
         fields = "accession virus strain country date"
@@ -16,13 +17,14 @@
             --fix-dates monthfirst
         """'''
 
+# 2) create sequence_index.tsv file
 '''rule index_sequences:
     message:
         """
         Creating an index of sequence composition for filtering.
         """
     input:
-        sequences = "results/sequences.fasta" # sequences without accession number
+        sequences = "results/sequences.fasta" # parsed sequences without accession number
     output:
         sequence_index = "results/sequence_index.tsv"
     shell:
@@ -32,18 +34,20 @@
             --output {output.sequence_index}
         """'''
 
+# 3) run complete build w/ .tsv files
 rule all:
     input:
         auspice_json = "auspice/asf.json",
 
-input_fasta = "data/sequences_asia.fasta",
-input_metadata = "results/metadata.tsv",
-dropped_strains = "config/dropped_strains.txt",
-reference = "data/reference_asf.gb",
-colors = "config/colors.tsv",
-lat_longs = "config/lat_longs.tsv",
-auspice_config = "config/auspice_config.json"
+input_fasta = "results/sequences.fasta", # get from parse
+input_metadata = "results/metadata.tsv", # get from parse
+dropped_strains = "config/dropped_strains.txt",# pre-loaded
+reference = "data/reference_asf.gb", # pre-loaded
+colors = "config/colors.tsv", # pre-loaded
+lat_longs = "config/lat_longs.tsv", # pre-loaded
+auspice_config = "config/auspice_config.json" # pre-loaded
 
+# need to fix, currently doesn't filter anything 
 rule filter:
     message:
         """
@@ -78,7 +82,7 @@ rule align:
           - filling gaps with N
         """
     input:
-        sequences = "results/sequences.fasta", # replace with rules.filter.output.sequences
+        sequences = input_fasta, # replace with rules.filter.output.sequences eventually when filter() is fixed
         reference = reference
     output:
         alignment = "results/aligned.fasta"
