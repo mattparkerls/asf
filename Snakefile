@@ -126,7 +126,8 @@ rule refine:
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 4
+        clock_filter_iqd = 4,
+        clock_rate = 0.000331
     shell:
         """
         augur refine \
@@ -139,7 +140,8 @@ rule refine:
             --coalescent {params.coalescent} \
             --date-confidence \
             --date-inference {params.date_inference} \
-            --clock-filter-iqd {params.clock_filter_iqd}
+            --clock-filter-iqd {params.clock_filter_iqd} \
+            --clock-rate {params.clock_rate}
         """
 
 rule ancestral:
