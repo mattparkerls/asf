@@ -1,43 +1,9 @@
-# 1) create metadata.tsv file
-'''rule parse:
-    input:
-        sequences = "data/sequences_all_subset.fasta" # subsetting sequences after running scripts/clean_sequences.R
-    output:
-        sequences = "results/sequences.fasta", # this is the output to use for the rest of the rules below
-        metadata = "results/metadata.tsv"
-    params:
-        fields = "accession virus strain country date"
-    shell:
-        """
-        augur parse \
-            --sequences {input.sequences} \
-            --fields {params.fields} \
-            --output-sequences {output.sequences} \
-            --output-metadata {output.metadata} \
-            --fix-dates monthfirst
-        """'''
-
-# 2) create sequence_index.tsv file
-'''rule index_sequences:
-    message:
-        """
-        Creating an index of sequence composition for filtering.
-        """
-    input:
-        sequences = "results/sequences.fasta" # parsed sequences without accession number
-    output:
-        sequence_index = "results/sequence_index.tsv"
-    shell:
-        """
-        augur index \
-            --sequences {input.sequences} \
-            --output {output.sequence_index}
-        """'''
-
-# 3) run complete build w/ .tsv files
+# run complete build w/ .tsv files
 rule all:
     input:
         auspice_json = "auspice/asf.json",
+
+include: "rules/prepare_sequences.smk" # cleans and parses raw sequences
 
 input_fasta = "results/sequences.fasta", # get from parse
 input_metadata = "results/metadata.tsv", # get from parse
@@ -81,7 +47,7 @@ rule align:
           - filling gaps with N
         """
     input:
-        sequences = rules.filter.output.sequences, #input_fasta, # replace with rules.filter.output.sequences eventually when filter() is fixed
+        sequences = rules.filter.output.sequences,
         reference = reference
     output:
         alignment = "results/aligned.fasta"
@@ -167,7 +133,7 @@ rule ancestral:
     input:
         tree = rules.refine.output.tree,
         node_data = rules.ancestral.output.node_data,
-        reference = reference
+        reference = reference #"data/reference_asf.gb" # replace with reference after fixing
     output:
         node_data = "results/aa_muts.json"
     shell:
