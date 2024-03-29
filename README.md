@@ -23,21 +23,6 @@ Download African swine fever sequences from [`NCBI Virus`](https://www-ncbi-nlm-
 
 Put sequences.fasta file from NCBI in _/data_ folder
 
-Run clean_sequences.R script: [`scripts/clean_sequences.R`](./scripts/clean_sequences.R)
-```
-nextstrain build scripts/clean_sequences.R
-```
-
-Run rules/parse.smk to create metadata.tsv file
-```
-nextstrain build rules/parse.smk
-```
-
-Run rules/index_sequences.smk to create sequences_index.tsv file
-```
-nextstrain build rules/index_sequences.smk
-```
-
 Run the default phylogenetic workflow (build may take several hours depending on how many sequences you have)
 ```
 nextstrain build .

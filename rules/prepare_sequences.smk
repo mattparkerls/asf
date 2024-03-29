@@ -10,7 +10,7 @@ OUTPUTS:
     node_data = data/sequences_all_subset.fasta, results/metadata.tsv, results/sequences_index.tsv
 """
 
-# 1) create metadata.tsv file
+# 1) Removes sequences that are missing dates or strain names
 rule clean_sequences:
     params:
         scripts = "scripts/clean_sequences.R"
