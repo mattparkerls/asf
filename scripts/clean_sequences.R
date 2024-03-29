@@ -1,5 +1,3 @@
-setwd("/Users/mattparker/Dropbox/Workspace/Yale/nextstrain/asf/data")
-
 ###
 # Function to parse header and put into fields in dataframe
 ###
@@ -114,4 +112,4 @@ subsetFasta <- function(input_file, output_file) {
 }
 
 # subset sequences with only the good ids
-subsetFasta("sequences_all.fasta", "sequences_all_subset.fasta")
+subsetFasta("~data/sequences_all.fasta", "~data/sequences_all_subset.fasta")
