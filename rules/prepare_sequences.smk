@@ -3,7 +3,7 @@ This part of the workflow cleans and parses the FASTA sequences before filtering
 
 REQUIRED INPUTS:
 
-    raw_sequences            = data/sequences_all.fasta
+    raw_sequences            = NONE
 
 OUTPUTS:
 
@@ -24,7 +24,7 @@ rule parse:
     input:
         sequences = "data/sequences_all_subset.fasta" # subsetting sequences after running scripts/clean_sequences.R
     output:
-        sequences = "results/sequences.fasta", # this is the output to use for the rest of the rules below
+        sequences = "results/sequences.fasta",
         metadata = "results/metadata.tsv"
     params:
         fields = "accession virus strain country date"
@@ -38,7 +38,7 @@ rule parse:
             --fix-dates monthfirst
         """
 
-# 2) create sequence_index.tsv file
+# 3) create sequence_index.tsv file
 rule index_sequences:
     message:
         """
