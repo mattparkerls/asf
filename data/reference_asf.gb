@@ -1,11 +1,3367 @@
-LOCUS       FR682468.2            190584 bp    DNA     linear   UNA 19-MAR-2024
-DEFINITION  | African swine fever virus|ASFV Georgia 2007/1|Georgia|.
-ACCESSION   urn.local...157-hhviqz2
-VERSION     urn.local...157-hhviqz2
-KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+LOCUS       NC_044959             190584 bp    DNA     linear   VRL 07-JAN-2023
+DEFINITION  African swine fever virus isolate ASFV Georgia 2007/1 genome
+            assembly, complete genome: monopartite.
+ACCESSION   NC_044959
+VERSION     NC_044959.2
+DBLINK      BioProject: PRJNA485481
+            BioSample: SAMEA6080457
+KEYWORDS    RefSeq.
+SOURCE      African swine fever virus
+  ORGANISM  African swine fever virus
+            Viruses; Varidnaviria; Bamfordvirae; Nucleocytoviricota;
+            Pokkesviricetes; Asfuvirales; Asfarviridae; Asfivirus.
+REFERENCE   1
+  AUTHORS   Chapman,D.A., Darby,A.C., Da Silva,M., Upton,C., Radford,A.D. and
+            Dixon,L.K.
+  TITLE     Genomic analysis of highly virulent Georgia 2007/1 isolate of
+            African swine fever virus
+  JOURNAL   Emerging Infect. Dis. 17 (4), 599-605 (2011)
+   PUBMED   21470447
+REFERENCE   2  (bases 1 to 190584)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-OCT-2020) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3
+  CONSRTM   IVD NGS Lab
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-MAY-2020) Friedrich-Loeffler-Institute, Federal
+            Research Institute for Animal Health, Institute of Diagnostic
+            Virology, Suedufer 10, Greifswald - Insel Riems, Mecklenburg -
+            Western Pomerania, 17493, Germany
+REFERENCE   4
+  AUTHORS   Chapman,D.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-2010) Chapman D.A., Institute for Animal Health,
+            Pirbright Laboratory, Ash Road, Pirbright Woking, Surrey GU24 0NF,
+            UNITED KINGDOM
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to FR682468.
+            
+            On Oct 13, 2020 this sequence version replaced NC_044959.1.
+            African swine fever virus Georgia 2007/1.
+            COMPLETENESS: full length.
 FEATURES             Location/Qualifiers
+     source          1..190584
+                     /organism="African swine fever virus"
+                     /mol_type="genomic DNA"
+                     /isolate="ASFV Georgia 2007/1"
+                     /db_xref="taxon:10497"
+                     /note="monopartite"
+     repeat_region   1..1378
+                     /gene="Repeat 1"
+     gene            complement(416..580)
+                     /gene="DP60R CDS"
+                     /locus_tag="IM014_gp002"
+                     /db_xref="GeneID:59227096"
+     CDS             complement(416..580)
+                     /gene="DP60R CDS"
+                     /locus_tag="IM014_gp002"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927096.1"
+                     /db_xref="GeneID:59227096"
+                     /translation="MSLWPPQKKVFTVGFITGGVTPVMVNFVWPAAQPQKKINYNRKK
+                     KYFRPRRFKK"
+     gene            701..847
+                     /gene="ASFV G ACD 01990 CDS"
+                     /locus_tag="IM014_gp003"
+                     /db_xref="GeneID:59226968"
+     CDS             701..847
+                     /gene="ASFV G ACD 01990 CDS"
+                     /locus_tag="IM014_gp003"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927097.1"
+                     /db_xref="GeneID:59226968"
+                     /translation="MNIYLVWFLYILLGNLILAVIYCVIDEVVCDNIHIKKNVAAPEM
+                     PRRF"
+     gene            complement(1812..2645)
+                     /gene="MGF 360-1La CDS"
+                     /locus_tag="IM014_gp004"
+                     /db_xref="GeneID:59226927"
+     CDS             complement(1812..2645)
+                     /gene="MGF 360-1La CDS"
+                     /locus_tag="IM014_gp004"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927098.1"
+                     /db_xref="GeneID:59226927"
+                     /translation="MGCRHQLWVGYCQYGVHQDLCQKLGARKALSENKILEIFYNVQY
+                     VKTSSNIILCHELLSDNPLFLNNAQLKLRIFGELDTLSINFTLDNISFNEMLTRYWYS
+                     MAILYKLTEAIQYFYQRYSHFKDWRLICGVAYNNVFDLHEIYNKEKTNIDIDEMMQLA
+                     CMYDCNYTTIYYCFMLGADINRAMITSVMNFCEGNLFLCIDLGADAFEESMEIASQTN
+                     NWILINILLFKNYSPDSSLLSIKTTDPEKINALLDEEKYKSKNMLIYEESLFHIYGVN
+                     I"
+     gene            complement(2573..2893)
+                     /gene="MGF 360-1Lb CDS"
+                     /locus_tag="IM014_gp005"
+                     /db_xref="GeneID:59227060"
+     CDS             complement(2573..2893)
+                     /gene="MGF 360-1Lb CDS"
+                     /locus_tag="IM014_gp005"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927099.1"
+                     /db_xref="GeneID:59227060"
+                     /translation="MPSTLQALTKKVLATQPVLKDDYCILERCGLWWHEAPITIYHTC
+                     IDEQILIKTASFKHGLTLNVALMKAVQENNHGLIELFTEWGADISFGLVTVNMECTRT
+                     YAKS"
+     gene            complement(2979..4067)
+                     /gene="MGF 360-2L CDS"
+                     /locus_tag="IM014_gp006"
+                     /db_xref="GeneID:59227061"
+     CDS             complement(2979..4067)
+                     /gene="MGF 360-2L CDS"
+                     /locus_tag="IM014_gp006"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927100.1"
+                     /db_xref="GeneID:59227061"
+                     /translation="MSTPISLQALAKKILATQHISKEHYFILKYCGLWWHGAPIMLST
+                     NEDNQLMIKSAIFKDGLELNLALMKTVQENNYDLIELFTEWGADINSSLVTVNTEHTW
+                     NFCRELGAKILNEMDIVQIFYKIHRIKTSSNIILCHKLLSNNPLFQNIEELKVIICCF
+                     LEKISINFILNEITFNEMLTRYWYSIAILCKLTEAIQYFYQRYSHFKDWRLICGLSFN
+                     NVSDLHEMYHIKKVDMNIDEMIYLACMRDSNFLTIYYCFVLGADINRAMVTSVKNFYM
+                     NNLFFCIDLGANAFEESLELAKQKNHDILVEILSFKDYYSSNVSLLSLKTTDPEKINA
+                     LLKNYRSKNIMRYKKLCPEIIRWARFII"
+     gene            4208..4741
+                     /gene="KP177R CDS"
+                     /locus_tag="IM014_gp007"
+                     /db_xref="GeneID:59227063"
+     CDS             4208..4741
+                     /gene="KP177R CDS"
+                     /locus_tag="IM014_gp007"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927101.1"
+                     /db_xref="GeneID:59227063"
+                     /translation="MFNIKMTISTLLIALIILLIIILVVFLYYKKQQPPKKVCKVDKD
+                     CGSGEHCVRGSCSSLSCLDAVKMDKRNIKIDSKISSCEFTPNFYRFTDTAADEQQEFG
+                     KTRHPIKITPSPSESHSPQEVCEKYCSWGTDDCTGWEYVGDEKEGTCYVYNNPHHPVL
+                     KYGKDHIIALPRNHKHA"
+     gene            complement(4878..5123)
+                     /gene="L83L CDS"
+                     /locus_tag="IM014_gp008"
+                     /db_xref="GeneID:59227026"
+     CDS             complement(4878..5123)
+                     /gene="L83L CDS"
+                     /locus_tag="IM014_gp008"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927102.1"
+                     /db_xref="GeneID:59227026"
+                     /translation="MDTSLKNNDGALEADNKNYQDYRAEPDKTNDVLDVTKYNSMVDC
+                     CHKNYSTFTSEWYINERKYNDVPEGPKKAVVHRCTIL"
+     gene            complement(5224..5382)
+                     /gene="L60L CDS"
+                     /locus_tag="IM014_gp009"
+                     /db_xref="GeneID:59227029"
+     CDS             complement(5224..5382)
+                     /gene="L60L CDS"
+                     /locus_tag="IM014_gp009"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927103.1"
+                     /db_xref="GeneID:59227029"
+                     /translation="MDDTLPKQMTPTDTSSSKEEQAHCNNKTLEKQPKNINDNKCTDS
+                     QNTESSKV"
+     gene            complement(5541..6611)
+                     /gene="MGF 360-3L CDS"
+                     /locus_tag="IM014_gp010"
+                     /db_xref="GeneID:59227028"
+     CDS             complement(5541..6611)
+                     /gene="MGF 360-3L CDS"
+                     /locus_tag="IM014_gp010"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927104.1"
+                     /db_xref="GeneID:59227028"
+                     /translation="MQPSTLQALAKRALATQHVSKDDYYILERYGLWWHEAPISMYID
+                     DDNQIMIRTLCFKEGIRLNTALVLAVKENNDDLIMLFTEWGANINYGLLFINNEHTRN
+                     LCRKLGAKEELETSEILRFFFETKCKITSSNVILCHELFSNNPFLQNVNMVDLRMIIY
+                     WELKDLTTNSMLNEISFSEMLTKYWYGIAVKYNLKEAIQYFCQEYRHFDEWRLICALS
+                     FNNVFDLHEICNTTKIHMSINKMMELACMRDNNFLTIYYCFALGANANRAMLISVKNF
+                     CIENMFFCMDLGANVIEHSKTLADIYGYSIIVNILSLKIYKANPILLSKETNPEKINT
+                     LLKNYYSKNMLAYDICCIDNYL"
+     gene            complement(7004..7648)
+                     /gene="MGF 110-1L CDS"
+                     /locus_tag="IM014_gp011"
+                     /db_xref="GeneID:59227064"
+     CDS             complement(7004..7648)
+                     /gene="MGF 110-1L CDS"
+                     /locus_tag="IM014_gp011"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927105.1"
+                     /db_xref="GeneID:59227064"
+                     /translation="MLGLQIFTLLSIPTLLYTYELELLDLTRTPPEKELEYWCTYANH
+                     CRFCWDCQDGICKNKVFENHSPILENDYIANCSVFRHNEFCTYYVTSIKPHEVYRTEC
+                     PQHNHEWHEAVIRKWQKLLTYGFYLVGCVLVANYIRKRSLQTIIYLMVLLVIFFLLSQ
+                     LMLYRELEAKKHKIGSIPPERELEHWCTHGKYCDFCWDCQNGICRNKVFKMIPP"
+     gene            7647..7760
+                     /gene="ASFV G ACD 00090 CDS"
+                     /locus_tag="IM014_gp012"
+                     /db_xref="GeneID:59227039"
+     CDS             7647..7760
+                     /gene="ASFV G ACD 00090 CDS"
+                     /locus_tag="IM014_gp012"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927106.1"
+                     /db_xref="GeneID:59227039"
+                     /translation="MATCEQVAARQQIAVYQQIAVYQQQLIISKCCLWVSQ"
+     gene            complement(7828..8142)
+                     /gene="MGF 110-2L CDS"
+                     /locus_tag="IM014_gp013"
+                     /db_xref="GeneID:59226907"
+     CDS             complement(7828..8142)
+                     /gene="MGF 110-2L CDS"
+                     /locus_tag="IM014_gp013"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927107.1"
+                     /db_xref="GeneID:59226907"
+                     /translation="MRFFSYLGLLLAGLASLQGFSTDNPLEEELRYWCQYVKNCRFCW
+                     ACQDGLCKNKVLKDMPPVQEHSYPMEHCMIHRQCKYIRDGPIFQAECTMQTCDAIHLL
+                     NA"
+     gene            complement(8239..8613)
+                     /gene="MGF 110-3L CDS"
+                     /locus_tag="IM014_gp014"
+                     /db_xref="GeneID:59227040"
+     CDS             complement(8239..8613)
+                     /gene="MGF 110-3L CDS"
+                     /locus_tag="IM014_gp014"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927108.1"
+                     /db_xref="GeneID:59227040"
+                     /translation="MLVIFLEILGLLANQVLGLPTQAGGHLRSTDNPPQEELGYWCTY
+                     MENCKFCWECAHGICKNKVNKSMPLIVENSYLTSCEVSRWYNQCTYGEGNGHYHVMDC
+                     SDPVPHNRPHQLLMKIYEKDDL"
+     gene            8724..8948
+                     /gene="ASFV G ACD 00120 CDS"
+                     /locus_tag="IM014_gp015"
+                     /db_xref="GeneID:59227041"
+     CDS             8724..8948
+                     /gene="ASFV G ACD 00120 CDS"
+                     /locus_tag="IM014_gp015"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927109.1"
+                     /db_xref="GeneID:59227041"
+                     /translation="MFYREKVFLAYECTWFRTLKKNKRNYLILAVIFFQLATSQVTKE
+                     LHCSFILRKRLNFGQKKSYLIKNPHRSFFS"
+     gene            complement(8927..9301)
+                     /gene="MGF 110-4L CDS"
+                     /locus_tag="IM014_gp016"
+                     /db_xref="GeneID:59226908"
+     CDS             complement(8927..9301)
+                     /gene="MGF 110-4L CDS"
+                     /locus_tag="IM014_gp016"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927110.1"
+                     /db_xref="GeneID:59226908"
+                     /translation="MLVVFLGILGLLANQVVGLPTQAGGHLRSTDNPPQEELGYWCTY
+                     MERCKFCWECAHGICKNKVNNSMPLIIENSYLTTCEVSRWYNQCTYGEGNGHYHVMDC
+                     SDPVPHNRPYQLLMKIYEKKDL"
+     gene            complement(9490..10107)
+                     /gene="MGF 110-5L-6L CDS"
+                     /locus_tag="IM014_gp017"
+                     /db_xref="GeneID:59227042"
+     CDS             complement(9490..10107)
+                     /gene="MGF 110-5L-6L CDS"
+                     /locus_tag="IM014_gp017"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927111.1"
+                     /db_xref="GeneID:59227042"
+                     /translation="MLVIFLGILGLLASQVSSQLVGQLRPTEEPPEEELEYWCAYMES
+                     CQFCWDCQDGTCINKIDGSVIYKNEYVKSCLVSRWLDKCMYDLDKGIYHTMNCNQVLG
+                     LPNQPAGQLHPTDNPPQEELEYWCTYTENCKFCWNCQNGLCEGKLENTTILENEYVQS
+                     CIVSRWLNKCMYDLGQGIHHVMACSEPKPWNPYKILKREWKENNS"
+     gene            complement(10314..10727)
+                     /gene="MGF 110-7L CDS"
+                     /locus_tag="IM014_gp018"
+                     /db_xref="GeneID:59227043"
+     CDS             complement(10314..10727)
+                     /gene="MGF 110-7L CDS"
+                     /locus_tag="IM014_gp018"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927112.1"
+                     /db_xref="GeneID:59227043"
+                     /translation="MLVIILGIIGLLASSNLVSSSTSTRVGGHLPLTFEPPENELGYW
+                     CTYVESCRFCWDCEDGICTSRVWGNNSTSIIENDYVKYCEVSRWGDLCRYDVEEHIYH
+                     SMNCSDPKPWNPYKIARKEWKKNEHPRKDLKKDEF"
+     gene            complement(11042..11326)
+                     /gene="285L CDS"
+                     /locus_tag="IM014_gp019"
+                     /db_xref="GeneID:59227044"
+     CDS             complement(11042..11326)
+                     /gene="285L CDS"
+                     /locus_tag="IM014_gp019"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927113.1"
+                     /db_xref="GeneID:59227044"
+                     /translation="MLLEEVILIALILIWIAIILYSTIQIKIKPFSSSVSHKCGCGHH
+                     ASNESPRPGFHRCEYDHPRFERTYSCNRHSCISCCSPHQTCLRFQSYHRV"
+     gene            complement(11068..11196)
+                     /gene="ASFV G ACD 00160 CDS"
+                     /locus_tag="IM014_gp020"
+                     /db_xref="GeneID:59226898"
+     CDS             complement(11068..11196)
+                     /gene="ASFV G ACD 00160 CDS"
+                     /locus_tag="IM014_gp020"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927114.1"
+                     /db_xref="GeneID:59226898"
+                     /translation="MHQMNLLDQDFIDVSMTIPGLRELIRVTGTLVFHAVLHIKPA"
+     gene            complement(11455..>11838)
+                     /gene="MGF 110-8L CDS"
+                     /locus_tag="IM014_gp021"
+                     /db_xref="GeneID:59226909"
+     CDS             complement(11455..>11838)
+                     /gene="MGF 110-8L CDS"
+                     /locus_tag="IM014_gp021"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927115.1"
+                     /db_xref="GeneID:59226909"
+                     /translation="VATIKVLILVLLGVVVLQAAPIRKLEDLLPTRYPPEHELVYWCT
+                     YANQCDFCWECVHGICRNRIQTDWPVIHQNDWIINCTVSRWNGICSYYEGPKNHTDHQ
+                     MDCANPTSHTYPHREYMKIYERDDL"
+     gene            12056..12430
+                     /gene="MGF 100-1R CDS"
+                     /locus_tag="IM014_gp022"
+                     /db_xref="GeneID:59227045"
+     CDS             12056..12430
+                     /gene="MGF 100-1R CDS"
+                     /locus_tag="IM014_gp022"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927116.1"
+                     /db_xref="GeneID:59227045"
+                     /translation="MVRLFRNPIKCLFYRRSRKIQEKKLRKSLKKLNFYHPPEDCCQI
+                     YRLLENVPGGTYFITENMTNDLIMVVKDSVDKKIKSIKLYLHGSYIKIHQHYYINIYM
+                     YLMRYTQIYKYPLICFNKYYNI"
+     gene            complement(12456..12581)
+                     /gene="ASFV G ACD 00190 CDS"
+                     /locus_tag="IM014_gp023"
+                     /db_xref="GeneID:59227033"
+     CDS             complement(12456..12581)
+                     /gene="ASFV G ACD 00190 CDS"
+                     /locus_tag="IM014_gp023"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927117.1"
+                     /db_xref="GeneID:59227033"
+                     /translation="MFFFSYFATGNIKWWPVHLFNKKILTNLLLSLSLTYPVTIL"
+     gene            complement(12590..13462)
+                     /gene="MGF 110-9L CDS"
+                     /locus_tag="IM014_gp024"
+                     /db_xref="GeneID:59226910"
+     CDS             complement(12590..13462)
+                     /gene="MGF 110-9L CDS"
+                     /locus_tag="IM014_gp024"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927118.1"
+                     /db_xref="GeneID:59226910"
+                     /translation="MKVIVFLLVLAVMQPVIQSQSFPGTGELPMTRRPPKRELEYWCT
+                     YAKSCDFCWNCRHGVCKNKVFEKHPLIKKNDYIQICRVSRYNERCSYFTDSRIRRFHI
+                     MSCTNPTYYDWFDELMQIKEDRVIDTENIKHTCLCMIATIALISYVRKQYSRMRMQAA
+                     TRLLIFLGFYVLLGILMTNIIMNLPLSTDNPMQMRRPPERDLKFWCTYAKHCDFCWTC
+                     KDGMCKNKVFSDHPIITQNDYIVNCTVSRWHDRCMYEAHFRIHYQHNMNCSQPKDLEW
+                     FIELKRHVINQDDL"
+     gene            13461..13652
+                     /gene="ASFV G ACD 00210 CDS"
+                     /locus_tag="IM014_gp025"
+                     /db_xref="GeneID:59227046"
+     CDS             13461..13652
+                     /gene="ASFV G ACD 00210 CDS"
+                     /locus_tag="IM014_gp025"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927119.1"
+                     /db_xref="GeneID:59227046"
+                     /translation="MAATYKLQLMGCNTATYRLHLIDRDSKGMKTLPSIQNLSFNPDN
+                     VSVYEKKFFLLMYEFLYES"
+     gene            complement(13753..14571)
+                     /gene="MGF 110-10-L - MGF110-14L fusion"
+                     /locus_tag="IM014_gp026"
+                     /db_xref="GeneID:59226911"
+     CDS             complement(13753..14571)
+                     /gene="MGF 110-10-L - MGF110-14L fusion"
+                     /locus_tag="IM014_gp026"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927120.1"
+                     /db_xref="GeneID:59226911"
+                     /translation="MKVLGLLLGYSVLILAHELPELPRTQHPPKEELPYWCTYVKNCD
+                     FCWDCQNGICKNKITNESNSMNSIVNCIVNRNSWGCFYEISVKMPNHHNMECSHPRPY
+                     TGNEIFMEKWGGGGDYWPIIIRHCCFYLVFSIVFVGYIVFAYYKNLHLNTTMKLLALL
+                     CILIWLSQPGLNRPLSIFYMKQNLPRTYTPPIRELEYWCTYGKHCDFCWECRNGICKN
+                     KVWDDMPLIKQNDYISQCSIARYFDRCMYFIKPKSPYIHYMDCFQPTAYKGFSH"
+     gene            14225..14237
+                     /gene="Poly C region"
+                     /locus_tag="IM014_gp027"
+                     /db_xref="GeneID:59227035"
+     misc_feature    14225..14237
+                     /gene="Poly C region"
+                     /locus_tag="IM014_gp027"
+     gene            14570..14680
+                     /gene="ASFV G ACD 00240 CDS"
+                     /locus_tag="IM014_gp028"
+                     /db_xref="GeneID:59227085"
+     CDS             14570..14680
+                     /gene="ASFV G ACD 00240 CDS"
+                     /locus_tag="IM014_gp028"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927121.1"
+                     /db_xref="GeneID:59227085"
+                     /translation="MLCPNGTCHFKKDLNFATAKKNPVCIFLIHIIIEVL"
+     gene            complement(14761..15120)
+                     /gene="MGF 110-12L CDS"
+                     /locus_tag="IM014_gp029"
+                     /db_xref="GeneID:59226912"
+     CDS             complement(14761..15120)
+                     /gene="MGF 110-12L CDS"
+                     /locus_tag="IM014_gp029"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927122.1"
+                     /db_xref="GeneID:59226912"
+                     /translation="MKVFLGLLLGYSTILILTYQSPTTPWCFYEISLKIPNHHSMKCC
+                     SYPRLYEHEMFMEKWRDKNWPIIIRYYCFYLVFSFVFAGCVAFAICKNLRLSTTMKLL
+                     MLLSILVLLLSQPILNN"
+     gene            complement(15206..15553)
+                     /gene="MGF 110-13La CDS"
+                     /locus_tag="IM014_gp030"
+                     /db_xref="GeneID:59227036"
+     CDS             complement(15206..15553)
+                     /gene="MGF 110-13La CDS"
+                     /locus_tag="IM014_gp030"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927123.1"
+                     /db_xref="GeneID:59227036"
+                     /translation="MKLFVLLSILVWLAQPVLNRPLSIFYTKQILPRTYTPPMRELEY
+                     WCTYGKHCDFCWDCKNGICKNKVLDDMPLIVQNDYISKCSITRFIDRCMYFIEPKIPY
+                     IHYMNCSLPTYFS"
+     gene            complement(15663..16031)
+                     /gene="MGF 110-13Lb CDS"
+                     /locus_tag="IM014_gp031"
+                     /db_xref="GeneID:59227037"
+     CDS             complement(15663..16031)
+                     /gene="MGF 110-13Lb CDS"
+                     /locus_tag="IM014_gp031"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927124.1"
+                     /db_xref="GeneID:59227037"
+                     /translation="MKVLLGLLLGYSVLILAHELPDLPRTQHPPKSELSYWCTYVPQC
+                     DFCWDCQDGICKNKITESRFIDSNHSIVNCRVFRDSKTQSCLYEISSKMPNHFSMECL
+                     HPRPYTGNEIFMQTWGGGGG"
+     gene            15666..15682
+                     /gene="Poly C region"
+                     /locus_tag="IM014_gp032"
+                     /db_xref="GeneID:59227038"
+     misc_feature    15666..15682
+                     /gene="Poly C region"
+                     /locus_tag="IM014_gp032"
+     gene            complement(16056..16169)
+                     /gene="ASFV G ACD 00270 CDS"
+                     /locus_tag="IM014_gp033"
+                     /db_xref="GeneID:59227086"
+     CDS             complement(16056..16169)
+                     /gene="ASFV G ACD 00270 CDS"
+                     /locus_tag="IM014_gp033"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927125.1"
+                     /db_xref="GeneID:59227086"
+                     /translation="MVYNFNTLYDVGADPRNNIRNFKVVFLCYIQNLNFFL"
+     gene            complement(16212..17375)
+                     /gene="MGF 360-4L CDS"
+                     /locus_tag="IM014_gp034"
+                     /db_xref="GeneID:59226913"
+     CDS             complement(16212..17375)
+                     /gene="MGF 360-4L CDS"
+                     /locus_tag="IM014_gp034"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927126.1"
+                     /db_xref="GeneID:59226913"
+                     /translation="MNSLQVLTKKVLIETKAFSNYHEDDIFILQQLGLWWENGPIGFC
+                     KQCKMVTGGSMSCSDVDSYELDRALVKAVKENQTDLIKLFVLWGADINFGIMCAKTKQ
+                     TKDLCIQLGANPEFLDVGLYNMFVYLVKRKKVLLAIEIYYDNILILDSFNSNDFHLLI
+                     DFVYNRFILYLDEKEEEMTRNTLVLKFWYKFAIDFNLTKPIHYLSKKFPHLDLWRLQT
+                     AIYLGNIDEVHHAYFQENIRLGLNVMMFLACARPGNKLGIYYCFALGADLDRALERLI
+                     SFNSINREINRKIRGEKRLCIEGSYLSNVYFCIGLGANPYTKKIQEIIKQKHSNIMIL
+                     LFSKKKILSPHSVLQNKILDPSDVHKMISTYKNTESFYPFSSLAVKLIQQANI"
+     gene            17624..17632
+                     /gene="Poly G region"
+                     /locus_tag="IM014_gp035"
+                     /db_xref="GeneID:59227065"
+     misc_feature    17624..17632
+                     /gene="Poly G region"
+                     /locus_tag="IM014_gp035"
+     gene            complement(17929..18045)
+                     /gene="ASFV G ACD 00300 CDS"
+                     /locus_tag="IM014_gp036"
+                     /db_xref="GeneID:59227087"
+     CDS             complement(17929..18045)
+                     /gene="ASFV G ACD 00300 CDS"
+                     /locus_tag="IM014_gp036"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927127.1"
+                     /db_xref="GeneID:59227087"
+                     /translation="MFIIHTNIMNFFCNIKLFLYHFRSIHKKNILKLFNFIE"
+     gene            complement(18189..19316)
+                     /gene="MGF 360-6L CDS"
+                     /locus_tag="IM014_gp037"
+                     /db_xref="GeneID:59226914"
+     CDS             complement(18189..19316)
+                     /gene="MGF 360-6L CDS"
+                     /locus_tag="IM014_gp037"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927128.1"
+                     /db_xref="GeneID:59226914"
+                     /translation="MNSLQVLTKKVLIENKAFSNYHEDDIFILQQLGLWWENGPIGFC
+                     KQCKMVTSGSMSCSDVDSYELDRALVRAVKKNQTDLIKLFVLWGANINYGIICAKTER
+                     TKVLCIQLGADPKFLDVGLYNMFVDLIKQQKVLLAIDIYYDNISILDSFDSHDFYVLI
+                     DFIYNRFILNLDEKEKMIKNTYVLKFWFKIAIEFNLIKPIRFLSKKFPHLDYWRLKTA
+                     VYLGNVDEIHHAYFQENIRLDPNDMMSLACMYPQNKLGIYYCFALGANINTALETLIG
+                     FINHEVNREITFFSNYGIWSNVHFCISLGANPYTKKIQETLLRQEKNVMMKLLFKKGL
+                     LSPHSILHKKILEPSEVRKIISTYEYTETFHSFSSLRDNLR"
+     gene            19411..19506
+                     /gene="hypothetical"
+                     /locus_tag="IM014_gp038"
+                     /db_xref="GeneID:59227066"
+     CDS             19411..19506
+                     /gene="hypothetical"
+                     /locus_tag="IM014_gp038"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927129.1"
+                     /db_xref="GeneID:59227066"
+                     /translation="MYMIIRRNTFTGVHDQNLMFYVKSTDVNCLV"
+     gene            19544..19669
+                     /gene="ASFV G ACD 00320 CDS"
+                     /locus_tag="IM014_gp039"
+                     /db_xref="GeneID:59227006"
+     CDS             19544..19669
+                     /gene="ASFV G ACD 00320 CDS"
+                     /locus_tag="IM014_gp039"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927130.1"
+                     /db_xref="GeneID:59227006"
+                     /translation="MFNISSILIQGSVMILILLLWIINENFTDAGGNNFNHTVLM"
+     gene            19857..19970
+                     /gene="ASFV G ACD 00330 CDS"
+                     /locus_tag="IM014_gp040"
+                     /db_xref="GeneID:59226915"
+     CDS             19857..19970
+                     /gene="ASFV G ACD 00330 CDS"
+                     /locus_tag="IM014_gp040"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927131.1"
+                     /db_xref="GeneID:59226915"
+                     /translation="MLKCLKIIVHQCCKFDQNLISHKKGTHQHCSFKFHDV"
+     gene            19967..20098
+                     /gene="ASFV G ACD 00350 CDS"
+                     /locus_tag="IM014_gp041"
+                     /db_xref="GeneID:59226916"
+     CDS             19967..20098
+                     /gene="ASFV G ACD 00350 CDS"
+                     /locus_tag="IM014_gp041"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927132.1"
+                     /db_xref="GeneID:59226916"
+                     /translation="MIHYFLQLLGGGGGSLIALALLWFADYYVEFIEARLDSNITAV"
+     gene            19993..20008
+                     /gene="poly G region"
+                     /locus_tag="IM014_gp042"
+                     /db_xref="GeneID:59226917"
+     misc_feature    19993..20008
+                     /gene="poly G region"
+                     /locus_tag="IM014_gp042"
+     gene            complement(20169..20285)
+                     /gene="ASFV G ACD 00360 CDS"
+                     /locus_tag="IM014_gp043"
+                     /db_xref="GeneID:59227088"
+     CDS             complement(20169..20285)
+                     /gene="ASFV G ACD 00360 CDS"
+                     /locus_tag="IM014_gp043"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927133.1"
+                     /db_xref="GeneID:59227088"
+                     /translation="MIKNRCIAQYSFGTSLEMIQATMITMYNSIVIFFFCNV"
+     gene            20197..20406
+                     /gene="X69R CDS"
+                     /locus_tag="IM014_gp044"
+                     /db_xref="GeneID:59226918"
+     CDS             20197..20406
+                     /gene="X69R CDS"
+                     /locus_tag="IM014_gp044"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927134.1"
+                     /db_xref="GeneID:59226918"
+                     /translation="MLLYIVIIVACIISKLVPNEYWAIHLFFIIMIFMVYMYEKLDIH
+                     QKSQFWNYTMSGLSGHNVQVTCKCY"
+     gene            complement(20704..21510)
+                     /gene="MGF 300-1L CDS"
+                     /locus_tag="IM014_gp045"
+                     /db_xref="GeneID:59227095"
+     CDS             complement(20704..21510)
+                     /gene="MGF 300-1L CDS"
+                     /locus_tag="IM014_gp045"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927135.1"
+                     /db_xref="GeneID:59227095"
+                     /translation="MVSLTTCCLKNIVNQHAYVENTVLLYHLGLRWNCKTLYQCTQCN
+                     GVNYTNSHSDQCKNKDLFLIKVIVKKNLAVARTLLSWGASPEYARLFCRNTEEEQALN
+                     VQHVADVPSSKILERLTMSYKGNDEQLLITFYLLNLSTNFSTNLREQVRFKIVSYIIC
+                     DLAIHQTFKIFYAKNYSLSTLYCIFLAIYYKLYTALRKMVKIYPGLKSFAYLTGFMFD
+                     DETVMETYNSTDDEISECKNRIITIKGYYGNIHCRSDIDHMYAFSQNNFW"
+     gene            22336..22818
+                     /gene="MGF 300-2R"
+                     /locus_tag="IM014_gp046"
+                     /db_xref="GeneID:59227047"
+     CDS             22336..22818
+                     /gene="MGF 300-2R"
+                     /locus_tag="IM014_gp046"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927136.1"
+                     /db_xref="GeneID:59227047"
+                     /translation="MITLYEAAIKTLITHRKQILKHPDSREILLALGLYWDKTHILVK
+                     CRECGNMSLTGKHSTKCININCLLILAIKKKNKRIVDTLIGMGADVTYIHLLKNKIKL
+                     SYNQLSMLKSNSQISLKELHAICYLLYGRLPKKIKQGMRLCKTMAGLCGELLCAFLAP
+                     "
+     gene            complement(22908..23900)
+                     /gene="MGF 300-4L CDS"
+                     /locus_tag="IM014_gp047"
+                     /db_xref="GeneID:59227048"
+     CDS             complement(22908..23900)
+                     /gene="MGF 300-4L CDS"
+                     /locus_tag="IM014_gp047"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927137.1"
+                     /db_xref="GeneID:59227048"
+                     /translation="MQSLFNIALKALTLKNHVEFLKRDKEVLTRLGLCCKNYDLIHKC
+                     SECGNICPNGQQHGTCININYLLIYAVKRDNYMLAYRLLCWGANEKFAHYFRRPLPNL
+                     KPLLPKKELTPKDIKQLAYEHFHSDSELITVFEVFRKSRNINDCLEFFYKKNIEFEIY
+                     FARLYVYSKTFYRKSWYWFCIFMAVKHSMEHALKKITKTYIPTFYNKTTLPLVLFLSA
+                     CFYENVEWMKNFFYKANKKIQQKMLSYGMEWAATHGKVRTFVCCYTLGGTASLKMYQK
+                     AYQNERYMIMALCSYLGNIQINNPWDSLNPYMMVQNKEKFLPLKFSEETQYFYI"
+     gene            complement(24014..24973)
+                     /gene="MGF 360-8L CDS"
+                     /locus_tag="IM014_gp048"
+                     /db_xref="GeneID:59227049"
+     CDS             complement(24014..24973)
+                     /gene="MGF 360-8L CDS"
+                     /locus_tag="IM014_gp048"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927138.1"
+                     /db_xref="GeneID:59227049"
+                     /translation="MLSLQTLAKKAVAKQSVPEEYHYILKYCGLWWQNKPISLCHYCN
+                     YVILSSTPFKGELLHLDVALIMAIKENNYDVIRLFTEWGANIYYGLTCARTEQTQELC
+                     RKLGAKDSLNNKEIFTGLMRHKTSNNIILCHEIFDKNPMLEALNVQEMGEEIHRELKF
+                     FIFYILDNVPMNVFVKYCYAIAVKYKLKRAISFFYQTYGHLSMWRLMCAIYFNNVFDL
+                     HEIYEQKIVHMDIDKMMQLACMKDYNFLTIYYCFVLGGDIDQAITATQWHHQTNNLYF
+                     CKDLKDLKQNTLTARPLLLPNITDPKKIYTMLKNYLPTSSNSL"
+     gene            complement(25135..26187)
+                     /gene="MGF 360-9L CDS"
+                     /locus_tag="IM014_gp049"
+                     /db_xref="GeneID:59227067"
+     CDS             complement(25135..26187)
+                     /gene="MGF 360-9L CDS"
+                     /locus_tag="IM014_gp049"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927139.1"
+                     /db_xref="GeneID:59227067"
+                     /translation="MVLSLQTLTKKVLASQYPAKCHPHFLKCCGLWWHNGPIMYHQKK
+                     IWTPYFKNGTNLNAALVKAVEENNHDLIELFTEWGANINYGLLSVNTEHTRDLCRQLG
+                     AKEQLNDQEILRFFYTLKRDLTSSNIIFCHEVFSNNPILDTINRFEVKGMIYEQLEGL
+                     MVETDILSEMFTKYWYAMAIECNLKEAICYFYQRYAHLHRWRLMCALFYNNVFELHEV
+                     YEKERIRIDMNEMLKWACRKNYNYLTIYYCCVVLGADINQAMFHSIQFYNIGNIFFCI
+                     DLGANAFEEGKTLAHQKDNSFIASMLSLNCYNMNDSLSLKETDPEVIKRMLKDYHSKN
+                     LSIAHKHYINDGFNDI"
+     gene            complement(26373..27410)
+                     /gene="MGF 360-10L CDS"
+                     /locus_tag="IM014_gp050"
+                     /db_xref="GeneID:59227068"
+     CDS             complement(26373..27410)
+                     /gene="MGF 360-10L CDS"
+                     /locus_tag="IM014_gp050"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927140.1"
+                     /db_xref="GeneID:59227068"
+                     /translation="MFPSLQSFAKKVLARQQVSIEYHVILERCGLWWYKAPISLDCKH
+                     MLIKLPSFADGLDLNTALMLATKENNYQLIKLFTEWGADINYGLICANTPPVREFCWE
+                     LGAKYRVDKKKIMHMFFKLIHPGTTSSNIILCLKLFNDNPFPAYVIIREIRSSIYWKL
+                     KRLVEDTDILSNMSDGDMLTIYCFIVALQDNLREAISYVYQHFKYLNTWWLICALCFN
+                     KLFDLHNLYEKEKIRMDVDEMMRMACTKDNNFLTIYYCFLLGANINSAMLACVRFYNM
+                     DNLFFCIDLGADAFEEAKALAEQRNYYLISHHLSLDIYSADSSLLTLKEADPNKIYHL
+                     LKNYKLKSMLA"
+     gene            complement(27438..28499)
+                     /gene="MGF 360-11L CDS"
+                     /locus_tag="IM014_gp051"
+                     /db_xref="GeneID:59227050"
+     CDS             complement(27438..28499)
+                     /gene="MGF 360-11L CDS"
+                     /locus_tag="IM014_gp051"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927141.1"
+                     /db_xref="GeneID:59227050"
+                     /translation="MLPSLQSLTKKVLAGQCIPVDQYHVLKCCGLWWHNGPIMLHIRR
+                     NKLFIRSTCFSQGIELNIGLMKAVKENNHDLIKLFTEWGADINYGMICALTENTRDLC
+                     KELGAKEYLEREYILKIFFDTTRDKTSSNIIFCHEVFSNNPNLRIIDNLDLRGEIMWE
+                     LRGLMEITFMLDHDDSFSTVLTKYWYAIAVDYDLKDAIRYFYQKYPRLHRWRLMCALF
+                     YNNVFDLHELYEIERVRMDIDEMMHIACIQDYSYSAIYYCFIMGANINQAMLVSIQNY
+                     NLGNLFFCIDLGADAFEEGKALAEQKENYLIAHALSLKHYNPVISLLSIVTDPEKINC
+                     MLKNYHSINMGIFLDYEQR"
+     gene            28707..30302
+                     /gene="MGF 505-1R CDS"
+                     /locus_tag="IM014_gp052"
+                     /db_xref="GeneID:59227051"
+     CDS             28707..30302
+                     /gene="MGF 505-1R CDS"
+                     /locus_tag="IM014_gp052"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927142.1"
+                     /db_xref="GeneID:59227051"
+                     /translation="MFSLQNLCRKTLPNRKLPEFFDEYILQLLGLYWENHGTIQRAGN
+                     NCVLIQQHTLIPVNEALRTAASEENYEIVSLLLAWEGNLYYAIIGALEGNRHDLIRKY
+                     DDQIKDHHEILPFIDDPVIFHKCHIMRQCFFDCILYQAVKYSKFRVLLYFKHRLEDDL
+                     PFTHLLIEKACKDHNYEVIKWIYENLHIYNMIDTFECAIAHKDLHLYCLGYRFIYNRI
+                     VPDKYHHLDIRMLSSLQLLHKVAAKGYLDFILETLKYDHNKDNINIILTQAATYNHRK
+                     ILIYFIPQSTHAQIEQCLLVAIKAKSSRKTLNLLLSHLNLSINLIKKISHYVATYNST
+                     NIIGILSMRRKKKIYLDIILTKFVKKAIFNKFVVRCMDTFSINPERILKIAARINRMM
+                     LVKKISEHVWKNHAVRLKYLKHAVHTMKHKDGKNRLMNFIYDRCYYHMQGEEIFSLAR
+                     FYAIHHAPKLFDVFYDCCILDTIRFKSLLLDCSHIIGKNAHDATNINIVNKYIGNLFV
+                     MGVLSKKEILQDYPSIYSKQYMP"
+     gene            complement(30355..31407)
+                     /gene="MGF 360-12L CDS"
+                     /locus_tag="IM014_gp053"
+                     /db_xref="GeneID:59227071"
+     CDS             complement(30355..31407)
+                     /gene="MGF 360-12L CDS"
+                     /locus_tag="IM014_gp053"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927143.1"
+                     /db_xref="GeneID:59227071"
+                     /translation="MLPSLQSLTKKVLAGQCVPTNQHYLLKCYDLWWHDAPITFDHNL
+                     RLIKSAGIKEGLNLNTALVKAVRENNYNLIKLFAEWGADINYGLVSVNTEHTWDLCRE
+                     LGAKETLNEEEILQIFIDLKFHKTSSNIILCHEVFSNNPILQKVNNIKMRIEIFWELR
+                     ELIVKTDLLNNEFSLSTLLLKYWYAIAIRYNLKEAIQYFYQKYTHLNTWRLTCALCFN
+                     NVFDLHEAYEKDKIHMDIEEMMRIACIKDHNLSTMYYCYVLGANINQAMLSSIQYYNI
+                     ENMFFCIDLGADVFEEGTTALGEGYELIKNILSLKIYSPATTPLPKSTDPEIIDHALK
+                     NYVSKNMMIFLTYDLR"
+     gene            complement(31568..32629)
+                     /gene="MGF 360-13L CDS"
+                     /locus_tag="IM014_gp054"
+                     /db_xref="GeneID:59227052"
+     CDS             complement(31568..32629)
+                     /gene="MGF 360-13L CDS"
+                     /locus_tag="IM014_gp054"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927144.1"
+                     /db_xref="GeneID:59227052"
+                     /translation="MSLPLSLQTLVKKTIASQCLSIDEHCILKYCGLWWHDAPLKLCM
+                     DRGRIQIKSGFLGEDIDLRVALIIAVKENNYSLIKLFTEWGANINYGLLSINTKHIRE
+                     LCRQLGAKETLEDNDIFRIFTRIMHNKTSGSIILCHEIFMNNPILENKFVIQLRGLIY
+                     KRLWGLIEIKETDELNGLLVKYWYAKAVQYDCKDAICFLDEKYTDLNEWRLKCLLYYN
+                     KIYELHEMYHKENIQIDVHDMICLASTKDNNPLTIYYCYALGGNINQAMLTSVQYYNI
+                     GNIFFCIDLGGNAFEEGRAIAEQKGYNFLSHSLALDIYSSDASLPLNLKDPEEISSLL
+                     KDYKSKNLSIIWEYSHNIL"
+     gene            complement(32814..33887)
+                     /gene="MGF 360-14L CDS"
+                     /locus_tag="IM014_gp055"
+                     /db_xref="GeneID:59227053"
+     CDS             complement(32814..33887)
+                     /gene="MGF 360-14L CDS"
+                     /locus_tag="IM014_gp055"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927145.1"
+                     /db_xref="GeneID:59227053"
+                     /translation="MLSLQTLAKKVVACNYLSSDYDYTLQRFGLWWDLGPIHLCNNCK
+                     QVFSYKHLQCFSEDDLCLEAALVKAVKSDNLELIRLFVDWGANPEYGLIRVPAVYLKR
+                     LCAELGGLTPVSEPRLLEILKEVARLKSCAGVLLGYDMFCHNPLLETVTRTTLDTVTY
+                     TCSNIPLTGDTAHHLLTKFWFALALRHNFTKAIHYFYKRHKNHLYWRVACSLYFNNIF
+                     DIHELCREKEICISPNLMMKFACLREKNYAAIYYCHRLGASLDYGMNLSIYNNNTLNM
+                     FFCIDLGAADFDRAQLIAHKAYMYNLSNIFLVKQLFSRDVTLVLDVTEPQEIYDMLKT
+                     YTSKNLKRAEEYLTAHPEIIVID"
+     gene            34093..35673
+                     /gene="MGF 505-2R CDS"
+                     /locus_tag="IM014_gp056"
+                     /db_xref="GeneID:59227054"
+     CDS             34093..35673
+                     /gene="MGF 505-2R CDS"
+                     /locus_tag="IM014_gp056"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927146.1"
+                     /db_xref="GeneID:59227054"
+                     /translation="MFSLQDLCRKHLFILPDVFGEHVLQRLGLYWRCHGSLQRIGDDH
+                     ILIRRDLILSTNEALRMAGEEGNNEVVKLLLLWKGNLHYAVIGALQGDQYDLIHKYEN
+                     QIGDFHFILPLIQDANTFEKCHALERFCGVSCLLKHATKYNMLPILQKYQEELSMRAY
+                     LHETLFELACLWQRYDVLKWIEQTIHVYDLKIMFNIAISKRDLTMYSLGYIFLFDRGN
+                     TEATLLTQHLKKTAAKGLLHFVLETLKYGGNIDTVLTQAVKYNHRKLLDYFLRQLPRK
+                     HIEKLLLLAVQEKASKKTLNLLLSHLNYSVKRIKKLPRYVIEYESTLVIKILLKKRVN
+                     LIDAMLEKMVRYFSATKVRTIMDELSISPERVIKMAIQKMRTDIVIHTSYVWEDDLER
+                     LTRLKNMVYTIKYEHGKKMLIKVMHGIYKNLLYGEREKVMFYLAKLYVAQNAATQFRD
+                     ICKDCYKLDVARFKPRFKQLILDCLEIITKKSCYSILEILEKHIISLFTMKVMTEEEK
+                     NLCLEILYKVIHYKTIQC"
+     gene            35760..36602
+                     /gene="MGF 505-3R CDS"
+                     /locus_tag="IM014_gp057"
+                     /db_xref="GeneID:59227072"
+     CDS             35760..36602
+                     /gene="MGF 505-3R CDS"
+                     /locus_tag="IM014_gp057"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927147.1"
+                     /db_xref="GeneID:59227072"
+                     /translation="MSSSLQELCRKKLPDCILPEFFDDYVLQLLGLHWQDHGSLQRIE
+                     KNQILVQQEPIHINEALKVAASEGNYEIVELLLSWEADPRYAVVGALESKYYDLVYKY
+                     YDQVKDCHDILPLIQNPETFERCHELNSTCSLKCLFKHAVINDMLPILQKYTDYLDRW
+                     EYCSQMLFELACSKKKYEMVVWIEGVLGVGKVTSLFTIAISNRDLQLYSLGYSIILEN
+                     LYSCGQDPKFLLNHFLRDVSIKGLLPFVIKTIEYGGSKEIAITLAKKYQHKHILKYFE
+                     TWES"
+     gene            complement(36680..36802)
+                     /gene="ASFV G ACD 00520 CDS"
+                     /locus_tag="IM014_gp058"
+                     /db_xref="GeneID:59227073"
+     CDS             complement(36680..36802)
+                     /gene="ASFV G ACD 00520 CDS"
+                     /locus_tag="IM014_gp058"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927148.1"
+                     /db_xref="GeneID:59227073"
+                     /translation="MFPTDVLKRKHLFTKKNINFTGILMYDKTVVHWFEISKTI"
+     gene            36770..38290
+                     /gene="MGF 505-4R CDS"
+                     /locus_tag="IM014_gp059"
+                     /db_xref="GeneID:59226919"
+     CDS             36770..38290
+                     /gene="MGF 505-4R CDS"
+                     /locus_tag="IM014_gp059"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927149.1"
+                     /db_xref="GeneID:59226919"
+                     /translation="MFSLQDICRKHLFQLPDAFDEYILQALGLYWEKHGSLQRIRKDA
+                     VFVQRNIVLSTNEALRIAASEGNERVIKLLLSWEGNFHYVIIGALEGDQYDLIHKYDS
+                     QIKDYHMILSLIQNANTFEKCHQLSNSNMWCLIQNAIKYNMLPILQKHRNILTHEGEN
+                     QELFEMACEEQKYDIVLWIGQTLMLNEPEFIFDIAFERIDFSLLTMGYSLLFDNKMSS
+                     IDIHDEEDLTSLPTEHLEKAATKGCFFFMLETLKHGGNVNMAVLSKAVEYNHRKILDH
+                     FIRRQKCLSREEIENLLLTAITNCASIKTLNLLLSYLNYSVKNIIGKIVQHVIKDGDY
+                     TIILLLKKKKINLVEPVLTGFIDYYYSYCFIKHFIQEFAIRPEKLIKMAARKGKLNMI
+                     IEFLNEKYVHKDDLGTIFKYLKTLVCTMKHKKGKETLIVLIHKIYQDIHLETKEKFKL
+                     LRFYVMHDATIQFLSMCKDCFNLAGFKPFVLECLDIAIKKNYPDMIQYIEILSKSE"
+     gene            38319..39815
+                     /gene="MGF 505-5R CDS"
+                     /locus_tag="IM014_gp060"
+                     /db_xref="GeneID:59227074"
+     CDS             38319..39815
+                     /gene="MGF 505-5R CDS"
+                     /locus_tag="IM014_gp060"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927150.1"
+                     /db_xref="GeneID:59227074"
+                     /translation="MFSLQEICRKNIYFLPDWLGEHVIQRLGLYWEKHGSLQRIGDNY
+                     VLIQQDLIIPINEALRMAGEEGNDEVVQLLLLWEGNIHYAIIGALESDHYSLIRKLYD
+                     QIEDCHDILPLIQDPKLFEKCHELDKSCNILCLVLHAVKNDMLCILQEYKMHLSGEDI
+                     QVVFETACRSQKNDIVSWMGQNIAIYNPEVIFDIAFDKMNVSLLSIGYTLLFNHHINN
+                     TNENINSLLTQHLEWAAGMGLLHFMLETLKYGGDVTIIVLSEAVKYDHRKILDYFLRR
+                     KNLYQEDLEELLLLAIRADCSKKTLNLLLSYLNYSINNIRKKILQCVKEYETTVIIKI
+                     LRKRKINLIEPILADFIGYHSYTYMVDFMREFSIHPEKMIKMAARESREDLIIKFSKK
+                     VCKEPKDRLHYLKSLVYTMRHKEGKQLLIYTIHNLYKACHLESKEMFNLARFYARHNA
+                     VIQFKSICHDLSKLNINIKNLLLECLGIAIKKNYFQLIKTIETDMRYE"
+     gene            40016..41593
+                     /gene="MGF 505-6R CDS"
+                     /locus_tag="IM014_gp061"
+                     /db_xref="GeneID:59227075"
+     CDS             40016..41593
+                     /gene="MGF 505-6R CDS"
+                     /locus_tag="IM014_gp061"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927151.1"
+                     /db_xref="GeneID:59227075"
+                     /translation="MFSLQDLCRKNIFFLPNDFSKHTLQWLGLYWKEHGSVHRAEKDS
+                     IMIQNELVLSINDALQLAGEEGDTDVVQLLLLWEGNLHYAIIGALKTEKYNLICEYHS
+                     QIQDWHILLPMIQDPETFEKCHDLSLGCDFICLLQHAVKYNMLSILVKYKEDLLNARI
+                     RHRIQSLFVLACENRRIEIIDWIGQNLPIPEPDAIFSIAVATRDLELFSLGYKIIFDY
+                     MQRQGIIQLTNGVRMVVLNRHISMAIDNGLLPFVLETLKHGGNIHRALSYAVTHNRRK
+                     ILDYLIRQKNIAPNTIERLLYLAVKNQSSRKTLNLLLSYINYKVKNVKKLVEHVVNEK
+                     STLVLKILLEKKENLVDAVLTRLVKHSTYFQVREFIQEFSISPEKFIKIAVREKKNVL
+                     IEAISEDIWENPTERITYLKQIVHTIKYESGRRFLVDIIHSIYQSYSLKHEDILKLAT
+                     FYVKHNAITHFKDLCKYLWLNRGTESKKLFLECLEIADEKEFPDIKSIVSEYINYLFT
+                     AGAITKEEIMQAYDALE"
+     gene            41723..43306
+                     /gene="MGF 505-7R CDS"
+                     /locus_tag="IM014_gp062"
+                     /db_xref="GeneID:59227076"
+     CDS             41723..43306
+                     /gene="MGF 505-7R CDS"
+                     /locus_tag="IM014_gp062"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927152.1"
+                     /db_xref="GeneID:59227076"
+                     /translation="MFSLQDLCRKNTFFLPSDFSKHTLHLLGLYWKGHGSIQRIKNDG
+                     VLIEHDLTLSINEALILAGEEGNNEVVKLLLLWEGNLHYAIIGALRTENYNLVCEYHS
+                     QIQDWHVLLPLIQDPETFEKCHDLSLECDLSCLLQHAVKYNMLSILVKYKEDLLNVLF
+                     RQQIQGLFILACENRKLEILTWMGQNLPIPDPEPIFSIAVVTKDLEMFSLGYKIVFEY
+                     MENQGLHLTQVVRMVMLNHHFGMVINKGLLPFVLEILNYGGNVNRALSYAVTQNKRKI
+                     LDHVVRQKNIPHKTIERMLHLAVKKHAPRKTLNLLLSYINYKVKNVKKLLEHVVKYNS
+                     TLVIRLLLEKKKNLLDATLTRYVKDSTYFQVKEFMQDFSISPEKFIKIAVREKRNVLI
+                     KGISEDIWENPAERIRNLKQIVCTIKYESGRQFLINIIHTIYQSYSLKPEEILKLATF
+                     YVKHNATTHFKDLCKYLWLNRRTESKKLFLECLEIADKKEFPDIKSIVSEYINYLFTA
+                     GAITKEEIMQAYALEYAMY"
+     gene            43610..45130
+                     /gene="MGF 505-9R CDS"
+                     /locus_tag="IM014_gp063"
+                     /db_xref="GeneID:59227077"
+     CDS             43610..45130
+                     /gene="MGF 505-9R CDS"
+                     /locus_tag="IM014_gp063"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927153.1"
+                     /db_xref="GeneID:59227077"
+                     /translation="MFSLQDLCRKNLFLPLEPLGKHVVQRLGLYWEGHGSVKRVGDCF
+                     ICVDQIWMLSIHKAIQIAASEGNENIVKLFLLWKGSLQYAIIGALEGRQYDLIQKYYN
+                     QIGDCHQILPLIQDPEIYERCHELNVTCTFQCLFQHAIRDNMLPIFQKYGEDLNGNRR
+                     MVQLLYEMACRLQNYDIIKWIGSNLHVYNLEAIFSIAFVRKDLTLYSLGYMLLLGRMS
+                     TEDRNFISIITRHLEYASKKGLFDFVLESLKYGGQVDTVLFQAVKYNHRKILAHFIHE
+                     IPRETVEKLILHAVESRASRKTFNLLLSSINYCVNPFVKKLLHAVVKHKYMLIIKLLL
+                     ERPKKKINLVDAALFKLVKYSTYTEIVKYMGEFSVDPKRVVKMAARLMRVDLIKKISN
+                     DAWEDKLERIKHLKQMVNTMNHRNGKNLLMYNIHNITGYTYLNTKEAFNLTRFYAVHN
+                     ATCLFKEMCKSCFVHDKIQLRELLEDCLHIANRHDYIQIAETADECIKYIDLITFK"
+     gene            45542..47170
+                     /gene="MGF 505-10R CDS"
+                     /locus_tag="IM014_gp064"
+                     /db_xref="GeneID:59227078"
+     CDS             45542..47170
+                     /gene="MGF 505-10R CDS"
+                     /locus_tag="IM014_gp064"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927154.1"
+                     /db_xref="GeneID:59227078"
+                     /translation="MFSLQELCRKNIYILPYPLAKHVLQQLGLYWKGHGSLQRIGDDH
+                     VLLQQDLIFSINEALRMAGEEGNNEVVKLLLLWEGNLHYAIIGALEGDRYDLIHKYYD
+                     QIGDCHKILPLIQDPQIFEKCHELSNSCNIRCLLEHAVKHDMLSILQKHKEQIRLHMA
+                     LTQILFELACHERKNDIIRWIGYSLHIHHLETIFDVAFAHKNLSLYVLGYELLMHKVN
+                     TEAAYIELPNLLSYHLRTAAAGGLLNFMLETIKHGGYLDKTVLSAAIRYKHRKIVAHF
+                     IHQVPRKTVKKLLLYAVQARAPKKTLNLLLSSLNYSVHTITKQLVHNVVIYSSTLIVK
+                     LLLMRRKNKLNLVDAVLARLVKYSTYTDIVQFMGEFSVSPERVIKMAARESRTFLIEM
+                     ISKAAWGNHPQTLIHHLKQLTNTMKPQSGKDHIIYTIHYIYLNSNMLVAEEEKNIFKL
+                     AKFYANHNAVNRFKQICEDYYILDARFKTLILECFEIAVQKNYPRIANIVDDYIRFLF
+                     YRGNITEEEIREAYSLKDAEVYVDLKWLQQGEMV"
+     gene            complement(47287..47961)
+                     /gene="A224L CDS"
+                     /locus_tag="IM014_gp065"
+                     /db_xref="GeneID:59227069"
+     CDS             complement(47287..47961)
+                     /gene="A224L CDS"
+                     /locus_tag="IM014_gp065"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927155.1"
+                     /db_xref="GeneID:59227069"
+                     /translation="MFPKINTIDPYISLRLFEVKPKYVGYSSIDARNQSFAIHDIKNY
+                     EKFSNAGLFYTSPTEITCYCCGMKFCNWLYEKHPLQVHAFWSRNCGFMRATLGIIGLK
+                     KMIDSYNDYYNNEVFVKHQNRVYTHKRLEDMGFSKPFMRFILANAFIPPYRKYIHKII
+                     LNERYFTFKFAAHLLSFHKVNLDNQTTYCMTCGIEPIKKDENFCNACKTLNYKHYKTL
+                     NFSVKL"
+     gene            complement(48000..48152)
+                     /gene="ASFV G ACD 00600 CDS"
+                     /locus_tag="IM014_gp066"
+                     /db_xref="GeneID:59226903"
+     CDS             complement(48000..48152)
+                     /gene="ASFV G ACD 00600 CDS"
+                     /locus_tag="IM014_gp066"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927156.1"
+                     /db_xref="GeneID:59226903"
+                     /translation="MSGFMNSLRKCIGNINSHLEGFMRTYLLRIIRKIKPTTQPSIED
+                     DHYKCL"
+     gene            48322..48636
+                     /gene="A104R CDS"
+                     /locus_tag="IM014_gp067"
+                     /db_xref="GeneID:59226920"
+     CDS             48322..48636
+                     /gene="A104R CDS"
+                     /locus_tag="IM014_gp067"
+                     /codon_start=1
+                     /product="DNA binding protein"
+                     /protein_id="YP_009927157.1"
+                     /db_xref="GeneID:59226920"
+                     /translation="MSTKKKPTITKQELYSLVAADTQLNKALIERIFTSQQKIIQNAL
+                     KHNQEVIIPPGIKFTVVTVKAKPARQGHNPATGEPIQIKAKPEHKAVKIRALKPVHDM
+                     LN"
+     gene            complement(48633..49343)
+                     /gene="A240L CDS"
+                     /locus_tag="IM014_gp068"
+                     /db_xref="GeneID:59226899"
+     CDS             complement(48633..49343)
+                     /gene="A240L CDS"
+                     /locus_tag="IM014_gp068"
+                     /codon_start=1
+                     /product="thymidylate kinase"
+                     /protein_id="YP_009927158.1"
+                     /db_xref="GeneID:59226899"
+                     /translation="MRGILIAIEGINGVGKSTQAMKLKETLECMDYNAICIHFPNPDT
+                     TTGDLILQVLNKTIEMSSEQLHKLFTKHRSEFIAEIAVLLKLNYIVIVDRYIWSGLVY
+                     AQADGITIETKNTFKPDYTFFLSSKKPLNEKPLTLQRLFETKEKQETIFTNFTIIMDD
+                     VPKNRFCIIPATLNKEIIHMIILTKTLKVFDNNSCLNYIKMYDDKYLNVQDLNLFDFD
+                     WQKYIEDNNDKEEYDFIV"
+     gene            49255..49437
+                     /gene="A118R CDS"
+                     /locus_tag="IM014_gp069"
+                     /db_xref="GeneID:59226905"
+     CDS             49255..49437
+                     /gene="A118R CDS"
+                     /locus_tag="IM014_gp069"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927159.1"
+                     /db_xref="GeneID:59226905"
+                     /translation="MHSNVSFNFIACVLFPTPLIPSMAMSIPRMINKRKKRIQFLTFL
+                     TNLFLYNIVQHCISGI"
+     gene            49652..50107
+                     /gene="A151R CDS"
+                     /locus_tag="IM014_gp070"
+                     /db_xref="GeneID:59226900"
+     CDS             49652..50107
+                     /gene="A151R CDS"
+                     /locus_tag="IM014_gp070"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927160.1"
+                     /db_xref="GeneID:59226900"
+                     /translation="MMALLHKEKLIECIYHELENGGTILLLTKNIVVSEISYIGNTYK
+                     YFTFNDNHDLISKEDLKGATSKNIAKMIYNWIIKNPQNNKIWSGEPRTQIYFENDLYH
+                     TNYNHKCIKDFWNVSTSVGPHIFNDRSIWCTKCTSFYPFTNIMSPNIFQ"
+     gene            50346..51215
+                     /gene="MGF 360-15R CDS"
+                     /locus_tag="IM014_gp071"
+                     /db_xref="GeneID:59226901"
+     CDS             50346..51215
+                     /gene="MGF 360-15R CDS"
+                     /locus_tag="IM014_gp071"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927161.1"
+                     /db_xref="GeneID:59226901"
+                     /translation="MNKIFLNITETINMVLIEFLTGFFYLYGKRLFSISKVMDMICLD
+                     YYTIIPAPLAMMLAARLKNYDLMKRLHEWEISIDYALLVVDDVPSIDYCLSLGARSPT
+                     RAQKRELLRDNTFNPVYKYLMNCSGFPTKREKNIPCDVQCERLQKNIIKELVFNCSVL
+                     LEMVLHTEREYAYALHCAAKHNQLPILMYCWQQSTDAESILLKTCCSDKNINCFNYCI
+                     LYGGAQNLDAAMVEAAKHDARMLINYCVMLGGRSLNEAKETAAMFGHIECAQHCFKLQ
+                     SYVVDTSNTDDTD"
+     gene            51233..51337
+                     /gene="hypthetical"
+                     /locus_tag="IM014_gp072"
+                     /db_xref="GeneID:59227055"
+     CDS             51233..51337
+                     /gene="hypthetical"
+                     /locus_tag="IM014_gp072"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927162.1"
+                     /db_xref="GeneID:59227055"
+                     /translation="MNDCLLSIYTYIIFFYEKNIKVVYKPLYTRNLDH"
+     gene            complement(51451..52140)
+                     /gene="A238L CDS"
+                     /locus_tag="IM014_gp073"
+                     /db_xref="GeneID:59227007"
+     CDS             complement(51451..52140)
+                     /gene="A238L CDS"
+                     /locus_tag="IM014_gp073"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927163.1"
+                     /db_xref="GeneID:59227007"
+                     /translation="MEHMFPEREIENLFVKWIKKHIRNGNLTLFEEFFKTDPWIVNRC
+                     DKNGSSVFMWICIYGRIDFLKFLFEQESYPGEIINPHRRDKDGNSALHYLAEKKNHLI
+                     LEGVLGYFGKNGTRICLPNFNGMTPVMKAAIRGRSLNMLSLIKFGADPTQKDYHRGFT
+                     AWDWAVFTGNMELVKSLNHDYQNLSTCISLFTSWMFSTGGLRKSPKLLLLAVNIMSMK
+                     NFLNRIQSSCV"
+     gene            complement(52181..54757)
+                     /gene="A859L CDS"
+                     /locus_tag="IM014_gp074"
+                     /db_xref="GeneID:59226904"
+     CDS             complement(52181..54757)
+                     /gene="A859L CDS"
+                     /locus_tag="IM014_gp074"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927164.1"
+                     /db_xref="GeneID:59226904"
+                     /translation="MCAGFYVAVHPWLEAQSLHKVGHTGNLAARLHDGSYTTCFTDEW
+                     KYCFTLETSTKKDAQKIEAGVLYCAQFFRVKNKELVCLLPEKIKQLAEDVANCLDISY
+                     TLCDSPAYEMNDSTIVVEPSLPSDPLISKEKLRHLVITPVEDEHFADDVLFFSTDETR
+                     TAIEDRLYQKEAANMGYQELRRSGRAILQMACRCGKTRVAYLILSNYLQGKVLYLVPG
+                     LSLLRQTLEKLYQYGISLKNVLLVGSDQTRIVLNHDNIEMTTNPVFIAKRIREAPSLL
+                     VIATYQSSTLLVDDFDLIISDECHRICGEWETRPFTHVLLNFKKGHRLFLTATPRYDT
+                     PLSMKNRELFGGVAFRYYLREGIEAGYVNDFELQMVAAPKLAHQPSTKEETTKQIIVK
+                     QIIMALAYLKTNIPAPKMLVFTRDIKQAKELYAALVDQGVYALIAHSTLPRQVILKTF
+                     TEFCSSKEPVILLNCRLFQEGVEVPELNAVFFAAPRHSPRDIIQSICRPLNKQVQKPH
+                     ATIFLPLEVNTENVCLDRFSSIIPFADALASEDPRFYEHLLNPSEVAYPINWIGAHGS
+                     VSELLQLARHAIRYGTQGKIDRLTRSERLPWKAAFAELKRTVEICCRYPKINDGFHFG
+                     GATLRFDTWYKWVIKSYLQYKNKEPSSLEPYQVSDLESLQDWTTRGVGGPYPWEESMA
+                     FLETWLAQNKGELVAIDIHQGGWIGLDATPMERLSGVLTTVSQRDGRSYGKNKKLRPK
+                     KGFMIPPQQAQDLDRIFGKHNLKWRKDRVNGFLKEDEHGNYTGEPTCIQEAYRTFKEY
+                     VKTNPEYIEKYWPGYAKGKHKHQELPHIWEKGLAPPRYKAFKDGNKQLIQRSPKKKDI
+                     KN"
+     gene            complement(54759..55298)
+                     /gene="A179L CDS"
+                     /locus_tag="IM014_gp075"
+                     /db_xref="GeneID:59226906"
+     CDS             complement(54759..55298)
+                     /gene="A179L CDS"
+                     /locus_tag="IM014_gp075"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927165.1"
+                     /db_xref="GeneID:59226906"
+                     /translation="MEGEELIYHNIINEILVGYIKYYINDISEHELSPYQQQIKKILT
+                     YYDECLNKQVTITFSLTSVQEIKTQFTGVVTELFKDLINWGRICGFIVFSAKMAKYCK
+                     DANNHLESTVITTAYNFMKHNLLPWMISHGGQEEFLAFSLHSDMYSVIFNIKYFLSKF
+                     CNHMFFRSCVQLLRNCNLI"
+     gene            55531..55944
+                     /gene="A137R CDS"
+                     /locus_tag="IM014_gp076"
+                     /db_xref="GeneID:59226902"
+     CDS             55531..55944
+                     /gene="A137R CDS"
+                     /locus_tag="IM014_gp076"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927166.1"
+                     /db_xref="GeneID:59226902"
+                     /translation="MEAVLTKLDQEEKKALQNFHRCAWEETKNIINDFLEIPEERCTY
+                     KFNSYTKKMELLFTPEFHTAWHEVPECREFILNFLRLISGHRVVLKGPTFVFTKEIKN
+                     LGIPSTINVDFQANIENMDDLQKGNLIGKMNIKEG"
+     gene            complement(55977..56930)
+                     /gene="F317L CDS"
+                     /locus_tag="IM014_gp077"
+                     /db_xref="GeneID:41902814"
+     CDS             complement(55977..56930)
+                     /gene="F317L CDS"
+                     /locus_tag="IM014_gp077"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927167.1"
+                     /db_xref="GeneID:41902814"
+                     /translation="MVETQMDKLGFLLNHIGKQVTTKVLSNAHITQTMKEIILENHSV
+                     DGGAAKNVSKGKSSPKEKKHWTEFESWEQLSKSKRSFKEYWAERNEIVNTLLLNWDNV
+                     RGAIKKFLDDDREWCGRINMINGVPEIVEIIPSPYRAGENIYFGSEAMMPADIYSRVA
+                     NKPAMFVFHTHPNLGSCCGGMPSICDISTTLRYLLMGWTAGHLIISSNQVGMLTVDKR
+                     IIVDLWANENPRWLMAQKILDIFMMLTSRRSLVNPWTLRDLKKILQDYGIEYIIFPSN
+                     DFFIYEDERLLMFSKKWTNFFTLHELLDDLETIETKASSTT"
+     gene            complement(56956..57960)
+                     /gene="F334L CDS"
+                     /locus_tag="IM014_gp078"
+                     /db_xref="GeneID:59226994"
+     CDS             complement(56956..57960)
+                     /gene="F334L CDS"
+                     /locus_tag="IM014_gp078"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927168.1"
+                     /db_xref="GeneID:59226994"
+                     /translation="MLIFISNMEELLIENSQRFTIFPIQHPECWNWYKKLESLTWTAQ
+                     EVDMCKDIDDWEAMPKPQREFYKQILAFFVVADEIVIENLLTNFMREIKVKEVLYFYT
+                     MQAAQECVHSEAYSIQVKTLIPDEKEQQRIFSGIEKHPIIKKMAQWVRQWMDPDRNTL
+                     GERLVGFAAVEGILFQNHFVAIQFLKEQNIMPGLVSYNEFISRDEGMHCSFACFLISN
+                     YVYNIPEEKIIHKILKEAVELVDEFINYAFDKARGRVPGFSKEMLFQYIRYFTDNLCF
+                     MMQCKSIYKVGNPFPQMTKFFLNEVEKTNFFELRPTQYQNCVKDDAFAFKLFLNDDDF
+                     "
+     gene            57981..60317
+                     /gene="F778R CDS"
+                     /locus_tag="IM014_gp079"
+                     /db_xref="GeneID:59226995"
+     CDS             57981..60317
+                     /gene="F778R CDS"
+                     /locus_tag="IM014_gp079"
+                     /codon_start=1
+                     /product="ribonucleotide reductase large subunit"
+                     /protein_id="YP_009927169.1"
+                     /db_xref="GeneID:59226995"
+                     /translation="METFFIETLASDVYGKALNVDLDRLSQAQVKYTLQELISYCSAL
+                     TILHYDYSTLAARLSVYQLHQSTASSFSKAVRLQAAQSCSRLSPQFVDVVYKYKAIFD
+                     SYIDYSRDYKLSLLGIETMKNSYLLKNKDGVIMERPQDAYMRVAIMIYGMGRVVNMKM
+                     ILLTYDLLSQHVITHASPTMFNAGTKKPQLSSCFLLNVNDNLENLYDMVKTAGIISGG
+                     GGGIGLCLSGIRAKNSFISGSGLKSNGIQNYIVLQNASQCYANQGGLRPGAYAVYLEL
+                     WHQDIFTFLQMPRLKGQMAEQRLNAPNLKYGLWVPDLFMEILEDQIHNRGDGKWYLFS
+                     PDQAPNLHKVFDLERSQHENAHREFKKLYYQYVAEKRYTGVTTAKEIIKEWFKTVVQV
+                     GNPYIGFKDAINRKSNLSHVGTITNSNLCIEVTIPCWEGDKAEQGVCNLAAVNLAAFI
+                     RENGYDYRGLIEASGNVTENLDNIIDNGYYPTEATRRSNMRHRPIGIGVFGLADVFAS
+                     LKMKFGSPEAIAMDEAIHAALYYGAMRRSIELAKEKGSHPSFPGSAASKGLLQPDLWV
+                     RCGDLVSSWEERVAQTTQGVLTPKRWSQLRLAAMQGLRNGYVTALMPTATSSNSTGKN
+                     ECFEPFTSNLYTRRTLSGEFIVLNKYLIDDLKEINLWTEAIQQQLLNAGGSIQHILDI
+                     PAEIRDRYKTSREMNQKILTKHAAARNPFVSQSMSLNYYFYEPELSQVLTVLVLGWKK
+                     GLTTGSYYCHFSPGAGTQKKIIRNSEKACNADCEACLL"
+     gene            60350..60847
+                     /gene="F165R CDS"
+                     /locus_tag="IM014_gp080"
+                     /db_xref="GeneID:59226996"
+     CDS             60350..60847
+                     /gene="F165R CDS"
+                     /locus_tag="IM014_gp080"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927170.1"
+                     /db_xref="GeneID:59226996"
+                     /translation="MVNPNKRIMNKKSKQASISSILNFFFFYIMEYFVAVDNETSLGV
+                     FTSIEQCEETMKQYPGLHYVVFKYMCPADAENTDVVYLIPSLTLHTPMFVDHCPNRTK
+                     QARHVLKKINLVFEEESIENWKVSVNTVFPHVHNRLSAPKLSIDEANEAVEKFLIQAG
+                     RLMSL"
+     gene            complement(60834..63980)
+                     /gene="F1055L CDS"
+                     /locus_tag="IM014_gp081"
+                     /db_xref="GeneID:59226993"
+     CDS             complement(60834..63980)
+                     /gene="F1055L CDS"
+                     /locus_tag="IM014_gp081"
+                     /codon_start=1
+                     /product="replication"
+                     /protein_id="YP_009927171.1"
+                     /db_xref="GeneID:59226993"
+                     /translation="MQETFKFLRCNSQGEAVEDKYSLETLKNHFVVRDEYNNLFRVFS
+                     SRDDFWEWEAAQPFEQKCFHEVVFGFLPQRLKFDIDFPVNKSYSDDNVDDNDNVEDNV
+                     YDILDMIINVIMDVFYETYSLPYNINLTREQILLTDSIGLNKKRELKYSFHIILYTYS
+                     VLNNNEAKVFTSKVLENLPKHVYPFVDPQVNKSIQNFRIIGSHKKGSMRVKMFNEELA
+                     EVFETSTTTKKSDTLIATPFETTCLPCIFTNVKETTPSSCDTIQQSELEEVLKFAGTL
+                     CKNHCFLRVHKNLVLFKRTSPSYCEICKRMHDKDNTLILRVTGNKVYQHCRHDNKHSL
+                     LMGSLSGTNNFVETYVDQVMTKSIEVHESILFEELPDTQKHIYDESSMREYERVPTLV
+                     VKAQMKIGKTVQLRNYLQKYYGNNSISKQQTIRFVTFRQIFSKNIQSRLPNFTLYSEV
+                     TGDLDSYERVIIQVESLFRLTSTAEPVDLLILDEVESIFNQFNSGLHKYFAPSFAIFM
+                     WMLETANYVICLDANLGNRTYNILQRFRGDVPIFFHWNQYKRAQHDTYYFTSSRETWL
+                     NNLLKDLLEDKKIVIPTNSLMEARLLQSFIQKKFPEKKIGFYSSKSTAHERESHFNNV
+                     SYYWGLVDILIYTPTISAGVSYEDKRFDVLYGFFNNMSCDVETCCQMLGRVRELKSKC
+                     YKICLQGKQNYYPETIEDIEMFTLQKRDTLFQTISNHQLSFTYSKETGRPIYYKTPYY
+                     HLWLETMRIQHLSKNHFITRFINQIADTGAKVFILTGEKLETVKQYTSIKMEIKHQDY
+                     VNIASAETIDANKALQIKQNLKEGITVDQQDLFAYEKYKLLEFYAWHGHKITPKFVEQ
+                     YNSFMTKQNYTGRVQISRGKTVYESLTMLQTQELNFHQWAMQHAEHHDLQFNYSFQSH
+                     MYAIMLLTKCGFKCVQDPNILTNEQLMTKLVDEFVQYDLSAISFEFKLKKPNKTDPQT
+                     ILKFINKVLGLRYGLKIHHNKGNYYIKNTKAGSLIPFVRQQIKQSPCVVSNLLPITET
+                     SSAKEETSPIKEETFTET"
+     gene            64174..64791
+                     /gene="K205R CDS"
+                     /locus_tag="IM014_gp082"
+                     /db_xref="GeneID:59226992"
+     CDS             64174..64791
+                     /gene="K205R CDS"
+                     /locus_tag="IM014_gp082"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927172.1"
+                     /db_xref="GeneID:59226992"
+                     /translation="MVEPREQFFQDLLSAVDQQMDTVKNDIKDIMKEKTSFMVSFENF
+                     IERYDTMEKNIQDLQNKYEEMAANLMTVMTDTKIQLGAIIAQLEILMINGTPLPAKKT
+                     TIKEAMPLPSSNTNNEQTSPPASGKTSETPKKNPTNAMFFTRSEWASSNTFREKFLTP
+                     EIQAILDEQFANKTGIERLHAEGLYMWRTQFSDEQKKMVKEMMKK"
+     gene            64880..65116
+                     /gene="K78R CDS"
+                     /locus_tag="IM014_gp083"
+                     /db_xref="GeneID:59227023"
+     CDS             64880..65116
+                     /gene="K78R CDS"
+                     /locus_tag="IM014_gp083"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927173.1"
+                     /db_xref="GeneID:59227023"
+                     /translation="MPTKAGTKSTANKKTTKGSSKSGSSRGHTGKTHASSSMHSGMLY
+                     KDMVNIARSRGIPIYQNGSRLTKSELEKKIKRSK"
+     gene            65113..65703
+                     /gene="K196R CDS"
+                     /locus_tag="IM014_gp084"
+                     /db_xref="GeneID:59227025"
+     CDS             65113..65703
+                     /gene="K196R CDS"
+                     /locus_tag="IM014_gp084"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927174.1"
+                     /db_xref="GeneID:59227025"
+                     /translation="MNIIRKLKPGTISLVLGPMFAGKTTFLIHCIYMLERLEKKVVFI
+                     KSTKNTRDKTIKTHSGIQLRPKQCKIIESTQLSDVGSLTDIHAVVVDEAHFFDDLITC
+                     RTWAEEEKIIILAGLNASFEQKMFPPIVRIFPYCSWVKYIGRTCMKCNQHNACFNVRK
+                     NADKTLILAGGSELYVTCCNNCLKNTFIKQLQPIKY"
+     gene            65719..66156
+                     /gene="K145R CDS"
+                     /locus_tag="IM014_gp085"
+                     /db_xref="GeneID:59227022"
+     CDS             65719..66156
+                     /gene="K145R CDS"
+                     /locus_tag="IM014_gp085"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927175.1"
+                     /db_xref="GeneID:59227022"
+                     /translation="MDHYLKKLQDIYTKLEGHPFLFSPSKTNEKEFITLLNQALASTQ
+                     LYRSIQQLFLTMYKLDPIGFINYIKTSKQEYLCLLINPKLVTKFLKITSFKIYINFRL
+                     KTFYISPNKYNNFYTAPSEEKTNHLLKEEKTWAKIVEEGGEES"
+     gene            66190..67458
+                     /gene="K421R CDS"
+                     /locus_tag="IM014_gp086"
+                     /db_xref="GeneID:59227021"
+     CDS             66190..67458
+                     /gene="K421R CDS"
+                     /locus_tag="IM014_gp086"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927176.1"
+                     /db_xref="GeneID:59227021"
+                     /translation="MYTHVDVVGIAEASAALYVQKDRDRYLDVLTTIENFIYQHKCII
+                     TGESAHLLFLKKNIYLYEFYSNNVAEHSKALATLLYKLDPEYLTRYTVLITKIPNHWY
+                     VINVDQREFVRLYAIPAVKQHLPIPILPFYCTSALTQQELFCLGPELQLIQIYSKLCN
+                     PNFVEEWPTLLDYEKSMRMLFLEQFPQRLEMTGGKKEEKEKHESIIKKIILEMVSTRQ
+                     RIVVGGYIQKNLYNHVLKNRNRLQLITSLNIYEEKDIIQQFCDSNGLKIKIRINNPLL
+                     PTNPELRRLTIYFNHNNDDDQSYLIVDMYNTGSYELVPTNQINTLDGSFLIGTPFVQA
+                     RFLLVEIWVLMLIAQQTKKDTKKIIQFFINQYEMLMNSPWPSMEALFPSSSKRYLGNY
+                     VDPNALIKWAQLKLKRIPPFYPGKPDEESC"
+     gene            complement(67499..71227)
+                     /gene="EP1242L CDS"
+                     /locus_tag="IM014_gp087"
+                     /db_xref="GeneID:59227024"
+     CDS             complement(67499..71227)
+                     /gene="EP1242L CDS"
+                     /locus_tag="IM014_gp087"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927177.1"
+                     /db_xref="GeneID:59227024"
+                     /translation="MEPLRPQITYGPIETVDNEELTEADMLSFISAAVNSTGLIGYNI
+                     KSFDDLMDNGIPQIVKQMFNVDITYKDQRDHTEIDKLRESVQIQFNFTDVNIERPQHR
+                     NYSQGNKINLLPNKARLCGLSYSGPVNLAAEVILTAHYSNGRQEVKRASIPPFQVSTF
+                     PIMRGSNRCHTHHLSKTAKKEIGEDPNEPGGYFIARGGEWVVDLLENIRFNTLHIHYH
+                     TMQQGNNEIIRGEFISQPGGAFENSSQIIIRYMTTGAITIEINSTKFSKLRIPWYLIF
+                     RMFGMTGDDSIIEQVVFDLESNSLVNTFMIEILEKSIHVLDPIFQPVQHELNREKIIQ
+                     FLSEKVSKFVSNPSAYKSDENAVQYLNERQLTILDKILLPHMGQTADTRVRKLRFLGL
+                     LIHKILLVIMNVFPPTDRDSYRTKRVHGSGVSLAKAFKAIFNTSVIAPIINGFKELLK
+                     QTAFEELTQRNIIEAFSAALSKNTASDLNRSMEQSIISGNKTIMVRQRPIVNRVSTQS
+                     LERKNLLNTISALRTVNTHNTTNASKQTERADMMRRVHASYPGYICVAQSADTGEKVG
+                     MSKQLAITANVCTAGEVLSLKQRLLSDPAIQQLADVSNKDIVRKGLARVFINGEWIGC
+                     CTNAFELAQRYRMLRREGKVVHPHTTIYWDSMVDEVEFWLDVGRLTRPLLIVDNNIEK
+                     YNQACYKAAEARKKGDKDWEKHKIPFIQNTRFTPQMAKDILAGTLTLEDLVAQGICEF
+                     ITPEEAENCLVAFSIIELRKHKHDVTRRFTHVDVPQAILGLAALVSPYANCTQPARVT
+                     YETNQGRQTGGWYCFSWPYRVDMNRFFQFYNEMPLVKTIAHNYVIPNGLNTIVAYMIY
+                     GGYNQEDSVIVSQSFIDRGGFAGTFYREEKVELESDIESFGKPDPLITKNLKPGANYE
+                     KLVDGFVPVGTVVKKGDIIIGKVAKIRGEKDELNKYIDRSVMYGFDEPAVVDAVMRPH
+                     GPNDEIFGLMRLRYERNLNIGDKMSSRSGNKGIAALALPTSDMPFTEDGLQPDLIVNP
+                     HSHPSRMTNGQMIETTVGLANALQGVVTDGTAFLPINVQLLSERLAQEGLRFNGCQKM
+                     FNGQTGEYFDAAIFIGPTYHQRLQKFVLDDRYAVASYGPTDALTGQPLDGKRSHGGLR
+                     LGEMEHWVLTAQGAMQTIIEKSHDDSDGCISYICRNCGEPAIYNASHPIYKCMNCDVQ
+                     ADIGMVDSRRSSIVFQHEMRAANVNITSVLSPRVFQPA"
+     gene            71306..71560
+                     /gene="EP84R CDS"
+                     /locus_tag="IM014_gp088"
+                     /db_xref="GeneID:59226984"
+     CDS             71306..71560
+                     /gene="EP84R CDS"
+                     /locus_tag="IM014_gp088"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927178.1"
+                     /db_xref="GeneID:59226984"
+                     /translation="MPYARDITKFITATEPEVGLPLLALQRSKSIIGVILLVISLLFI
+                     FIGIIILSVSSGHTTAASIFIVLSLILGGGGFFLIYKDNS"
+     gene            71596..72852
+                     /gene="EP424R CDS"
+                     /locus_tag="IM014_gp089"
+                     /db_xref="GeneID:59226991"
+     CDS             71596..72852
+                     /gene="EP424R CDS"
+                     /locus_tag="IM014_gp089"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927179.1"
+                     /db_xref="GeneID:59226991"
+                     /translation="MSNYYYYYGGGRYDWLKTVEPTNFLKIGLPYQAHPLHLQHQATT
+                     PPSILEKFKRADILLNEVKAEMDPLMLQPETEKKLFQILSSIDMFKGLRKKVEFTYNA
+                     QIVTNAWLKMYELLNTMNFNNTSQAFCNCELPGGFISAINHFNYTMMHYPTFNWVASS
+                     LYPSSETDALEDHYGLYQCNPDNWLMQSPLLKKNIDYNNGDVTIASNVKNLALRATQR
+                     LTPIHLYTADGGINVGHDYNKQEELNLKLHFGQALTGLLSLSKGGNMILKHYTLNHAF
+                     TLSLICVFSHFFEELYITKPTSSRPTNSETYIVGKNRLRLFTPKEEQVLLKRLEFFND
+                     TPLVDLSLYQNLLESVYFAVETIHLKQQIEFLNFGMKCYRHFYNKIKLLNDYLAPKKK
+                     IFQDRWRVLNKLYVLEKKHKLKLCAS"
+     gene            73347..73805
+                     /gene="EP152R CDS"
+                     /locus_tag="IM014_gp090"
+                     /db_xref="GeneID:59226990"
+     CDS             73347..73805
+                     /gene="EP152R CDS"
+                     /locus_tag="IM014_gp090"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927180.1"
+                     /db_xref="GeneID:59226990"
+                     /translation="MYSILIACLVLLLCLVIYVGHRADHARKYLEGMWHGDPVFLKQS
+                     GLQSFYLYIQPDHTCFFSIVNKNGEKLMETKIPCTITNKIYMFFKPIFEFHVVMEDIH
+                     SYFPKQFNFLLDSTEGKLILENNHVIYAVLYKDNFATALGKTVEKYITQN"
+     gene            73808..74284
+                     /gene="EP153R CDS"
+                     /locus_tag="IM014_gp091"
+                     /db_xref="GeneID:59226985"
+     CDS             73808..74284
+                     /gene="EP153R CDS"
+                     /locus_tag="IM014_gp091"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927181.1"
+                     /db_xref="GeneID:59226985"
+                     /translation="MFSNKKYIGLINKKEGLKKKIDDYSILIIGILIGTNILSLIINI
+                     IGEINKPICYQNDDKIFYCPKDWVGYNNVCYYFGNEEKNYNNASNYCKQLNSTLTNNN
+                     TILVNLTKTLNLTKTYNHESNYWVNYSLIKNESVLLRDSGYYKKQKHVSLLYICSK"
+     gene            74354..75436
+                     /gene="EP402R CDS"
+                     /locus_tag="IM014_gp092"
+                     /db_xref="GeneID:59226986"
+     CDS             74354..75436
+                     /gene="EP402R CDS"
+                     /locus_tag="IM014_gp092"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927182.1"
+                     /db_xref="GeneID:59226986"
+                     /translation="MIILIFLIFSNIVLSIDYWVSFNKTIILDSNITNDNNDINGVSW
+                     NFFNNSFNTLATCGKAGNFCECSNYSTSIYNITNNCSLTIFPHNDVFDTTYQVVWNQI
+                     INYTIKLLTPATPPNITYNCTNFLITCKKNNGTNTNIYLNINDTFVKYTNESILEYNW
+                     NNSNINNFTATCIINNTISTSNETTLINCTYLTLSSNYFYTFFKLYYIPLSIIIGITI
+                     SILLISIITFLSLRKRKKHVEEIESPPPESNEEEQCQHDDTTSIHEPSPREPLLPKPY
+                     SRYQYNTPIYYMRPSTQPLNPFPLPKPCPPPKPCPPPKPCPPPKPCPSAESYSPPKPL
+                     PSIPLLPNIPPLSTQNISLIHVDRII"
+     gene            75506..76615
+                     /gene="EP364R CDS"
+                     /locus_tag="IM014_gp093"
+                     /db_xref="GeneID:59226989"
+     CDS             75506..76615
+                     /gene="EP364R CDS"
+                     /locus_tag="IM014_gp093"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927183.1"
+                     /db_xref="GeneID:59226989"
+                     /translation="MYFLVADHREHHVIPFLKTDFHHMHQNPIQKNQALLEIKQLFTG
+                     DYLICKSPSTILACIERKTYKDFAASLKDGRYKNRQKMLSLREQTNCQLYFFVEGPAF
+                     PNPQKKINHVAYASIITAMTHLMVRDHIFVIQTKNEAHSSQKLVQLFYAFSKEMVCVV
+                     PTSLTPTDEELCIKLWSSLSGISGVIGKILANTCSVAHLVHGKLSSQNIDQLKTPSNR
+                     PFPKKVKRMLISISKGNKELEIKLLSGVPNIGKKLAAEILKDHALLFFLNQPVECLAN
+                     IQIVQKTRTIKLGMKRAEAIHYFLNWCGSAHVTDDSQNITEASRSTMQVATQSAAIQP
+                     AATQPLHEVSDDASSDASSPVGYQTLSKEMLLNTA"
+     gene            complement(76679..80428)
+                     /gene="M1249L CDS"
+                     /locus_tag="IM014_gp094"
+                     /db_xref="GeneID:59226988"
+     CDS             complement(76679..80428)
+                     /gene="M1249L CDS"
+                     /locus_tag="IM014_gp094"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927184.1"
+                     /db_xref="GeneID:59226988"
+                     /translation="MEEVITIAQIVHRGTDILSLNNEEIEALVDEIYSTLKGSNDIKN
+                     IRLIDFLFTLKDFVNHVRAEQSKLPDLSMPIEAYIRQLLVDPDVVPIVSEKKKELRVR
+                     PSTRKEIFLINGTHLAVPAEAPIEIYGLKLRLKTFSPQCFMRMAEIGSFSPETLGYVA
+                     SGANLTNFIRVFMKCVDQETWKKNGEGVVVTTKENIIQFTHQYIELYKFLRSGGHSWL
+                     INRLAEEMVHRKLDREDQGSHISNIVETEEIEPEENIKRVIFFLKELSTMYSVSPVFT
+                     SGYMPLLYDLYRAGYLEVLWNPVEQKFLQHAEQREKEQMILQQVDMKLTEVITQARQY
+                     FKIMEEKIGRVQSDAIREILTMEGKVDDPNSILQEVIKACGKQEAELITTEYLNIKKQ
+                     WELQEKNACAHLKLVKQLRSGLQYAELLKVLESIRVLYKEKNNTTNWNLCKACGFKLL
+                     CPHVDMLIQLQAAEASYDTMRTKLMKFSGINKEKENNQGLIYSYFCKICGEELAHFIQ
+                     EDRTADVGIIGDLNSKLRVFIWQETMKACTFIHFGKLVDVKQFANIAVNVCLPLVYSI
+                     ENIKKEEDYDPLTQLYAVIYIYAYILNLIYSSQKNKEFLTITIHGMKADSSLNAYVTF
+                     LLEKMMQQYSGIINQLSEITDQWIANNFREAFKKIIHQNGLQGLSVQDDTKVLLTEIL
+                     LDPMYDYAATVARIDGSIPMHKPRTPKEAEYEFKTVIGRTPAELLSQKEFYDKIYTSK
+                     YRPDFTQLTRLNDIYFQEESLRVWWGGRDEEKTSTLIYLRAYELFLKYLQNAPNFNSE
+                     LAEFKTYENAYGEQKALLAQQGFYNIFDPNTGRADQRTRLFEYKRLPISTLYDERGLP
+                     HKWTIYVYKAVDSSQKPAEIEVTRKDVIKKIDNHYALADLRCSVCHVLQHEVGQLNIK
+                     KVQTALKASLEFNTFYAFYESRCPKGGLHDFQDKKCVKCGLFTYIIYDHLSQPELVHD
+                     YYNNYKDQYDKEKMSIRSIQIKKDMTTPSTETQPKPPQEPWTFDYGKIIKTAKILDIS
+                     PAVIEAIGAMEGRSYADIREGQGAPPPPTSMDDPRLMAVDSAVRIFLYNYNCLRHVST
+                     FNKPPIHVERLVKHLSYEEKEDLEKVLPNVVNEYHTTFKHLRVTDPASALLYSIEFLC
+                     ISFLTLYEIKEPSWVVNIVREFALTELNTIIQSEKLLSKPGAFNFMIFGEDFVCSGED
+                     SSMDDISAYSSPGLFGEDIIDRLDDPFSIEDVDISLDVLDNLAPQ"
+     gene            80468..81814
+                     /gene="M448R CDS"
+                     /locus_tag="IM014_gp095"
+                     /db_xref="GeneID:59227030"
+     CDS             80468..81814
+                     /gene="M448R CDS"
+                     /locus_tag="IM014_gp095"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927185.1"
+                     /db_xref="GeneID:59227030"
+                     /translation="MSNESFPETLENLLSMLQTKQQNAIQSEVIEWLHSFCETFHLKI
+                     HCHKQFIPSGEKKRAKIPAQETQGNTQPSHHVYRVVLSRAQPVKAQESLLTTMCNGLV
+                     LDANTWTCLAIPPPAPFQQATRQVQHFYRNNFYEVVPIQDGTLLTIYHWDDPEYGPSW
+                     CLASTHGYDVSNYCWIGDKTFAELVYELLQQHSTCDVTLEKNKTRGTRLFFDNLNPDY
+                     CYTIGIRHHNLQPLIYDPQNIWAIQSTNLKTLKTVYPEYYGYIGIPGIQSQVPELPQY
+                     DLPYLIRSYKTAMNQAKNAIKNGKKDKGYFNYGYLLISRAPAITKSTSNVLLKSPLLV
+                     FLQKSVYQKKHNISNSQRLEFIILQNYLMQHFRDHFIALFPQYISYYTKYQNMLNMII
+                     HSIATKDKDHPFAGAVVKKVLEDIENAENIIDHTTIQNYAHQSKYAMLYLSIISHF"
+     gene            81901..82290
+                     /gene="C129R CDS"
+                     /locus_tag="IM014_gp096"
+                     /db_xref="GeneID:59227031"
+     CDS             81901..82290
+                     /gene="C129R CDS"
+                     /locus_tag="IM014_gp096"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927186.1"
+                     /db_xref="GeneID:59227031"
+                     /translation="MEHPSTNYTPEQQHEKLKHYVLIPKHLWSYIKYGTHVRYYTTQN
+                     VFRVGGFVLQNPYEAVIKNEVKTAIRLQNSFNTKAKGHVTWAVPYDNISKLYAKPDAI
+                     MLTIQENVEKALHALNQNVLTLASKIR"
+     gene            complement(82348..82578)
+                     /gene="C84L CDS"
+                     /locus_tag="IM014_gp097"
+                     /db_xref="GeneID:59226946"
+     CDS             complement(82348..82578)
+                     /gene="C84L CDS"
+                     /locus_tag="IM014_gp097"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927187.1"
+                     /db_xref="GeneID:59226946"
+                     /translation="MDQEQLFDKLYSLNLQLTAKNDQKKRKPIFYPEWEKDPTDTNDD
+                     VYYGLRYKPEAKKTLRSTWMQSEFESHRSSSA"
+     gene            83072..85225
+                     /gene="C717R CDS"
+                     /locus_tag="IM014_gp098"
+                     /db_xref="GeneID:59226953"
+     CDS             83072..85225
+                     /gene="C717R CDS"
+                     /locus_tag="IM014_gp098"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927188.1"
+                     /db_xref="GeneID:59226953"
+                     /translation="MTKLAQWMFEQYVKDLNLKNRGSPSFRKWLTLQPSLLRYSGVMR
+                     ANAFDILKYGYPMQQSGYTVATLEIHFKNIRSSFANIYWNRDSEEPEYVCCCATYQSH
+                     DGEYRYRFVWYQPFIEAYNAIEAALDPLETIILNLIAARDLDFVVHIFPYNKGHEDYL
+                     ASTQLILKIFIATLLMDILRIKDNTLDVHLNSDYIIVMERLWPHIKDAIEHFFEAHKD
+                     LLGYLIAFRNGGNFAGSLRPSCGQKIVPLTIREVLQMNDINLAVWREVFIMQECSDLV
+                     INGIAPCFPIFNTWTYLQGINQIFFENTSLQEKFKKDFIARELSKEIIKGQKTLNDKE
+                     FKKLSLHQIQYMESFLLMSDVAIMITTEYVGYTLQSLPGIISRSSYLSPIVKNILMDE
+                     DSFMSLLFDLCYGAYVLHKKENVIHADLHLNNMTYYHFNPTSFTDRNKPGKYTLKVKN
+                     PVIAFITGPKVETETYVFKHIDGFGCIIDFSRAIMGPNHAIKLERQYGLAFVNTFYRN
+                     QSEHILKVLRYYFPEMLTNRENEIQGVILSNFNFFFNSITAIDFYAIARNLRSMLSLD
+                     YLHTSEVKRNVEISQTFLDTCQFLEEKAVEFLFKNLHTVLSGKPVEKTAGDVLLPIVF
+                     KKFLYPNIPKNILRSFTVIDVYNYNNIKRYSGKAIQTFPPWAQTKEILTHAEGRTFED
+                     IFPRGELVFKKAYAENNHLDKILQRIREQLANENL"
+     gene            85212..85529
+                     /gene="C122R CDS"
+                     /locus_tag="IM014_gp099"
+                     /db_xref="GeneID:59226952"
+     CDS             85212..85529
+                     /gene="C122R CDS"
+                     /locus_tag="IM014_gp099"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927189.1"
+                     /db_xref="GeneID:59226952"
+                     /translation="MKICKACSSCMVRTYVDGNIIFRCSCGESVQGDSQNLLVSSKVY
+                     HTGEMEDKYKIFIKNAPFDPTNCQIKKDCPNCHLDYLTQICIGSQKIIILVCRCGYMS
+                     NRG"
+     gene            complement(85942..86715)
+                     /gene="C257L CDS"
+                     /locus_tag="IM014_gp100"
+                     /db_xref="GeneID:59226945"
+     CDS             complement(85942..86715)
+                     /gene="C257L CDS"
+                     /locus_tag="IM014_gp100"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927190.1"
+                     /db_xref="GeneID:59226945"
+                     /translation="MYSVCDVVRDAVAQSHLCACPNDKLPQCKGVTKAPPKCSVFHVA
+                     KLQDTKFKWKYTLDPLKAQKLSQIDKDIEKDAITLKLIYGIELSPEDLEWWKMQRCLI
+                     NKKTGAKGGQFANKYLERQDLELLGYSPTPIIGGDFMFTALPDKVLRTIPVAWDRFLN
+                     PAMMIFFLIILLCVILGIFYVLVRNTLRRKQKSKQHQMEIKRFIKEKEQDPYIHTSFE
+                     SWPADPNKEWKDLIPVYEAQGYCMADYRKKLGMPPGPNC"
+     gene            complement(86694..88121)
+                     /gene="C475L CDS"
+                     /locus_tag="IM014_gp101"
+                     /db_xref="GeneID:59226948"
+     CDS             complement(86694..88121)
+                     /gene="C475L CDS"
+                     /locus_tag="IM014_gp101"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927191.1"
+                     /db_xref="GeneID:59226948"
+                     /translation="MTSLLKTDFNVSKYRLIAQKREANAVEIEAALEVVREFIIKKKL
+                     ILYGGIAIDYALHLKGSSIYPEGERPDFDMFSPNHVEDAYELADILYEKGFKQVGTVR
+                     AIHVQTMRVRTDFVWVADLSYMPPNIFNTIPTLTYKNLKIIHPDYQRAGLHLAFCFPF
+                     DNPPREDVFSRFKKDLQRYNLIEKYYPIPVVPVKSTYESKTFSIPFKQVAIHGFAAYA
+                     LLYQTLNELRITCKVPEWKTEFPQPSYSYHKNDKNITLTVDMPKAYPALVLATYNPEE
+                     VIKEMGLHLTEICEPYMDYSPPIFKTNDIHFFSTMFKELAISIIQDNLIVVSPQYLLL
+                     YFLYGAFATPADKSLFLFYYNATLWILEKADSLLNIIQKQTSPEEFTRFANTSPFVLT
+                     TRVLSCSQERCTFSPAYRISLANDVQQSQLPLPKTHFLSNSLPDVSTLPYNYYPGKGK
+                     DRPTNFSYEKNLLFNIGGKCTPSAM"
+     gene            88174..89121
+                     /gene="C315R CDS"
+                     /locus_tag="IM014_gp102"
+                     /db_xref="GeneID:59226950"
+     CDS             88174..89121
+                     /gene="C315R CDS"
+                     /locus_tag="IM014_gp102"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927192.1"
+                     /db_xref="GeneID:59226950"
+                     /translation="MDALLKEIEKLSQPSLQKENNDVCDLCFMQMKKISNYQLLCEEC
+                     GQLKDWFEPEYNEKFTVYSRLKIVGANSSYHQRDLDKANSSDYSSLQFHHILEELKSL
+                     NVKYMDAGQKPFPIQVLKETAHSYNQVQQHRVIRSITKLQILASILRSICLKLNIACT
+                     VADAARFTQLNTKGISRGMDLLRSLFVDNKITLNVDLNPIDSFINSTYSALQIKQIHQ
+                     ELQEENVYNLKEIVKSFILYADEKNIGVDLNRRTVVIATMYNVLRRAYYPIEIDTVVY
+                     QCKIRKNTITRALKMYEDYYSHFKSLYEQYHLNAAKKLI"
+     gene            complement(89189..89632)
+                     /gene="C147L CDS"
+                     /locus_tag="IM014_gp103"
+                     /db_xref="GeneID:59226949"
+     CDS             complement(89189..89632)
+                     /gene="C147L CDS"
+                     /locus_tag="IM014_gp103"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927193.1"
+                     /db_xref="GeneID:59226949"
+                     /translation="MADNDNEDLIMDDLVEEYVETEEENLVDSEEESEDKDEIVESPS
+                     ICEGFVQASSQTLVIIPDNERITSNVLTTFEATRLVAVRAQQLAINGSTMLKKKYSSP
+                     IDIAKQELFNRKIPLLVMRCIKVTPEGQKIVEIWNPREMGIPLLD"
+     gene            complement(89792..89980)
+                     /gene="C62L CDS"
+                     /locus_tag="IM014_gp104"
+                     /db_xref="GeneID:59226947"
+     CDS             complement(89792..89980)
+                     /gene="C62L CDS"
+                     /locus_tag="IM014_gp104"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927194.1"
+                     /db_xref="GeneID:59226947"
+                     /translation="MNWGSISSGTPGLFVESIRNTPSVVKINVIFLKVISNTAVSVFW
+                     RDRRIRFESDWLNSYFQK"
+     gene            90062..92950
+                     /gene="C962R CDS"
+                     /locus_tag="IM014_gp105"
+                     /db_xref="GeneID:59226951"
+     CDS             90062..92950
+                     /gene="C962R CDS"
+                     /locus_tag="IM014_gp105"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927195.1"
+                     /db_xref="GeneID:59226951"
+                     /translation="MREESWEDHDTIQLTAQRKYLAEVQALETLLTRELSVFLTEPGS
+                     KKTNIINRITGKTYALPSTELLRLYEHLEQCRKQGALMYFLERQGTYSGLMLDYDLKL
+                     NTNAVPPLEPPALSRLCHRIFVHIKNSSVLPEGSHKIHFFFTLKPEVVQGKYGFHVLI
+                     PGLKLAASTKKSIIGSLQHDATVQKILHEQGVTNPESCLDPHSASVPSLLYGSSKLNH
+                     KPYQLKTGFELVFDSSDPDYIPIHQIKNLESYNLVSELSLTNEQGSLVRPVYCAADIA
+                     AEKEEEIPTEDHSLSILMLHDPEARYLHKILNLLPPEYYVEYPLWSNVVFALANTSAN
+                     YRPLAEWFSQKCPEKWNTGGKEKLEKLWNDASHHTEKKITKRSIMYWAHKHAPQQYKE
+                     IVEQGYFSILAEYVYSYNGMLEHYMIAKVIYAMMGNKFVVDVDSNGKYVWFEFVLPGQ
+                     PMNQGEIWKWRKEVNPDELHIYISENFSRVMDRITEHIKYHLSQPHESNILNYYKKLL
+                     KAFERSKSKIFNDSFKKGVIRQAEFLFRQRSFIQTLDTNPHLLGVGNGVLSIETIPAK
+                     LINHFHEHPIHQYTHICYVPFNPENPWTKLLLNALQDIIPELDARLWIMFYLSTAIFR
+                     GLKEALMLLWLGGGCNGKTFLMRLVAMVLGDHYASKLNISLLTSCRETAEKPNSAFMR
+                     LKGRGYGYFEETNKSEVLNTSRLKEMVNPGDVTARELNQKQESFQMTATMVAASNYNF
+                     IIDTTDHGTWRRLRHYRSKVKFCHNPDPSNPYEKKEDPRFIHEYIMDPDCQNAFFSIL
+                     VYFWEKLQKEYNGQIKKVFCPTIESETEAYRKSQDTLHRFITERVVESPSAETVYNLS
+                     EVVTAYAEWYNTNINVKRHIALELSQELENSVLEKYLQWSPNKTRILKGCRILHKFET
+                     LQPGESYIGVSTAGTLLNTPICEPKNKWWEWSPNPSAPPEKEASAPTP"
+     gene            complement(92901..93059)
+                     /gene="ASFV G ACD 01020 CDS"
+                     /locus_tag="IM014_gp106"
+                     /db_xref="GeneID:59226954"
+     CDS             complement(92901..93059)
+                     /gene="ASFV G ACD 01020 CDS"
+                     /locus_tag="IM014_gp106"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927196.1"
+                     /db_xref="GeneID:59226954"
+                     /translation="MKKKDAYEQAKAYNILNVAFLLPVMALPKDMLLRIFPKELVQTL
+                     LSQEGQRD"
+     gene            complement(93088..95976)
+                     /gene="B962L CDS"
+                     /locus_tag="IM014_gp107"
+                     /db_xref="GeneID:59226921"
+     CDS             complement(93088..95976)
+                     /gene="B962L CDS"
+                     /locus_tag="IM014_gp107"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927197.1"
+                     /db_xref="GeneID:59226921"
+                     /translation="MGKPTLLEPGHLYNVPAEHKNDVPIHYIITWIKQRLPEFGGAIP
+                     TSLADRVLIIKSRTGSGKSTALPVHVFRILRNENTHSFQKYLGRSVICTQPRVLTAVT
+                     LAKDIGASTHYPDMILGQTVGYQTKPLTEKPNRGLIYATAGVLLAQLHTMTDDEIASR
+                     YAFMIIDEAHERALGIDLMLMYIKSMLQRMLQRGSIGALRIPFVILTSATIDTHKYST
+                     YFGIGKENIILVEGRQYGVETHWPLYNTNNYIKTACETALTIHKENIHDRPTEADILI
+                     FMPGMAEIRFLSMLLNNANMDLAKEKLPLMLILPIDSEAIAQENEAYLGLKAEIKNLW
+                     VKNPLTAKVEKPLRRVIVSTVVAETGLTIETLKYVIDPGWNRSIETYYPEWAGGLITR
+                     PAAQSRIEQRKGRVGRVFPGHFYPLYTKHVFEQIPVQQYPEIITEGPGAIFLSIVVET
+                     IKKNKEGVFKAEEIDMLDPPPTDALASAIERAIVAGLLTRGEKGLQLTQLGDIASRFS
+                     FLSIEEARMCFSGYFWQAAISDIATILAVVSVADKKLTNLLDSKQRNGAMLAEAVLAG
+                     IPPFLQNIDNAYTNIHLLLADDLLEGLFIFEGFQHAIVYFINNKVNNVAKHLREWCEK
+                     KMLKYSSMVQILARREDILNELAIVGLNPFHQWQNRLASANAETFLKRVCTLKQCMYE
+                     AYRLNCFCYDEHRLLYTGRNGIHFSYHDAVIKNPSCIVTPRIMLSPVSKQYMEWRLEP
+                     SFVSVLDGFVNVDINFLLPRQEIPNILGGVENEEEEPPLPIQVFLHKYVKTHFHFSGK
+                     SFKELKMKPSQMIKFPETTLINMIPDIPKNVVQTYLEINVCHRYSFKRLIYCETFYTD
+                     MDDVQHENSVELIGLPMAAHHLTINDFNKLYHLLKPDGFLIMYDLHQGQEAFWLHSLQ
+                     DALGHHTIRRDMDFHTIPEWETIFKECGFTPIFSKQPSEHELFIVFKK"
+     gene            complement(95936..96295)
+                     /gene="B119L CDS"
+                     /locus_tag="IM014_gp108"
+                     /db_xref="GeneID:59226944"
+     CDS             complement(95936..96295)
+                     /gene="B119L CDS"
+                     /locus_tag="IM014_gp108"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927198.1"
+                     /db_xref="GeneID:59226944"
+                     /translation="MLHWGPKYWRSLHLYAIFFSDAPSWKEKYEAIQWILNFIESLPC
+                     TRCQHHAFSYLTKNPLTLNNSEDFQYWTFAFHNNVNNRLNKKIISWSEYKNIYEQSIL
+                     KTIEYGKTDFIGAWSSL"
+     gene            complement(96276..97232)
+                     /gene="B318L CDS"
+                     /locus_tag="IM014_gp109"
+                     /db_xref="GeneID:59226930"
+     CDS             complement(96276..97232)
+                     /gene="B318L CDS"
+                     /locus_tag="IM014_gp109"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927199.1"
+                     /db_xref="GeneID:59226930"
+                     /translation="MLHLIYISIIVVLIIILISYTRKPKYFRITAPRSVALFHGIHPL
+                     NPKNYKTFSEEFETILNNAIEDGDFKGQLTEPCSYALRGGKYIRPIILMEIVRACQLQ
+                     HSFGAPIYPAEAALAAEYFHVASLIIDDMPSFDNDVKRRNKDTVWARFGVAKAQMSAL
+                     ALTMQGFQNICRQIDWIKEHCPRFPDPNQLGALLCTFVSHSLNSAGSGQLVDTPEKTI
+                     PFFKIAFIMGWVLGTGSVEDIGMIERAAHCFGHAFQLADDIKDHDTDTGWNYAKIHGK
+                     QKTFDDVAQSLQECKKILHGKKIFTSIWNEIFQKVINVALGT"
+     gene            complement(97199..98515)
+                     /gene="B438L CDS"
+                     /locus_tag="IM014_gp110"
+                     /db_xref="GeneID:59226935"
+     CDS             complement(97199..98515)
+                     /gene="B438L CDS"
+                     /locus_tag="IM014_gp110"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927200.1"
+                     /db_xref="GeneID:59226935"
+                     /translation="MYHDYASKLLADYRSDPPLWESDLPRHNRYSDNILNSRYCGNKN
+                     GAAPVYNEYTNSPEKAEKGLQLSDLRNFSFMLNPQHKNIGYGDAQDLEPYSSIPKNKL
+                     FNHFKNHRPAFSTHTENLIRRNVVRTEKKTFPQVASLKGTQKNCLTQPSSLPSLKNPK
+                     NSSVPSTRFSEHTKFFSYEDLPKLRTKGTIKHEQHLGDQMPGQHYNGYIPHKDVYNIL
+                     CLAHNLPASVEKGIAGRGIPLGNPHVKPNIEQELIKSTSTYTDVPMLGPLPPKDSQHG
+                     REYQEFSANRHMLQVSNILHSVFANHSIKPQILEDIPVLNAQLTSIKPVSPFLNKAYQ
+                     THYMENIVTLVPRFKSIANYSSPIPNYSKRNSGQAEYFDTSKQTISRHNNYIPKYTGG
+                     IGDSKLDSTFPKDFNASSVPLTSAEKDHSLRGDNSACCISSISPSL"
+     gene            complement(98528..99022)
+                     /gene="B169L CDS"
+                     /locus_tag="IM014_gp111"
+                     /db_xref="GeneID:59226939"
+     CDS             complement(98528..99022)
+                     /gene="B169L CDS"
+                     /locus_tag="IM014_gp111"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927201.1"
+                     /db_xref="GeneID:59226939"
+                     /translation="MNVDFIAGINNLGEKIYTCEPFKTSFQNPFIVALIITAVVLVVF
+                     FAICNPPVDKKRKTKTAIYVYICIVALLFLHYYVLNHQLNDIYNKSNMDVIVSSIHDK
+                     YKGGDEIIPPISPPSVSNELEEDQPKKIPAGPKPADSKPVSLPDSKPLVPLQEVIMPS
+                     QYNN"
+     gene            complement(99039..100466)
+                     /gene="B475L CDS"
+                     /locus_tag="IM014_gp112"
+                     /db_xref="GeneID:59226932"
+     CDS             complement(99039..100466)
+                     /gene="B475L CDS"
+                     /locus_tag="IM014_gp112"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927202.1"
+                     /db_xref="GeneID:59226932"
+                     /translation="MDQEESHVISIFETLGAYFINIFYNFLYKNALYKKHSIVTEYQY
+                     QVKGYILGVKQNKKLYEKMLDSFYKYFCNITQINSKTLNFSNFVTTIVDSFIPKEYSQ
+                     SISLEKKESILELLLCDYISNLGTFITTEKMLPFIIKNRKENYHKVTKEMQDYSLTFL
+                     LKKRMELYNKFLRKQAYVEPETELEETYARLSSYNRSLLHQIEELTSENKSLLADLST
+                     LRKKYEKRQSEYRRLVQLLYQQIQRSSTSKSSYPLTKFIETLPSEHFSNEEYQKETPA
+                     DQKEVVEMELLRKQELLTSQELTSKSPNNYPVPHSRTIVSKPLDNYPVPRSRTTTKID
+                     FDNSLQNQELHTKNGFSEKDIVEFGQDKPEEENILAIDQDKPEEETILAIKQDISEED
+                     NIFAIDQDKPEFNQDTPEFKEAVLDIKENILEEENQDEPIVQNPFLENFWKPEQKTFN
+                     QSGLFEESSNFSNDWSGGDVTLNFS"
+     gene            complement(100601..101665)
+                     /gene="B354L CDS"
+                     /locus_tag="IM014_gp113"
+                     /db_xref="GeneID:59226940"
+     CDS             complement(100601..101665)
+                     /gene="B354L CDS"
+                     /locus_tag="IM014_gp113"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927203.1"
+                     /db_xref="GeneID:59226940"
+                     /translation="MALTTHSGKLIPELQFKAHHFIDKTTVLYGPSKTGKTVYVKHIM
+                     KILQPHIEQILVVAPSEPSNRSYEGFVHPTLIHYRLWLADKQKKNDNKGAERFLEAIW
+                     QRQTMMSSIYSRVNNIDMLKTLYHKLPIDIQQKENKNIAKVECLKAEQTDQKKEEKIT
+                     SLYQQLLKKIIIQNIHMYKNLCLTEDEKFTLNYINLNPRLLLILDDCAAELHPLFTKE
+                     IFKKFFYQNRHCFISMIICCQDDTDLPANLRKNAFVSIFTNASICMSNFSRQSNRYSK
+                     QDKEYVEEISHIVFKGYRKLVYIREDEHRQHFYHSTVPLPTAFSFGSKALLKLCKAVY
+                     SKEVVIDKSNPYWSKFRLNF"
+     gene            complement(101676..103268)
+                     /gene="B602L CDS"
+                     /locus_tag="IM014_gp114"
+                     /db_xref="GeneID:59226936"
+     CDS             complement(101676..103268)
+                     /gene="B602L CDS"
+                     /locus_tag="IM014_gp114"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927204.1"
+                     /db_xref="GeneID:59226936"
+                     /translation="MAEFNIDELLKNVLEDPSTEISEETLKQLYQRTNPYKQFKNDSR
+                     VAFCSFTNLREQYIRRLIMTSFIGYVFKALQEWMPSYSKPTHTTKTLLSELITLVDTL
+                     KQETNDVPSESVVNTILSIADSCKTQTQKSKEAKTTIDSFLREHFVFDPNLHAQSAYT
+                     CADTNVDTCASMCADTNVDTCASMCADTNVDTCASTCTSTEYTDLADPERIPLHIMQK
+                     TLNVPNELQADIDAITQTPQGYRAAAHILQNIELHQSIKHMLENPRAFKPILFNTKIT
+                     RYLSQHIPPQDTFYKWNYYIEDNYEELRAATESIYPEKPDLEFAFIIYDVVDSSNQQK
+                     VDEFYYKYKDQIFSEVSSIQLGNWTLLGSFKANRERYNYFNQNNEIIKRILDRHEEDL
+                     KIGKEILRNTIYHKKAKNIQETGPDAPGLSIYNSTFHTDSGIKGLLSFKELKNLEKAS
+                     GNIKKAREYDFIDDCEEKIKQLLSKENLTPDEESELIKTKKQLDNALEMLNVPDDTIR
+                     VDMWVNNNNKLEKEILYTKAEL"
+     gene            103323..104480
+                     /gene="B385R CDS"
+                     /locus_tag="IM014_gp115"
+                     /db_xref="GeneID:59226941"
+     CDS             103323..104480
+                     /gene="B385R CDS"
+                     /locus_tag="IM014_gp115"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927205.1"
+                     /db_xref="GeneID:59226941"
+                     /translation="MDEIINKYQAVEKLFKEIQQGLAAYDQYKTLISEMMHYNNHIKQ
+                     EYFNFLMIISPYLIRAHSGETLRNKVNNEIKRLILVENINTKISKTLVSVNFLLQKKL
+                     STDGVKTKNMWCTNNPMLQVKTAHNLFKQLCDTQSKTQWVQTLKYKECKYCHTDMVFN
+                     TTQFGLQCPNCGCIQELMGTIFDETHFYNHDGQKAKSGIFNPNRHYRFWIEHILGRNP
+                     EQELGTKQDPCGTKVLQQLKKIIKRDNKCIALLTVENIRKMLKEINRTDLNNCVSLIL
+                     RKLTGVGPPQISESILLRGEYIFTEAIKIREKVCKKGRINRNYYPYYIYKIFDAILPP
+                     NDTTNRRILQYIHLQGNDTLANNDSEWESICMELPEIKWKPTDRTHCVHFF"
+     gene            complement(104577..106517)
+                     /gene="B646L CDS"
+                     /locus_tag="IM014_gp116"
+                     /db_xref="GeneID:59226937"
+     CDS             complement(104577..106517)
+                     /gene="B646L CDS"
+                     /locus_tag="IM014_gp116"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927206.1"
+                     /db_xref="GeneID:59226937"
+                     /translation="MASGGAFCLIANDGKADKIILAQDLLNSRISNIKNVNKSYGKPD
+                     PEPTLSQIEETHLVHFNAHFKPYVPVGFEYNKVRPHTGTPTLGNKLTFGIPQYGDFFH
+                     DMVGHHILGACHSSWQDAPIQGTSQMGAHGQLQTFPRNGYDWDNQTPLEGAVYTLVDP
+                     FGRPIVPGTKNAYRNLVYYCEYPGERLYENVRFDVNGNSLDEYSSDVTTLVRKFCIPG
+                     DKMTGYKHLVGQEVSVEGTSGPLLCNIHDLHKPHQSKPILTDENDTQRTCSHTNPKFL
+                     SQHFPENSHNIQTAGKQDITPITDATYLDIRRNVHYSCNGPQTPKYYQPPLALWIKLR
+                     FWFNENVNLAIPSVSIPFGERFITIKLASQKDLVNEFPGLFVRQSRFIAGRPSRRNIR
+                     FKPWFIPGVINEISLTNNELYINNLFVTPEIHNLFVKRVRFSLIRVHKTQVTHTNNNH
+                     HDEKLMSALKWPIEYMFIGLKPTWNISDQNPHQHRDWHKFGHVVNAIMQPTHHAEISF
+                     QDRDTALPDACSSISDISPVTYPITLPIIKNISVTAHGINLIDKFPSKFCSSYIPFHY
+                     GGNAIKTPDDPGAMMITFALKPREEYQPSGHINVSRAREFYISWDTDYVGSITTADLV
+                     VSASAINFLLLQNGSAVLRYST"
+     gene            106557..106934
+                     /gene="B125R CDS"
+                     /locus_tag="IM014_gp117"
+                     /db_xref="GeneID:59226942"
+     CDS             106557..106934
+                     /gene="B125R CDS"
+                     /locus_tag="IM014_gp117"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927207.1"
+                     /db_xref="GeneID:59226942"
+                     /translation="MAVYAKDLDNNKELNQKLINDQLKIIDTLLLAEKKNFLVYELPA
+                     PFDFSSGDPLASQRDIYYAIIKSLEERGFTVKICMKGDRALLFITWKKIQSIEINKKE
+                     EYLRMHFIQDEEKAFYCKFLESR"
+     gene            complement(106907..107254)
+                     /gene="B117L CDS"
+                     /locus_tag="IM014_gp118"
+                     /db_xref="GeneID:59226931"
+     CDS             complement(106907..107254)
+                     /gene="B117L CDS"
+                     /locus_tag="IM014_gp118"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927208.1"
+                     /db_xref="GeneID:59226931"
+                     /translation="MGYTIQLDKDGDYCWDEDPTHHDPYMQANATSHVATSYATTSHA
+                     ATPHAAAHHTFHEPFIKLNLTDKNIFNGLGFILIVIFIYLLLITLQQMLTRHIYNTVQ
+                     HCVKAHLDSKNLQ"
+     gene            complement(107261..108499)
+                     /gene="B407L CDS"
+                     /locus_tag="IM014_gp119"
+                     /db_xref="GeneID:59226929"
+     CDS             complement(107261..108499)
+                     /gene="B407L CDS"
+                     /locus_tag="IM014_gp119"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927209.1"
+                     /db_xref="GeneID:59226929"
+                     /translation="MEDTTFLEGANLAGITTLMNNLHINEQANLEELEKQVMGKQQSF
+                     PTDHFDEELNGLAKSLGINFNDPEFSLDSPHSIISKKPSGRGGDKVHGGIRRDSVCTD
+                     SICSDSVCSGSIRSGSIRSGSIRNGSIRSGSVRDGSIRNGSVRSGKTRRGLACNSSSR
+                     NDRGYSLSTHRKKYAESEASQKTAISKRDRKNHYAESEYSEKSIKPSTKQVDRLINHL
+                     RSNGDPNSFYKKDHDYERKTKLVKLEKINMLLTYLGNEQISTDDIKIPTIDSSMQEID
+                     DVIEMLTLRNVGIRYSSIAEEILIGLARGLEIVFDGTREIPFLNYRPDYTGLHNTFMI
+                     KLFKMRYETSQVVGNLVQNMSPLSKICLELGPSLLLYPALIRTKHKASEDLYNLLQKG
+                     PEDPFTAYNEIHETLKKNNK"
+     gene            complement(108527..109054)
+                     /gene="B175L CDS"
+                     /locus_tag="IM014_gp120"
+                     /db_xref="GeneID:59226938"
+     CDS             complement(108527..109054)
+                     /gene="B175L CDS"
+                     /locus_tag="IM014_gp120"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927210.1"
+                     /db_xref="GeneID:59226938"
+                     /translation="METNCPNILYLSGITIEECLQSKKTATDTLNTNDDEAEVEKKLP
+                     SVFTTVSKWVTHSSFKCWTCHLYFKTVPKFVPTYMRENERGEIEMGVLGNFCSFSCAA
+                     SYVDVHYTEPKRWEARELLNMLYRFFTSQWISYIKPAPSYTMRKEYGGKLSEEAFISE
+                     LHTLEESISSKHIFI"
+     gene            109101..109892
+                     /gene="B263R CDS"
+                     /locus_tag="IM014_gp121"
+                     /db_xref="GeneID:59226933"
+     CDS             109101..109892
+                     /gene="B263R CDS"
+                     /locus_tag="IM014_gp121"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927211.1"
+                     /db_xref="GeneID:59226933"
+                     /translation="MEDETELCFRSNKVTRLEMFVCTYGGKITSLACSHMELIKMLQI
+                     AEPVKALNCNFGHQCLPGYESLIKTPKKTKNMLRRPRKTEGDGTCFNSAIEASILFKD
+                     KMYKLKCFPSTGEIQVPGVIFPDFEDGKNIIQQWVDFLQHQPIEKKIQIIEFKTIMIN
+                     FKFQINPVSPRVIIHLKKFAALLEHIPTPYPIREIKPPLEDSKVSAKFMVSPGKKVRI
+                     NVFLKGKINILGCNTKESAETIYTFLKDLISVHWQEILCVLPVPD"
+     gene            complement(109889..110089)
+                     /gene="B66L CDS"
+                     /locus_tag="IM014_gp122"
+                     /db_xref="GeneID:59226934"
+     CDS             complement(109889..110089)
+                     /gene="B66L CDS"
+                     /locus_tag="IM014_gp122"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927212.1"
+                     /db_xref="GeneID:59226934"
+                     /translation="MDIKRALILFLLFLVVLSNAFVDYIISNFNHAVTCRKPTYFGIV
+                     LQGIFLVILFSIVDYLINENIL"
+     gene            complement(110095..114117)
+                     /gene="G1340L CDS"
+                     /locus_tag="IM014_gp123"
+                     /db_xref="GeneID:59226943"
+     CDS             complement(110095..114117)
+                     /gene="G1340L CDS"
+                     /locus_tag="IM014_gp123"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927213.1"
+                     /db_xref="GeneID:59226943"
+                     /translation="MDFQNDFLTNPLRVTLYNPVENEYTKTFIFLGSVPANVLQACRK
+                     DLQRTPKDKEILQNFYGEDWEKKLSQYVVGGDSDDLDEFEKLFVEDRGEETNVMMPEI
+                     ETMYSEYSIFPEDTFKDIREKIYVATGIPPYRQHIFFFQNNALQVTYRLLLSGSGVAL
+                     DIRDYKKEFQQVGGVNIDASMESQKDELYVEALDSFQLIKNIHHIFVADLNTLVAPMR
+                     RQISIAIEDNYQFDLLYYGLIMKYWPLLSPDAFKLLVQSPLQMEKQYPALSPSLTSLK
+                     KRLLLEQKLINFTYARAQQVIAKYEGNRLTRGTLAVTSAMIKISPLVNIQINVRNVFD
+                     LFPATPDIPQLVVFFYSKTGPTVVSKHHITSTEPEKFSNKTFRVPTIILIRFINKKAF
+                     ILTIQNNGHYFIESNWSENERHDFNSVVSTLNNFINPIIHTINDMGPAAFPRGGSLPL
+                     PSNEDIQISISSMSVSTFWPYTLSSKGFTELKSRWREYEQAGIISVRGLQQTGVYNFL
+                     FKKGIYSYDPHEIERMIIISSGPGRKMDINVALLQNTYAYLFDTNVAARWETIYGGRN
+                     IRIYHRVTDIKIEMFNITQEEFNYLWVYLFVFLDNLITGPDKILVNKLSQLHDKQQGK
+                     GASQLRALQEQDPDLYDLRKYDTQATVYSVLCQHPRPPVIYSEAEVKSMPPAKRKELV
+                     KYWNFTEGVPAYYSCPHPDYPHLSLLEGRHPLNYCLPCCQKTKALLGTKRFYINNTCL
+                     TKHTFVEQDLEDLNTQTSRHTLSYGKKIPVNRIAFLPHQIADELFLNTIKEPDIFCIV
+                     GVEQTMLGISNAGLFYSLARILDLAPKALAIEIAKAANTPQYYILGNGAGNMFSSGAE
+                     LANLILQTFVEQKNQLLQWDTTWQDIFLDLVAICYDLHCVFFKDKQGDIGFEVSPSTI
+                     QKILSPSKKIAIIFDTDEGIYPMAITQQKRFLKNSEAQYIFTEDDPVMEVIQSMSEFM
+                     CKDNWWDIHDVKNIPGYTVGKKLINRHNFCYALLIDSDTDRPIYFPIRLSSYIHDDIP
+                     IDFDLRPTQIASFEETWKFITLFNKQYKQYEIVPSAVLQNIKKEFVGFLSEGKTGLYF
+                     YYAPTQTLPATLEKLPIATLTIDPRDIDQAILYPLEEPYPQQNKANKAFYINHLYKFL
+                     LIEFFDVLYGLQSNSTRKHIENLFQKTDFQKITSVTEFYTKLSDFVDLNDIHTIKHIL
+                     ETTDAEHALKVLQKNIFNFDYTLLSPLQSYTYDELCQHLKKLLTPRIEFYEDIETIDR
+                     GLINIYTSCQYSTLNQPQCKKKRLRIPVNHFENYIHILAADILNPLKHSTLLLTGLGV
+                     IDDLQFILRPQEIISVKNKF"
+     gene            114158..117778
+                     /gene="G1211R CDS"
+                     /locus_tag="IM014_gp124"
+                     /db_xref="GeneID:59226998"
+     CDS             114158..117778
+                     /gene="G1211R CDS"
+                     /locus_tag="IM014_gp124"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927214.1"
+                     /db_xref="GeneID:59226998"
+                     /translation="MISIMDRSEIVARENPVITQRVTNLLQTNAPLLFMPIDIHEVRY
+                     GAYTLFMYGSLENGYKAEVRIENIPVFFDVQIEFNDTNQLFLKSLLTAENIVYERLET
+                     LTQRPVMGYREKEKEFAPYIRIFFKSLYERRKAITYLNNMGYNTAADDTTCYYRMVSR
+                     ELKLPLTSWIQLQHYSYEPRGLVHRFSVTPEDLVSYQNDGPTDHSIVMAYDIETYSPV
+                     KGTVPDPNQANDVVFMICMRIFWIHSTEPLASTCITMAPCKKSSEWTTILCSSEKNLL
+                     LSFAEQFSRWAPDICTGFNDSRYDWPFIVEKSMQHGILEEIFNKMSLFWHQKLDTILK
+                     CYYVKEKRVKISAEKSIISSFLHTPGCLPIDVRNMCMQLYPKAEKTSLKAFLENCGLD
+                     SKVDLPYHLMWKYYETRDSEKIADVAYYCIIDAQRCQDLLVRHNVIPDRREVGILSYT
+                     SLYDCIYYAGGHKVCNMLIAYAIHDEYGRIACSTIARGKREHGKYPGAFVIDPVKGLE
+                     QDKPTTGLDFASLYPSLIMAYNFSPEKFVASRDEANSLMAKGESLHYVSFHFNNRLVE
+                     GWFVRHNNVPDKMGLYPKVLIDLLNKRTALKQELKKLGEKKECIHESHPGFKELQFRH
+                     AMVDAKQKALKIFMNTFYGEAGNNLSPFFLLPLAGGVTSSGQYNLKLVYNFVINKGYG
+                     IKYGDTDSLYITCPDSLYTEVTDAYLNSQKTIKHYEQLCHEKVLLSMKAMSTLCAEVN
+                     EYLRQDNGTSYLRMAYEEVLFPVCFTGKKKYYGIAHVNTPNFNTKELFIRGIDIIKQG
+                     QTKLTKTIGTRIMEESMKLRRPEDHRPPLIEIVKTVLKDAVVNMKQWNFEDFIQTDAW
+                     RPDKDNKAVQIFMSRMHARREQLKKHGAAASQFAEPEPGERFSYVIVEKQVQFDIQGH
+                     RTDSSRKGDKMEYVSEAKAKNLPIDILFYINNYVLGLCARFINENEEFQPPDNVSNKD
+                     EYAQRRAKSYLQKFVQSIHPKDKSVIKQGNVHRQCYKYIHQEIKKKIGIFADLYKEFF
+                     NNTTNPIESFIQSTQFMIQYFDGEQKVNHSMKKMVEQHATASNRAGKPAGNPAGNALM
+                     RAIFTQLITEEKKIVQALYNKGDAIHDLLTYIINNINYKIATFQTKQMLTFEFSSTHV
+                     ELLLKLNKTWLILAGIHVAKKHLQAFLDSYNNESPSRTFIQQAIEEECGSIKPSCYDF
+                     IS"
+     gene            complement(117775..118143)
+                     /gene="CP123L CDS"
+                     /locus_tag="IM014_gp125"
+                     /db_xref="GeneID:59226997"
+     CDS             complement(117775..118143)
+                     /gene="CP123L CDS"
+                     /locus_tag="IM014_gp125"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927215.1"
+                     /db_xref="GeneID:59226997"
+                     /translation="MPSTGTLVIIFAIVLILCIMLLFFYKTVEAGKSGVLPPPIPPPT
+                     PPPKKKYDHNEYMEKTDLEPEVKKNHRKWANEAEHLISSSVKGLENLDETAFLANHKG
+                     HGFRTFDHAKSLFKEFLKKY"
+     gene            complement(118249..125679)
+                     /gene="CP2475L CDS"
+                     /locus_tag="IM014_gp126"
+                     /db_xref="GeneID:59226955"
+     CDS             complement(118249..125679)
+                     /gene="CP2475L CDS"
+                     /locus_tag="IM014_gp126"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927216.1"
+                     /db_xref="GeneID:59226955"
+                     /translation="MGNRGSSTSSRPLPSSEANIYAKLQDHIQRQTRPFSGGGYFNGG
+                     GDKNPVQHIKDYHIDSVSSKAKLRIIEGIIRAIAKIGFKVDTKQPIEDILKDIKKQLP
+                     DPRAGSTFVKNAEKQETVCKMIADAINQEFIDLGQDKLIDTTEGAASICRQIVLYINS
+                     LTHGLRAEYLDVHGSIENTLENIKLLNDAIKQLHERMVTEVTKAAPNEEVINAVTMIE
+                     AVYRRLLNEQNLQINILTNFIDNILTPTQKELDKLQTDEVDIIKLLNDTNSVLGTKNF
+                     GKVLSYTLCNLGIAASVANKINKALQKVGLKVEQYLQSKNWAEFDKELDLKRFSGLVS
+                     AENIAEFEKAVNLLRQTFNERHKILENSCAKKGGDEEKTPLDRRIEAQRLDRKHILME
+                     FLNKSTQAYNDFLENVKKIGIKLVKEIALTPNITRLRDALSRINDMGTIALDLSLIGF
+                     YTNAAAREERETFLTQLTLVKNVLEEISKTDPNFKNLYDSCSRLLQIIDFYTDIVQKK
+                     YGGEEDCECTRVGGAALTVEELGLSKAARSQVDLNQAINTFMYYYYVAQIYSNLTHNK
+                     QEFQSYEENYATILGDAIAGRLMQLDTEKNARINSPAVDLARGHVGPNPGGAQEVDWK
+                     ATVSAIELEYDVKRRFYRALEGLDLYLKNITKTFVNNIDSIQTVQQMLDGVRIIGRWF
+                     TETTGDTLAQVFESFPTSTGNDSNVFTDNAPAGHYYEKVAAEIQQGRSVGTLRPVRAS
+                     QAKNIRDLIGRSLSNFQALKNIINAFARIGDMLGGEELRQMVPMSPLQIYKTLLEYLQ
+                     HSALSVGLKNLNQSEIGGQRMALAQTAEEAAQRVYLSTVRVNDALSTRWETEDVFFTF
+                     MLKSMAAKIFIVLGIYDMFERPEPVYKLIPTRMILGGADELEPEVIPEAAELYFRLPR
+                     LAEFYQKLFSFRDENVQISMLPELEGIFSGLIRIIFMRPIELINIGDYSETEIRQLIK
+                     EINVIYQHFNLEYGEQEATKKALIHFVNEINRRFGVITRTEWEKFQRIVQEARTMNDF
+                     GMMNQTNYSILPDEDGYTQSSQLLPSDRFISPSTQPTPKWRPALYNIDSVDVQTGMLQ
+                     PNSQWDLVQKFRKQLSEMFEDPSLQQELGKISYQELIRQAINELKKEHTDKIQIVSKL
+                     IQGSESLADTDVNKIFLFHETVITGLNLLSAIYVLLNNFRNNIKGLDLDTIQKSIIEW
+                     LRETQAANVNRANLIDWLGRKHGAISEIRNPGLVIKEINMRLSMVYPDPTTEAAAAAQ
+                     DRNLTTETLFAWIVPYVGIPAGGGVRPEQELAARYLVDNQRIMQLLLTNIFEMTSSFN
+                     KMVQVRFPETSTAQVHLDFTGLISLIDSLMADTKYFLDLLRPHIDKNIIQYYENRSNP
+                     GSFYWLEEHLIDKLIKPPTDAGGRPLPGGELGLEGVNQIINKTYTLLTKPYNVLQLRG
+                     GAQRRDAANIQINNNPQSSERFEQYGRVFSRLVFYDALENNSGLRVEQVALGDFRLSN
+                     LIRTNNAQEENTLSYWDNIALRTYANVNDAANNLRRYRLYGSDYGIQNNRSMMMVFNQ
+                     LIASYITRFYDAPSGKIYLNLINAFANGNFSQAVMEMGYAHPDLARNNNVFGHRGDPT
+                     EQSVLLLSLGLILQRLIKDTNRQGLSQHLISTLTEIPIYLKENYRANLPLFNKMFNIL
+                     ISQGELLKQFIQYTNVQLARPNLTALLGANNDSVIYYNNNNVPATGLSVGQAALRGIG
+                     GVFRPNVTLMPLGDAQNNTSDVVRKRLVAVIDGIIRGSHTLADSAMEVLHELTDHPIY
+                     LETEEHFIQNYMSRYNKEPLMPFSLSLYYLHDLRIENNEVYDPLLYPNLESGSPEFKL
+                     LYGTRKLLGNDPVQLSDMPGVQLIMKNYNETVVAREQITPTRFEHFYTHAIQALRFII
+                     NIRSFKTVMMYNENTFGGVNLISENRDDKPIITAGIGMNAVYSLRKTLQDVISFVESS
+                     YQEEQINHIHKIVSPKGQTRTLGSNRERERIFNLFDMNIIPINVNALMRSIPLANIYN
+                     YDYSFEEIACLMYGISAEKVRSLDTTAPQPDVAEVLNIPNRPPINTREFMLKLLINPY
+                     VSVSITQYGNELLSKGNAGYMSRIFRGDNALNMGRPKFLSDQIFNKVLFGSLYPTQFD
+                     YDEAGPSLAAGIQRGRERWGHPMSIYINQALHEIVRTIRLAETVRGLRNVIDRNQIIG
+                     ELNAFRTQLEDTRREVNNLIQTPEIQNNPTPEIIAAIQNWVQQYRGQITNLIDLIGNA
+                     GQANSMINLIQNITPQTAGAQLTALFNIRGLPAPPPRQALQNDIEAMQWFMTMVINHP
+                     PVLIAPFMLLVNNLKEFLNTLERYVYKTPRWLGPGTARIAQPPVGMAPGINMRHHTSY
+                     TENSVLTYITEQNREEGPWSIVKQVGVGIQKPTLVQIGKDRFDTRLIRNLIFITNIQR
+                     LLRLRLNLELSQFRNVLVSPDHIINPSITEYGFSITGPSETFSDKQYDSDIRIL"
+     gene            complement(125783..126367)
+                     /gene="CP204L CDS"
+                     /locus_tag="IM014_gp127"
+                     /db_xref="GeneID:59226957"
+     CDS             complement(125783..126367)
+                     /gene="CP204L CDS"
+                     /locus_tag="IM014_gp127"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927217.1"
+                     /db_xref="GeneID:59226957"
+                     /translation="MDFILNISMKMEVIFKTDLRSSSQVVFHAGSLYNWFSVEIINSG
+                     RIVTTAIKTLLSTVKYDIVKSARIYAGQGYTEHQAQEEWNMILHVLFEEETESSASSE
+                     NIHEKNDNETNECTSSFETLFEQEPSSEVPKDSKLYMLAQKTVQHIEQYGKAPDFNKV
+                     IRAHNFIQTIYGTPLKEEEKEVVRLMVIKLLKKK"
+     gene            126398..127990
+                     /gene="CP530R CDS"
+                     /locus_tag="IM014_gp128"
+                     /db_xref="GeneID:59226956"
+     CDS             126398..127990
+                     /gene="CP530R CDS"
+                     /locus_tag="IM014_gp128"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927218.1"
+                     /db_xref="GeneID:59226956"
+                     /translation="MPSNMKQFCKISVWLQQHDPDLLEIINNLCMLGNLSAAKYKHGV
+                     TFIYPKQAKIRDEIKKHAYSNDPSQAIKTLESLILPFYIPTPAEFTGEIGSYTGVKLE
+                     VEKTEANKVILKNGEAVLVPAADFKPFPDRRLAVWIMESGSMPLEGPPYKRKKEGGGN
+                     DPPVPKHISPYTPRTRIAIEVEKAFDDCMRQNWCSVNNPYLAKSVSLLSFLSLNHPTE
+                     FIKVLPLIDFDPLVTFYLLLEPYKTHGDDFLIPETILFGPTGWNGTDLYQSAMLEFKK
+                     FFTQITRQTFMDIADSATKEVDVPICYSDPETVHSYANHVRTEILHHNAVNKVTTPNL
+                     VVQAYNELEQTNTIRHYGPIFPESTINALRFWKKLWQDEQRFVIHGLHRTLMDQPTYE
+                     TSEFAEIVRNLRFSRPGNNYINELNITSPAMYGDKHTTGDIAPNDRFAMLVAFINSTD
+                     FLYTAIPEEKVGGNETQTSSLTDLVPTRLHSFLNHNLSKLKILNRAQQTVRNILSNDC
+                     LNQLKHYVKHTGKNEILKLLQE"
+     gene            127993..128235
+                     /gene="CP80R CDS"
+                     /locus_tag="IM014_gp129"
+                     /db_xref="GeneID:59226959"
+     CDS             127993..128235
+                     /gene="CP80R CDS"
+                     /locus_tag="IM014_gp129"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927219.1"
+                     /db_xref="GeneID:59226959"
+                     /translation="MLIPVVCFTCGFPIGTYAAIFDKARTEYIKTKMGGTLPQNIPLD
+                     ASLQIELKDLITALGIPMRVCCRTHLITTLDYRKYY"
+     gene            128277..129200
+                     /gene="CP312R CDS"
+                     /locus_tag="IM014_gp130"
+                     /db_xref="GeneID:59226960"
+     CDS             128277..129200
+                     /gene="CP312R CDS"
+                     /locus_tag="IM014_gp130"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927220.1"
+                     /db_xref="GeneID:59226960"
+                     /translation="MTTHIFHADDLLQALQQAKAEKNFSSVFSLDWDKLRTAKRNTTV
+                     KYVTVNVIVKGKKAPLMFNFQNEKHVGTIPPSTDEEVIRMNAENPKFLVKKRDRDPCL
+                     QFNKYKISPPLEDDGLTVKKNEQGEEIYPGDEEKSKLFQIIELLEEAFEDAVQKGPEA
+                     MKTKHVIKLIQRKISNSAVKNADKPLPNPIARIRIKINPATSILTPILLDKNKPITLQ
+                     NGKTSFEELKDEDGVKANPDNIHKLIESHSIHDGIINARSICISNMGISFPLCLEMGV
+                     VKVFEKNNGIDVNSIYGSDDISTLVNQIAIA"
+     gene            complement(129221..129745)
+                     /gene="O174L CDS"
+                     /locus_tag="IM014_gp131"
+                     /db_xref="GeneID:59226958"
+     CDS             complement(129221..129745)
+                     /gene="O174L CDS"
+                     /locus_tag="IM014_gp131"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927221.1"
+                     /db_xref="GeneID:59226958"
+                     /translation="MLTLIQGKKIVNDLRSRLAFEYNGQLIKILSKNIVAVGSLRREE
+                     KMLNDVDLLIIVPEKKLLKHVLPNIRIKDLSFSVKVCGERKCVLFIEWKKNTYQLDLF
+                     TALAEEKPYAVLHFTGPVSYLIRIRAALKKKNYKLNQYGLFKNQTLVPLKITTEKELI
+                     KELGFTYRIPKKRL"
+     gene            129795..129980
+                     /gene="O61R CDS"
+                     /locus_tag="IM014_gp132"
+                     /db_xref="GeneID:59227082"
+     CDS             129795..129980
+                     /gene="O61R CDS"
+                     /locus_tag="IM014_gp132"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927222.1"
+                     /db_xref="GeneID:59227082"
+                     /translation="MALDGSSGGGSNVETLLIVAIIVVIMAIMLYYFWWMPRQQKKCS
+                     KAEECTCNNGSCSLKTS"
+     gene            complement(130060..134442)
+                     /gene="NP1450L CDS"
+                     /locus_tag="IM014_gp133"
+                     /db_xref="GeneID:59227083"
+     CDS             complement(130060..134442)
+                     /gene="NP1450L CDS"
+                     /locus_tag="IM014_gp133"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927223.1"
+                     /db_xref="GeneID:59227083"
+                     /translation="MKFYYVFSKNMEAGYAEIAAVQFNIAGDNDHKRQGVMEVTISNL
+                     FEGTLPAEGGIYDARMGTTDHHYKCITCSHQRKQCMGHPGILQMHAPVLQPLFIAEIR
+                     RWLRVICLNCGAPIVDLKRYEHLIRPKRLIEAASSQTEGKQCYVCKAVHPKIVKDSED
+                     YFTFWADQQGKIDKLYPQIIREIFSRVTYDTVVKLGRSKNSHPEKLVLKAIQIPPISI
+                     RPGIRLGIGSGPQSFHDINNVIQYLVRKNLLIPKDLQIVRGQKIPLNIDRNLQTIQQL
+                     YYNFLLDSVSTTATQGGTGKRGIVMGARPAPSIMRRLPRKEGRIRKSLLGSQVWSISR
+                     STICGNSDLHLDEVGYPISFARTLQVAETVQHYNINRLMPYFLNGKRQYPGCSRVYKQ
+                     ITQSVHDIEGLKQDFRLEVGDILYRDVVTGDVAFFNRQPSLERSSIGVHRIVVLENPK
+                     ISTFQMNVSACAWYNADFDGDQMNLWVPWSVMSRVEAELLCSVRNWFISTKSSGPVNG
+                     QVQDSTVGSFLLTRTNTPMGKNVMNKLHAMGLFQTTQTDPPCFANYSPTDLLDGKSVV
+                     SMLLRQTPINYQRAPTWYSEVYAPYMHYNKQDISTQIRNGELIEGVLDKKAVGAGSSG
+                     GIYHLISRRYGPQQALKMIFATQQLALNYVRNAGFTVSTADMLLTPEAHQEVQEIINE
+                     LLLESEEINNRLLHGDIMPPIGLTTHDFYEKLQLNALKFPDRILKPIMNSINPETNGL
+                     FQMVATGAKGSNPNMIHIMAGIGQIEINTQRIQPQFSFGRTLVYYPRFALEAQAYGFI
+                     CNSYIAGLTSPEFIFGEMNGRFDLINKALSTSSTGYANRKAIFGLQSCIVDYYRRVSI
+                     DTRLVQQLYGEDGLDARQLETVRFETIMLSDQELEDKFKYTGIQSPLFEEEFSRLKKD
+                     RDKYRQIFLNVENFNFSQLLTDVRQVPVNVASIVKNILLSSTSGVLPFDEKSILQKYA
+                     MVKTFCKNLPYVFINNIQERLQTPIPVYLKRAASLMRMLIRIELATVKTLNITCEQMS
+                     AILDLIRLQYTQSLINYGEAVGILAAQSVSEPLTQYMLDSHHRSVAGGTNKSGIVRPQ
+                     EIFSAKPVEAEQSSEMLLRLKNPEVETNKTYAQEIANSIELITFERLILQWHLLYETY
+                     SSTKKNVMYPDFASDVEWMTDFLENHPLLQPPEDIANWCIRLELNKTTMILKSISLES
+                     IINSLRAKHPNTYIMHSVENTASGIPIIIRIYLRESAFRRSTNTRMATDEKIAVNVVD
+                     KLLNSTIRGIPGIKNANVVKLMRHRVDAQGKLVRLDNIYAIKTNGTNIFGAMLDDNID
+                     PYTIVSSSIGDTMELYGIEAARQKIISEIRTVMGDKGPNHRHLLMYADLMTRTGQVTS
+                     LEKAGLNAREPSNVLLRMALSSPVQVLTDAAVDSAVNPIYGIAAPTLMGSVPRIGTMY
+                     SDIIMDEKYITENYKSVDSLIDML"
+     gene            complement(134495..135754)
+                     /gene="NP419L CDS"
+                     /locus_tag="IM014_gp134"
+                     /db_xref="GeneID:59227079"
+     CDS             complement(134495..135754)
+                     /gene="NP419L CDS"
+                     /locus_tag="IM014_gp134"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927224.1"
+                     /db_xref="GeneID:59227079"
+                     /translation="MLNQFPGQYSNNIFCFPPIESETKSGKKASWIICVQVVQHNTII
+                     PITDEMFSTDVKDAVAEIFTKFFVEEGAVRISKMTRVTEGKNLGKKNATTVVHQAFKD
+                     ALSKYNRHARQKRGAHTNRGIIPPMLVKYFNIIPKTFFEEETDPIVQRKRNGVRAVAC
+                     QQGDGSILLYSRTKKEFLGLDNIKKELKQLYLFIDVRVYLDGELYLHRKPLQWIAGQA
+                     NAKTDSSELHFYVFDCFWSDQLQMPSNKRQQLLTNIFKQKEDLTFIHQVENFSVKNVD
+                     EALRLKAQFIKEGYEGAIVRNANGPYEPGYNNYHSAHLAKLKPLLDAEFILVDYTQGK
+                     KGKDLGAILWVCELPNKKRFVVTPKHLTYADRYALFQKLTPALFKKHLYGKELTVEYA
+                     ELSPKTGIPLQARAVGFREPINVLEII"
+     gene            135819..138425
+                     /gene="NP868R CDS"
+                     /locus_tag="IM014_gp135"
+                     /db_xref="GeneID:59227080"
+     CDS             135819..138425
+                     /gene="NP868R CDS"
+                     /locus_tag="IM014_gp135"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927225.1"
+                     /db_xref="GeneID:59227080"
+                     /translation="MASLDNLVARYQRCFNDQSLKNSTIELEIRFQQINFLLFKTVYE
+                     ALVAQEIPSTISHSIRCIKKVHHENHCREKILPSENLYFKKQPLMFFKFSEPASLGCK
+                     VSLAIEQPIRKFILDSSILVRLKNRTTFRVSELWKIELTIVKQLMGSEVSAKLAAFKT
+                     LLFDTPEQQTTKNMMTLINPDDEYLYEIEIEYTGKPESLTAADVIKIKNTVLTLISPN
+                     HLMLTAYHQAIEFIASHILSSEILLARIKSGKWGLKRLLPQVKSMTKADYMKFYPPVG
+                     YYVTDKADGIRGIAVIQDTQIYVVADQLYSLGTTGIEPLKPTILDGEFMPEKKEFYGF
+                     DVIMYEGNLLTQQGFETRIESLSKGIKVLQAFNIKAEMKPFISLTSADPNVLLKNFES
+                     IFKKKTRPYSIDGIILVEPGNSYLNTNTFKWKPTWDNTLDFLVRKCPESLNVPEYAPK
+                     KGFSLHLLFVGISGELFKKLALNWCPGYTKLFPVTQRNQNYFPVQFQPSDFPLAFLYY
+                     HPDTSSFSNIDGKVLEMRCLKREINHVSWEIVKIREDRQQDLKTGGYFGNDFKTAELT
+                     WLNYMDPFSFEELAKGPSGMYFAGAKTGIYRAQTALISFIKQEIIQKISHQSWVIDLG
+                     IGKGQDLGRYLDAGIRHLVGIDKDQTALAELVYRKFSHATTRQHKHATNIYVLHQDLA
+                     EPAKEISEKVHQIYGFPKEGASSIVSNLFIHYLMKNTQQVENLAVLCHKLLQPGGMVW
+                     FTTMLGEQVLELLHENRIELNEVWEARENEVVKFAIKRLFKEDILQETGQEIGVLLPF
+                     SNGDFYNEYLVNTAFLIKIFKHHGFSLVQKQSFKDWIPEFQNFSKSLYKILTEADKTW
+                     TSLFGFICLRKN"
+     gene            138482..145994
+                     /gene="D205R CDS"
+                     /locus_tag="IM014_gp136"
+                     /db_xref="GeneID:59227081"
+     CDS             138482..139234
+                     /gene="D205R CDS"
+                     /locus_tag="IM014_gp136"
+                     /codon_start=1
+                     /product="nudix hydrolase"
+                     /protein_id="YP_009927226.1"
+                     /db_xref="GeneID:59227081"
+                     /translation="MDTAMQLKTSIGLITCRMNTQNNQIETILVQKRYSLAFSEFIHC
+                     HYSINANQGHLIKMFNNMTINERLLVKTLDFDRMWYHIWIETPVYELYHKKYQKFRKN
+                     WLLPDNGKKLISLINQAKGSGTLLWEIPKGKPKEDESDLTCAIREFEEETGITREYYQ
+                     ILPEFKKSMSYFDGKTEYKHIYFLAMLCKSLEEPNMNLSLQYENRIAEISKISWQNME
+                     AVRFISKRQSLNLEPIIGPAFNFIKNYLRYKH"
+     gene            complement(139414..139803)
+                     /gene="D129L CDS"
+                     /locus_tag="IM014_gp137"
+                     /db_xref="GeneID:59226964"
+     CDS             complement(139414..139803)
+                     /gene="D129L CDS"
+                     /locus_tag="IM014_gp137"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927227.1"
+                     /db_xref="GeneID:59226964"
+                     /translation="MDINPLLYLQAFNNDATTFNTQGHILEQQSDSAYFDTFANAMQA
+                     YLDTKQGGNDEEGTIILMDDEDFNDSESLEDFLQMLSEEELNDGFSSDDEPEEHVILT
+                     EDNQGEPSETPQATFDITEFIKTDDED"
+     gene            complement(139876..140115)
+                     /gene="DP79L CDS"
+                     /locus_tag="IM014_gp138"
+                     /db_xref="GeneID:59226963"
+     CDS             complement(139876..140115)
+                     /gene="DP79L CDS"
+                     /locus_tag="IM014_gp138"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927228.1"
+                     /db_xref="GeneID:59226963"
+                     /translation="MNKTIEYQKEFLKENNQLLSIPVKKNILKEILQNDEQDTIITNC
+                     ITKEVSINLDLIKNPKVLYSIYIMVVEYLKSINIA"
+     gene            complement(140184..141203)
+                     /gene="D339L CDS"
+                     /locus_tag="IM014_gp139"
+                     /db_xref="GeneID:59226971"
+     CDS             complement(140184..141203)
+                     /gene="D339L CDS"
+                     /locus_tag="IM014_gp139"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927229.1"
+                     /db_xref="GeneID:59226971"
+                     /translation="MIDQKIFETTLNIDDPTNFCTNVEAHLLKELENIYVGKCFKNSF
+                     ILNITGVIQRSPCFIMRTNNSGRGYMHVRFSAVVSYLNAFDLIAAVKIIKNDSNIILG
+                     ESLLTEPVTIVIPSSESQNNVAEVGQIVPVQLANSSVYYIPGRQQASATGSIFIPKHT
+                     FSVYHVQEELTQEQALNLTKLVNIIEMLLESRSKKDFKQICFFEKLYYTYSISSDEIL
+                     DLKIWKGPKGKEMSRLKPCNVLSFLYDALKNKNSSLGFWARPPNLLKSSPLAYQQDQN
+                     SFNATELPIICSAEVMFVTLLKEIINYLQFINDLCDTFNNEQLIKRHENIWMLIEQRK
+                     IGHDF"
+     gene            complement(141335..144736)
+                     /gene="D1133L CDS"
+                     /locus_tag="IM014_gp140"
+                     /db_xref="GeneID:59226965"
+     CDS             complement(141335..144736)
+                     /gene="D1133L CDS"
+                     /locus_tag="IM014_gp140"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927230.1"
+                     /db_xref="GeneID:59226965"
+                     /translation="MAYPELDAADFLQQLARRKEFKSLISPPVDQKELIRDLRAHFVQ
+                     IGGPGCEKGGRAFFPCDPYASPFPSIKGLQLHNAQLFVQNFQNPNTPYSRLLLNWQTG
+                     TGKSIAAIAIARQFMNHYMNFIENAPWIFVVGFTRAIIQTEMLRRPELGFVSYKEVAE
+                     LHRLLHIAKQSGSTTSVESRHLNGFVSTLKRRLTDRNRGGFFQFYGYKEFASKLFNIT
+                     SKGEEKNFDVLSLFHRSDEAEDTLNENDISQFVQKISEAETNGLIRVNQKIMEQLRGG
+                     LLIADEIHNVYNIQERNNYGIALQYVLDAFPPHQAPRAVFMSATPVTGSVMEYVDLLN
+                     LLVPRHELPNGQPLQRQQLFDSSGHSVKWKKDALALVERLSTGRVSFLLDTNTNFYPE
+                     RIFAGKMLSYKDETLPYLHFIECPMSEYQLETLKQLGPDPKISSNAYSIYDMVFPNPK
+                     FSKQTEPKAYGLFNSTETPTALSMASTDWLLENGVQIIEPSRRAPFNVSGSFLSLQPP
+                     THISGLAFYSGKYTQMMKDILSIIRQGRGKILIYHNRVRMSGVLILQEILQSNGILNE
+                     VSSPVGTTRCSICAAIRDEHTHSDHQFIPVRFTILHSEIEPAVRERSLALFNASSNLE
+                     GHQLRILIGSKVIVEGLNFQAVRYEMIMSLPLDIPRLIQVFGRVVRKNSHMELPPSER
+                     NVTIYLYVSTTPDGGPELAKYAQKLKEYILIQEGDKALRKHAIDGFTNQIKIDKPMLE
+                     SLPLSPSITPANVGATVLNTFEAYGYGEQEVKTISNIIISLFMARPVWTYSELWKAVS
+                     TPKLIQGITIDNKLFSEDNFALALISLCYSKNQCKELWIQNRLCTIMHVPAKPEHLYV
+                     AAVLNHKKEPVLDIETYIRDFQPPAMHSIRITKYLEHSQTKEPFQVLYEKFQKDFQDE
+                     PMEQVLIHYPASFHYTMLEALIIDNLAGMGALVEVYKKFFIAFSKKDIQPFPDIFKII
+                     SHVPGDDNTLVGYATEDSVRLITSREDKTWHEIPLYMLNINVKRKENDIVIGYMESKG
+                     KALKFKIRPPIQVLKKNEITDIRMLNRGAVCETRGREEQQKIADQLGISLNLTKISAI
+                     KLCLLIRNNLLQKEMEARNQPNGMQDGIRWFYLFNDKMPSLVHTS"
+     gene            complement(144967..145320)
+                     /gene="D117L CDS"
+                     /locus_tag="IM014_gp141"
+                     /db_xref="GeneID:59226961"
+     CDS             complement(144967..145320)
+                     /gene="D117L CDS"
+                     /locus_tag="IM014_gp141"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927231.1"
+                     /db_xref="GeneID:59226961"
+                     /translation="MDTETSPLLSHNLSTREGIKQSTQGLLAHTIAKYPGTTAILLGI
+                     LILLIIILIIVAIVYYNRTIDCKSSIPKPPPSYYVQQPEPHHHFPVFFRKRKNSTSLQ
+                     SHIPSDEQLAELAHS"
+     CDS             145377..145994
+                     /gene="D205R CDS"
+                     /locus_tag="IM014_gp136"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927232.1"
+                     /db_xref="GeneID:59227081"
+                     /translation="MAMQKLFTYIYEFIEYRKMVLLEEKVPYDKFVQMVLNTGFFRIN
+                     AETLNHGIVSVFIFGANGKYVHHGGDMRTLLTNTLNEKKHYEELILIVDKPVLSKKNI
+                     LDIIVEQRAANPTIVINIYPYHLFCINIPKVSAIPKHKLITQEEAQEFLGREYLQPQD
+                     LMQISASDPPVVWLGGRPGDFVQIERPSETAMHAVVIRFITKSKI"
+     gene            complement(146021..147058)
+                     /gene="D345L CDS"
+                     /locus_tag="IM014_gp142"
+                     /db_xref="GeneID:59226962"
+     CDS             complement(146021..147058)
+                     /gene="D345L CDS"
+                     /locus_tag="IM014_gp142"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927233.1"
+                     /db_xref="GeneID:59226962"
+                     /translation="METFVRLFKDSPQQRSDAWHAIRRTQVGGSDLASVLGLNPYKSY
+                     YITLAEKANLFKKNLNRAACSWGTLFERVSKDLLELFCQTTVIGDNIHIDGTYLGYPG
+                     HSNSPDGFCHLTLGYTQQSWEIKTIFNNVRYEATKRIPVLVEIKSPFNRKIKNSVPSY
+                     YMPQIQSGLALSPPISMGIYVEAMFRVCGIHQLGSNNETNTDIHPPESMLPLAWGIIT
+                     ICSTQEHTEAPQDFGTLDAETFRQLLETLYQKDQYTIHYSMPYETACPEMPNVVGYFG
+                     WKVFIFQIIPVMKHPQFLKDKYPIIQQFLRDLHTIKASPSPMEMYEKICCSEESALST
+                     EDIDNFTDMLT"
+     gene            complement(147058..147609)
+                     /gene="S183L CDS"
+                     /locus_tag="IM014_gp143"
+                     /db_xref="GeneID:59226966"
+     CDS             complement(147058..147609)
+                     /gene="S183L CDS"
+                     /locus_tag="IM014_gp143"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927234.1"
+                     /db_xref="GeneID:59226966"
+                     /translation="MSVVVGGVEYSLNNWARYEIKRRAAELESVNYYPHCEYIMPEDI
+                     VVSILGSKPNCPFLEALKRFHDFLKKRRIIFKGEYLVIPWMGAQDVADMIHHVENRIN
+                     LDHLEDLAHMLKLITYHRSFDTCINQAFEHLYAFKFPDANIETHELKHIRQLEKKMYG
+                     YILRLEKLQTVLTFYIEFLLKQV"
+     gene            147670..148491
+                     /gene="S273R CDS"
+                     /locus_tag="IM014_gp144"
+                     /db_xref="GeneID:59227093"
+     CDS             147670..148491
+                     /gene="S273R CDS"
+                     /locus_tag="IM014_gp144"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927235.1"
+                     /db_xref="GeneID:59227093"
+                     /translation="MSILEKITSSPSECAEHLTNKDSCLSKKIQKELTSFLEKKETLG
+                     CDSESCVITHPAVKAYAQQKGLDLSKELETRFKAPGPRNNTGLLTNFNIDETLQRWAI
+                     KYTKFFNCPFSMMDFERVHYKFNQVDMVKVYKGEELQYVEGKVVKRPCNTFGCVLNTD
+                     FSTGTGKHWVAIFVDMRGDCWSIEYFNSTGNSPPGPVIRWMERVKQQLLKIHHTVKTL
+                     AVTNIRHQRSQTECGPYSLFYIRARLDNVSYAHFISARITDEDMYKFRTHLFRIA"
+     gene            148526..152104
+                     /gene="P1192R CDS"
+                     /locus_tag="IM014_gp145"
+                     /db_xref="GeneID:59227094"
+     CDS             148526..152104
+                     /gene="P1192R CDS"
+                     /locus_tag="IM014_gp145"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927236.1"
+                     /db_xref="GeneID:59227094"
+                     /translation="MEAFEISDFKEHAKKKSMWAGALNKVTISGLMGVFTEDEDLMAL
+                     PIHRDHCPALLKIFDEIIVNATDHERACHNKTKKVTYIKISFDKGVFSCENDGPGIPI
+                     AKHEQASLIAKRDVYVPEVASCHFLAGTNINKAKDCIKGGTNGVGLKLAMVHSQWAIL
+                     TTADGAQKYVQHINQRLDIIEPPTITPSREMFTRIELMPVYQELGYAEPLSETEQADL
+                     SAWIYLRACQCAAYVGKGTTIYYNDKPCRTGSVMALAKMYTLLSAPNSTIHTATIKAD
+                     AKPYSLHPLQVAAVVSPKFKKFEHVSVINGVNCVKGEHVTFLKKTINEMVVKKFQQTI
+                     KDKNRKTTLRDSCSNIFIVIVGSIPGIEWTGQRKDELSIAENVFKTHYSIPSSFLTSM
+                     TKSIVDILLQSISKKDNHKQVDVDKYTRARNAGGKRAQDCMLLAAEGDSALSLLRTGL
+                     TLGKSNPSGPSFDFCGMISLGGVIMNACKKVTNITTDSGETIMVRNEQLTNNKVLQGI
+                     VQVLGLDFNCHYKTQEERAKLRYGCIVACVDQDLDGCGKILGLLLAYFHLFWPQLIIH
+                     GFVKRLLTPLIRVYEKGKTMPVEFYYEQEFDAWAKKQTSLANHTVKYYKGLAAHDTHE
+                     VKSMFKHFDNMVYTFTLDDSAKELFHIYFGGESELRKRELCTGVVPLTETQTQSIHSV
+                     RRIPCSLHLQVDTKAYKLDAIERQIPNFLDGMTRARRKILAGGVKCFASNNRERKVFQ
+                     FGGYVADHMFYHHGDMSLNTSIIKAAQYYPGSSHLYPVFIGIGSFGSRHLGGKDAGSP
+                     RYISVQLASEFIKTMFPAEDSWLLPYVFEDGQRAEPEYYVPVLPLAIMEYGANPSEGW
+                     KYTTWARQLEDILALVRAYVDKDNPKHELLHYAIKHKITILPLRPSNYNFKGHLKRFG
+                     QYYYSYGTYVISEQRNIITITELPLRVPTVAYIESIKKSSNRMTFIEEIIDYSSSETI
+                     EILVKLKPNSLNRIVEEFKETEEQDSIENFLRLRNCLHSHLNFVKPKGGIIEFNTYYE
+                     ILYAWLPYRRELYQKRLMREHAVLKLRIIMETAIVRYINESAELNLSHYEDEKEASRI
+                     LSEHGFPPLNHTLIISPEFASIEELNQKALQGCYTYILSLQARELLIAAKTRRVEKIK
+                     KMQARLDKVEQLLQESPFPGASVWLEEIDAVEKAIIKGRNTQWKFH"
+     gene            complement(152136..153215)
+                     /gene="H359L CDS"
+                     /locus_tag="IM014_gp146"
+                     /db_xref="GeneID:59227084"
+     CDS             complement(152136..153215)
+                     /gene="H359L CDS"
+                     /locus_tag="IM014_gp146"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927237.1"
+                     /db_xref="GeneID:59227084"
+                     /translation="MEKIFQNVEIKPFLIDFSNLFIKNAAKKLFQLEEQLPLVPVNVV
+                     MDFKGISRAAVHGLSRVLQDEIPNYMLDIKPGGYKIEDSTDLFMTEQFIRNRINFIPI
+                     YAKNETLVFALRSLNNSCEVKTIYSRDLIQVAGPKLKYPIFNPTFEIGFLQPGKSLII
+                     EDIYIKKGIGRKHAAFNLAVKTHFSHLDIEQYPTDKKEYMALSGYKQSSMTSDPRHHR
+                     LGLCFPAVPLPHINQAVRTYLKNACRIIIGRIQSIQKIYENFEEPQPELVLFSMDEEK
+                     TKAIITIKDETHTIGNLLKTYIYEMIPDISFVGYQCVPHKQEMVLTIIHKASQEDLIT
+                     LLEKSIQNIIQTFQILEKNVDELIA"
+     gene            153250..153765
+                     /gene="H171R CDS"
+                     /locus_tag="IM014_gp147"
+                     /db_xref="GeneID:59227005"
+     CDS             153250..153765
+                     /gene="H171R CDS"
+                     /locus_tag="IM014_gp147"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927238.1"
+                     /db_xref="GeneID:59227005"
+                     /translation="MVVYDLLVSLSKESIDVLRFVEANLAAFNQQYIFFNIQRKNSIT
+                     TPLLITPQQEKISQIVEFLMDEYNKNNRRPSGPPREQPMHPLLPYQQSSDEQPMMPYQ
+                     QPPGNDDQPYEQIYHKKHASQQVNTELNDYYQHILALGDEDKGMDSMLKLPEKAKRDS
+                     DDEDDMFSIKN"
+     gene            153805..154179
+                     /gene="H124R CDS"
+                     /locus_tag="IM014_gp148"
+                     /db_xref="GeneID:59227001"
+     CDS             153805..154179
+                     /gene="H124R CDS"
+                     /locus_tag="IM014_gp148"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927239.1"
+                     /db_xref="GeneID:59227001"
+                     /translation="MNLEYVQVVQKFNQVLLELTKKVCTVVGGSKPTYWYHHIRRVCS
+                     ECPSMPMSMIGPYLNVYKAQILTRDKNFFMNFDPAHNEYTFIIQKLKEAARNMPEDEL
+                     EQYWVKLLFLLKSYIKCKPFIN"
+     gene            154202..155221
+                     /gene="H339R CDS"
+                     /locus_tag="IM014_gp149"
+                     /db_xref="GeneID:59227000"
+     CDS             154202..155221
+                     /gene="H339R CDS"
+                     /locus_tag="IM014_gp149"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927240.1"
+                     /db_xref="GeneID:59227000"
+                     /translation="MAGRVKIKQKELIDSTVKNKNVMNLFHEIIGSKGNINFSVVWPK
+                     FKKIKQSVYDYISTLSVLEKANVMQNFEADKKLLELFVQKLWAAYEGYFKYPEIEKYE
+                     VEGQVNFNLVPQCVLEKFSQLYRIRINSELVTLILNSCAFMSKYNDYILKKDPYILTI
+                     TPGLCFSPIPNFEDLNFKHLYNSDKNSQHDKEFIMFILYKLYTAALGVYNAISIPDID
+                     VEDLENIILSSVSQIKKQIPRCKDAFNKIESSVHLLRKNFNTYYSDYVGSGYNPTIIM
+                     EQYIKDISQDSKNISPRISYQFRTIIKYYRDMIATRHQTMDPQVLNLVKHVEKKLDML
+                     DREKN"
+     gene            155233..155559
+                     /gene="H108R CDS"
+                     /locus_tag="IM014_gp150"
+                     /db_xref="GeneID:59227004"
+     CDS             155233..155559
+                     /gene="H108R CDS"
+                     /locus_tag="IM014_gp150"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927241.1"
+                     /db_xref="GeneID:59227004"
+                     /translation="MVNLFPVFTLIVIITILITTRELSTTMLIVSLVTDYIIINTQYT
+                     EQQHENNTFFMPQKNSFNESYNKDKKSNIHIPYQWLAPELKEAESKYWWGNYDPHSEP
+                     VLAGAS"
+     gene            155519..156220
+                     /gene="H233R CDS"
+                     /locus_tag="IM014_gp151"
+                     /db_xref="GeneID:59226999"
+     CDS             155519..156220
+                     /gene="H233R CDS"
+                     /locus_tag="IM014_gp151"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927242.1"
+                     /db_xref="GeneID:59226999"
+                     /translation="MILIASPFSLAHLEYLHTWHVTIKNIAQQHGLDIKVAIVVSTSH
+                     LNNFLPISGALNIECITFPSCGIKEIDLLWARIKLFQHYCAIGARLLWLVSADIRPPV
+                     SAWPAIADSLKKGADAVVIPYPSRWNNLIPTVIKEIVVHQKKCLVAVDARHLDTDTQI
+                     VGAGMGCIVLTLKALMVRLSIGKQPVKILWPDLHGTAEGIPLEGVEVGWFLNAYAHKL
+                     NIRCLGADHIAQHLT"
+     gene            156335..157060
+                     /gene="H240R CDS"
+                     /locus_tag="IM014_gp152"
+                     /db_xref="GeneID:59227002"
+     CDS             156335..157060
+                     /gene="H240R CDS"
+                     /locus_tag="IM014_gp152"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927243.1"
+                     /db_xref="GeneID:59227002"
+                     /translation="MAANIIATRAVPKMASKKEHQYCLLDSQEKRHGHYPFSFELKPY
+                     GQTGANIIGVQGSLTHVIKMTVFPFMIPFPLQKTHIDDFIGGRIYLFFKELDMQAVSD
+                     VNGMQYHFEFKVVPVSPNQVELLPVNNKYKFTYAIPVVQYLTPIFYDLSGPLDFPLDT
+                     LSVHVDILSNHIQLPIQNHNLTTGDRVFISGYKHLQTIELCKNNKIFIKNIPPLSSEK
+                     IKLYILKNRIRIPLYFKSLKTSK"
+     gene            complement(157053..157949)
+                     /gene="R298L CDS"
+                     /locus_tag="IM014_gp153"
+                     /db_xref="GeneID:59227003"
+     CDS             complement(157053..157949)
+                     /gene="R298L CDS"
+                     /locus_tag="IM014_gp153"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927244.1"
+                     /db_xref="GeneID:59227003"
+                     /translation="MSRPEQQLKKMLKNPQAQYAFYPTAKVERISTTQHMYFIATRPM
+                     FEGGRNNVFLGHQVGQPIIFKYVSKKEIPGNEVIVLKALQDTPGVIKLIEYTENAMYH
+                     ILIIEYIPNSVDLLHYHYFKKLEETEAKKIIFQLILIIQNIYEKGFIHGDIKDENLII
+                     DINQKIIKVIDFGSAVRLDETRPQYNMFGTWEYVCPEFYYYGYYYQLPLTVWTIGMVA
+                     VNLFRFRAENFYLNDILKRENYIPENISETGKQFITECLTINENKRLSFKSLVSHPWF
+                     KGLKKEIQPISELGVDYKNVIT"
+     gene            complement(157924..160044)
+                     /gene="Q706L CDS"
+                     /locus_tag="IM014_gp154"
+                     /db_xref="GeneID:59227092"
+     CDS             complement(157924..160044)
+                     /gene="Q706L CDS"
+                     /locus_tag="IM014_gp154"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927245.1"
+                     /db_xref="GeneID:59227092"
+                     /translation="MSCVHNNTSFPVQIEAYLKEVYEKYKELQESKDTSLTARFARAL
+                     KYYQFLIYTAFSDPKFGIGQGENTRGLLIYHQMGMGKTILSLSLAISLSHIYNPILIA
+                     PKSLHSNFQQSLLKLIKLLYPETTDHSKELQKISRRFRFVSLDAYNMGQQIIKAGGSL
+                     NGCLLIVDEAHNLFRGIINSANDKTNARQLYNNIMQAKNIRILFLTGTPCSKDPFEMV
+                     PCFNMLSGRILLPLHYERFYTAYVNKTTNSPLNADKLLNRLVGMISYAGNQNELNKLF
+                     PTELPLIIEKVEMSPEQYRQYLLARDVENAEKHASSGMYEKINAAALCLPGSEQESGS
+                     SYYVRSRMISIFASEMLTVKEDEKLSEAVQQLPKEAFTENSSPKIVRMLKNIKTSPGP
+                     VLIYSQFVELGLHVVARFLEIEGYQCLQPLKVLEEGHNTILLHKDGKDLMVKNFAEDG
+                     PTHTLVLSSKITRFTLITGKILSKERDMIQQLWNSPLNIHGEVIKILLVSKTGAEGLD
+                     LKYGRQVHILEPYWDKAREDQVKARIIRIGSHDALPPEEKTVQPFLYIAVANQKMFYS
+                     IPEGSQEQKTIDERFHERGLEKSHLNSAFRDLLKRAAIECAFNGESGCLMCQPTNALL
+                     FHENFERDLRLPNPCQPLVKAEVKAYSISYEGKQFFYQKNKDVGLGYTFYEYNPIIKA
+                     YIEIKPSNPLYIKLIKHVQAGTTA"
+     gene            complement(160002..161531)
+                     /gene="QP509L CDS"
+                     /locus_tag="IM014_gp155"
+                     /db_xref="GeneID:59227089"
+     CDS             complement(160002..161531)
+                     /gene="QP509L CDS"
+                     /locus_tag="IM014_gp155"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927246.1"
+                     /db_xref="GeneID:59227089"
+                     /translation="MEAIISFAGIGINYKKLQSKLQHDFGRVLKALTVTARALPGQPK
+                     HIAIRQETAFTLQGEYIYFPILLQKQFEMFNMVYTTRPVSLRALPCVETEFPLFNYQQ
+                     EMVDKIHKKLLSPYGRFYLHLNTGLGKTRIAISIIQKLLYPTLVIVPTKAIQIQWIDE
+                     LTLLLPHLRVAAYNNAACKKKDMTSKEYDVIVGIINTLRKKPEQFFEPFGLVVLDEAH
+                     ELHSPENYKIFWKIQLSRILGLSATPLDRPDGMDKIIIHHLGQPQRTVSPTTTFSGYV
+                     REIEYQGHPDFVSPVYINEKVSAIATIDKLLQDPSRIQLVVNEAKRLYSLHTAEPHKW
+                     GTDEPYGIIIFVEFRKLLEIFYQALSKEFKDVQIIVPEVALLCGGVSNTALSQAHSAS
+                     IILLTYGYGRRGISFKHMTSIIMATPRRNNMEQILGRITRQGSDEKKVRIVVDIKDTL
+                     SPLSSQVYDRHRIYKKKGYPIFKCSASYQQPYSSNEVLIWDPYNESCLACTTTPPSPS
+                     K"
+     gene            161521..162672
+                     /gene="QP383R CDS"
+                     /locus_tag="IM014_gp156"
+                     /db_xref="GeneID:59227091"
+     CDS             161521..162672
+                     /gene="QP383R CDS"
+                     /locus_tag="IM014_gp156"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927247.1"
+                     /db_xref="GeneID:59227091"
+                     /translation="MASILTLDGLYAEVPKFLPEALREGCAGKNPLSFYIQQILNLMG
+                     CDGNEYHVLFTSSSEEANTHMIMAAVRRHLLRTQQRPHVIIGAAEPPSVTECVKALAQ
+                     EKRCVYTIIPLKNFEIDPVAVYDAIQSNTCLACISGTNAVVKTFNKLQDISNVLKGIP
+                     LHSEVSDLVYQGCIQQNPPADSFSINSLYGFLGVGVLGMKKKVMQGLGPLIFGGGLRG
+                     GSPNIPGIHAMYKTLTQQRPSMKKINTIHTLFMKTLKKHQHVYLPIGGVSAEDTSAEN
+                     ISTKDMPVEGPKGLPGYILFSVGRRAEELQKKIFTKFNIKVGRVVDLQEILFRIKIPQ
+                     KYWETLLFIQLRDNLTKEDIKRVMVVLMHLDTITPRGSLPPPSHSSSFS"
+     gene            complement(162620..163174)
+                     /gene="E184L CDS"
+                     /locus_tag="IM014_gp157"
+                     /db_xref="GeneID:59227090"
+     CDS             complement(162620..163174)
+                     /gene="E184L CDS"
+                     /locus_tag="IM014_gp157"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927248.1"
+                     /db_xref="GeneID:59227090"
+                     /translation="MKTFITCTSVKNYFRQHLKTNQRISSELISYVCTILNHICHQYL
+                     QNPQAQEEEWFALIKELPIIKDGLSKEERFFSSGVKHFLHEYKITPENQEKFQKMLNA
+                     ITEQLMSRLCKVFSIMIQRQGFLKTQTLMYSHLFTILSILMVADNLYGEQDPTEFFSL
+                     IIEQTKTIKKKKKSGSEEEESHEE"
+     gene            complement(163218..163772)
+                     /gene="E183L CDS"
+                     /locus_tag="IM014_gp158"
+                     /db_xref="GeneID:59226978"
+     CDS             complement(163218..163772)
+                     /gene="E183L CDS"
+                     /locus_tag="IM014_gp158"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927249.1"
+                     /db_xref="GeneID:59226978"
+                     /translation="MDSEFFQPVYPRHYGECLSPVTTPSFFSTHMYTILIAIVVLVII
+                     IIVLIYLFSSRKKKAAAIEEEDIQFINPYQDQQWVEVTPQPGTSKPAGATTASVGKPV
+                     TGRPATNRPATNKPVTDNPVTDRLVMATGGPAAAPAAASAPAHPAEPYTTVTTQNTAS
+                     QTMSAIENLRQRNTYTHKDLENSL"
+     gene            163803..165074
+                     /gene="E423R CDS"
+                     /locus_tag="IM014_gp159"
+                     /db_xref="GeneID:59226977"
+     CDS             163803..165074
+                     /gene="E423R CDS"
+                     /locus_tag="IM014_gp159"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927250.1"
+                     /db_xref="GeneID:59226977"
+                     /translation="MLWRNEITEFMDQLSKYSQEILKTFKQLRPSEYKQYNEFLTQVT
+                     PLLQKTPEKIPELVDHIFNYLDNVEKICELLVNASSIIISSKIREQVKHGMSFSYKAD
+                     LDSLADILSQKQYVLMHLSKNIAAEYFNTCLNQGKSKLDLKAASVFYSSRSRTASSAE
+                     LYRKMLYAYGSPQEINYYTEKARNKTLDVEESDSMAIIERTARHNLSLMHPLEAMGLT
+                     FGATNTDADPEDLKDKTVINLTLPQATESITYHLKSLMQLKKVSTASGLNTNILKAFD
+                     NIISTPVKKNKMASKLAPGMDVVFTSDNGKTFFTKNILSKNMLAGPKERVFAYNNLIS
+                     NLNNSCFIQNHNDFLRQQDSWPFYDAHNFTNKFLMQPIFSGQTRPRLQGAMEAAHVET
+                     HLTAFLQSIQPSRPQDPSVLASPKLSALILN"
+     gene            165225..166130
+                     /gene="E301R CDS"
+                     /locus_tag="IM014_gp160"
+                     /db_xref="GeneID:59226982"
+     CDS             165225..166130
+                     /gene="E301R CDS"
+                     /locus_tag="IM014_gp160"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927251.1"
+                     /db_xref="GeneID:59226982"
+                     /translation="MSEDIRRGPGRPPKKRVVPNFERKGILEKPVRPQSRLEFSYDNP
+                     LIFKNLFIYFKNLKSKNILVRCTPTEITFFSRDQSQASFVIATIDGKNVNHYYASDVF
+                     WLGINRELVEKMFNSIDRSFLKITIVHRYDKPETLFFIFTDFDIDKECTYQITVSEPE
+                     LDMDLIEMEKSISEERLKNYPLRWEFTSKQLKKTFSDLSNYTELVTIEKLGGDTPLHL
+                     YFQKFNSISYHEMYKSSNKINLTSTIPKSQVFQINVKIAHIKSLASAMVTDKIRILCE
+                     ENGNLIFQSEMDALMLNTITLNTTI"
+     gene            complement(166164..166604)
+                     /gene="E146L CDS"
+                     /locus_tag="IM014_gp161"
+                     /db_xref="GeneID:59226981"
+     CDS             complement(166164..166604)
+                     /gene="E146L CDS"
+                     /locus_tag="IM014_gp161"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927252.1"
+                     /db_xref="GeneID:59226981"
+                     /translation="MGGTTDFVLSITIVLVILIIIAFIWYNFTGWSPFKYSKGNTVTF
+                     KTPDESSIAYMRFRNCVFTFTDPKGSLHSIDVTEVLNNMAKGFRDAQNPPSSFTLGGH
+                     CQAPLNAFSFVLPGVNDRATVATADEAKKWENCDATLTGLQRII"
+     gene            complement(166841..167440)
+                     /gene="E199L CDS"
+                     /locus_tag="IM014_gp162"
+                     /db_xref="GeneID:59226975"
+     CDS             complement(166841..167440)
+                     /gene="E199L CDS"
+                     /locus_tag="IM014_gp162"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927253.1"
+                     /db_xref="GeneID:59226975"
+                     /translation="MSCMPVSTKCNDIWVDFSCTGPSISELQKKEPKAWAAILRSHTN
+                     QQTAEDDNIIGSICDKQGLCSKDEYAYSQYCACVNSGTLWAECAFAPCNGNKNAYKTT
+                     EQRNILTNKQCPSGLTICQNIAEYGGSGNISDLYQNFNCNSVINTFLINVMNHPFLTL
+                     ILIILILIIIYRLMSSSGGKHNDDKLPPPSLIFSNLNNF"
+     gene            167468..167965
+                     /gene="E165R CDS"
+                     /locus_tag="IM014_gp163"
+                     /db_xref="GeneID:59226979"
+     CDS             167468..167965
+                     /gene="E165R CDS"
+                     /locus_tag="IM014_gp163"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927254.1"
+                     /db_xref="GeneID:59226979"
+                     /translation="MATNFFIQPITEEAEAYYPPSVITNKRKDLGVDVYCCSDLVLQP
+                     GLNIVRLHIKVACEHMGKKCGFKIMARSSMCTHERLLILANGIGLIDPGYVGELMLKI
+                     INLGDTPVQIWAKECLVQLVAQGDHVPDHINILKRNQIFPLFAPTPRGEGRFGSTGEA
+                     GIMRT"
+     gene            167988..168734
+                     /gene="E248R CDS"
+                     /locus_tag="IM014_gp164"
+                     /db_xref="GeneID:59226976"
+     CDS             167988..168734
+                     /gene="E248R CDS"
+                     /locus_tag="IM014_gp164"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927255.1"
+                     /db_xref="GeneID:59226976"
+                     /translation="MGGSTSKNSFKNTTNIISNSIFNQMQSCISMLDGKNYIGVFGDG
+                     NILNHVFQDLNLSLNTSCVQKHVNEENFITNLSNQITQNLKDQEVALTQWMDAGTHDQ
+                     KTDIEENIKVNLTTTLIQNCVSSLSGMNVLVVKGNGNIVENATQKQSQQIISNCLQGS
+                     KQAIDTTTGITNTVNQYSHYTSKNFFDFIADAISAVFKNIMVAAVVIVLIIVGFIAVF
+                     YFLHSRHRHEEEEEAEPLISNKVLKNAAVS"
+     gene            168776..169144
+                     /gene="E120R CDS"
+                     /locus_tag="IM014_gp165"
+                     /db_xref="GeneID:59226980"
+     CDS             168776..169144
+                     /gene="E120R CDS"
+                     /locus_tag="IM014_gp165"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927256.1"
+                     /db_xref="GeneID:59226980"
+                     /translation="MADFNSPIQYLKEDSRDRTSIGSLEYDENADTMIPSFAAGLEEF
+                     EPIPDYDPTTSTSLYSQLTHNMEKIAEEEDSNFLHDTREFTSLVPDEADNKPEDDEES
+                     GAKPKKKKHLFPKLSSHKSK"
+     gene            169174..170064
+                     /gene="EP296R CDS"
+                     /locus_tag="IM014_gp166"
+                     /db_xref="GeneID:59226974"
+     CDS             169174..170064
+                     /gene="EP296R CDS"
+                     /locus_tag="IM014_gp166"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927257.1"
+                     /db_xref="GeneID:59226974"
+                     /translation="MFGAFVSHRLWSDSGCTTTCITNSIANYVAFGEQIGFPFKSAQV
+                     FIAGPRKAVINIQEDDKVELLKMIVKHNLWVVAHGTYLDVPWSRKSAFVTHFIQQELL
+                     ICKEVGIKGLVLHLGAVEPELIMEGLKKIKPVEGVVIYLETPHNKHHTYKYSTIEQIK
+                     ELFLRIRNTRLKQIGLCIDTAHIWSSGVNISSYNDAGQWLRSLENIHSVIPPSHIMFH
+                     LNDAATECGSGIDRHASLFEGMIWKSYSHKIKQSGLYCFVEYVTRHQCPAILERNLGS
+                     SMQLQTALTAEFTTLKSLLK"
+     gene            170067..170402
+                     /gene="E111R CDS"
+                     /locus_tag="IM014_gp167"
+                     /db_xref="GeneID:59226987"
+     CDS             170067..170402
+                     /gene="E111R CDS"
+                     /locus_tag="IM014_gp167"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927258.1"
+                     /db_xref="GeneID:59226987"
+                     /translation="MSFSECPLVISACKKFLQKRITIENEALINALITALAQTSTLND
+                     LCLLPIQTYLLSYKNAFEWIHFVCIAITTILDNKYNWKDCTVDINYIFLHVTYIYNIK
+                     TKEYLDYCS"
+     gene            complement(170485..170637)
+                     /gene="E66L CDS"
+                     /locus_tag="IM014_gp168"
+                     /db_xref="GeneID:59226973"
+     CDS             complement(170485..170637)
+                     /gene="E66L CDS"
+                     /locus_tag="IM014_gp168"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927259.1"
+                     /db_xref="GeneID:59226973"
+                     /translation="MHISIITRYTLKYIYMHLTHNHILFTYIMRIYLIKHNHMLFTTH
+                     VYTYIM"
+     gene            complement(170641..171444)
+                     /gene="I267L CDS"
+                     /locus_tag="IM014_gp169"
+                     /db_xref="GeneID:59226983"
+     CDS             complement(170641..171444)
+                     /gene="I267L CDS"
+                     /locus_tag="IM014_gp169"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927260.1"
+                     /db_xref="GeneID:59226983"
+                     /translation="MLLVLIDVDGFMGQLYNENGTQTILIPREVVIFYWEKNTPSKIL
+                     QLFFHGGIDPIFEKINQRSFSFQSRHIHHFTLDESPLPNSIALPTDTLQAFKAGKKMI
+                     FQHLVKITKDHEQILLLHKGGPEGEWIRSFNIPNATVQNLNDLCCPSVEKLVLKKRDY
+                     ISSSIGCPKHIQGSNHCPVFECHVLFKWIQENTSIVQGVLERPSLPYEKADLFIEHRI
+                     NMVDNHPFKKDSIKQNQKKKNWIATQFVQHGIYVDNGILSKIYNKYSLF"
+     gene            171596..172276
+                     /gene="I226R CDS"
+                     /locus_tag="IM014_gp170"
+                     /db_xref="GeneID:59227015"
+     CDS             171596..172276
+                     /gene="I226R CDS"
+                     /locus_tag="IM014_gp170"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927261.1"
+                     /db_xref="GeneID:59227015"
+                     /translation="MKMETFLVCLFHNADGLHQQIQEILYLLRMHIYETNLYLKQELS
+                     RLIYPNRQLSFVLLMPLSLLRNWDDIEYLTDVVDDKQTLHYAANLLTNYVLHLSMFQK
+                     LTKPYFLLAVKRVSEKLNKKQRHSFYEVLVTSETLNNYENLSKNILNTLMFAVRYVFK
+                     PTPNYSEILAELEKKNKIHHIIFNMVITDFAQIREQQMDKHLCETNNELRQECKETIF
+                     DLKVVGNV"
+     gene            complement(172273..173004)
+                     /gene="I243L CDS"
+                     /locus_tag="IM014_gp171"
+                     /db_xref="GeneID:59227013"
+     CDS             complement(172273..173004)
+                     /gene="I243L CDS"
+                     /locus_tag="IM014_gp171"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927262.1"
+                     /db_xref="GeneID:59227013"
+                     /translation="MKMHIARDSIVFLLNKYLQNTILTNKIEQECFLQADTPKKYLQY
+                     IKPFLINCMTKNITTDLVMKDSKRLEPYIILEMRDIIQMMFFRTLQKHMFFKEHTDLC
+                     TEYAQKIEASCYHYTYQQQEKTFLEEYSTRCGTINHIINCEKKSHQQQDNDALNKLIS
+                     GELKPEAIGSMTFAELCPSAALKEKTEITLRSQQKVAEKTSQLYKCPNCKQRMCTYRE
+                     VQTRALDEPSTIFCTCKKCGHEFIG"
+     gene            173088..173306
+                     /gene="I73R CDS"
+                     /locus_tag="IM014_gp172"
+                     /db_xref="GeneID:59227014"
+     CDS             173088..173306
+                     /gene="I73R CDS"
+                     /locus_tag="IM014_gp172"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927263.1"
+                     /db_xref="GeneID:59227014"
+                     /translation="METQKLISMVKEALEKYQYPLTAKNIKVVIQKEHNVVLPTGSIN
+                     SILYSNSELFEKIDKTNTIYPPLWIRKN"
+     gene            complement(173516..174505)
+                     /gene="I329L CDS"
+                     /locus_tag="IM014_gp173"
+                     /db_xref="GeneID:59227017"
+     CDS             complement(173516..174505)
+                     /gene="I329L CDS"
+                     /locus_tag="IM014_gp173"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927264.1"
+                     /db_xref="GeneID:59227017"
+                     /translation="MLRVFIFFVFLGSGLTGRIKPQVTCKYFISENNTWYKYNVTILN
+                     SSIVLPAYNTIPSNAAGISCTCHDIDYLQKNNISIHYNTSILKTFQDIRIIRCGMKNI
+                     SEIAGGFGKELKFLDLRYNDLQVIDYNILRKLIRSNTPTYLYYNNLMCGKRNCPLYYF
+                     LLKQEQTYLKRLPQFFLRRINFSNNNTFLYHFLSCGNKPGHEFLEYQTKYCRTKFPEI
+                     NITVNQLIAKKNTERYKSCYPLVFISILCSCISFLFLFICLLRSICKKYSCTKQDKSS
+                     HNYIPLIPSYTFSLKKHRHPETAVVEDHTTSANSPIVYIPTTEEKKVSCSRRK"
+     gene            complement(174794..175432)
+                     /gene="I215L CDS"
+                     /locus_tag="IM014_gp174"
+                     /db_xref="GeneID:59227016"
+     CDS             complement(174794..175432)
+                     /gene="I215L CDS"
+                     /locus_tag="IM014_gp174"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927265.1"
+                     /db_xref="GeneID:59227016"
+                     /translation="MVSRFLIAEYRHLIENPSENFKISVNEKDMTEWDVILRGPPDTF
+                     YEGGLFKAKIAFPPEYPYAPPRLTFTSEMWHPNIYSDGKLCISILHGDNAEEQGMTWS
+                     PAQKIDTILLSVISLLNEPNPDSPANVDAAKSYRKLLYKEDLESYPMEVKRTVKKSLD
+                     ECSPEDIEYFKNAASNVPPIPSDAYEDECEEMEDDTYILTYDDEDEEEEDDE"
+     gene            complement(175473..176006)
+                     /gene="I177L CDS"
+                     /locus_tag="IM014_gp175"
+                     /db_xref="GeneID:59227012"
+     CDS             complement(175473..176006)
+                     /gene="I177L CDS"
+                     /locus_tag="IM014_gp175"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927266.1"
+                     /db_xref="GeneID:59227012"
+                     /translation="MYEIILAIIIILLTIIIFYFYKTPFKCITTTKTPVLFIKFQLIA
+                     ADNYQAITWKDGILNYEKIDQPTPLYLSVNGLIFDCAKLQPLTTKSNVTSGDKVVHIG
+                     QTFEYNNLLMWKVNDQGFLNISVTGTKFNLIAITGKLGFYTDPPSHLIIMPLKFFPVH
+                     KFSKNEPNKKQKRFIYF"
+     gene            complement(175922..176006)
+                     /gene="ASFV G ACD 01760 no indication"
+                     /locus_tag="IM014_gp176"
+                     /db_xref="GeneID:59227010"
+     misc_feature    complement(175922..176006)
+                     /gene="ASFV G ACD 01760 no indication"
+                     /locus_tag="IM014_gp176"
+     gene            complement(175999..176607)
+                     /gene="I196L CDS"
+                     /locus_tag="IM014_gp177"
+                     /db_xref="GeneID:59226922"
+     CDS             complement(175999..176607)
+                     /gene="I196L CDS"
+                     /locus_tag="IM014_gp177"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927267.1"
+                     /db_xref="GeneID:59226922"
+                     /translation="MLFRYLVWLFRFIEVKNVVSISLLVIGSNYLTTAISNNTSTTIS
+                     PTTTSSNYLMTAISNNTSTTISPTTTSSNYLMTAIPNIISDKEDDIHFSTDKTVFDRL
+                     SPITLYRAIRSTLNDTSTKTMTDHILTRPYRPTTVIFHSDTPQPVKNATQGNIVKKIY
+                     RQVLTFFIQPNPLFPCFKNHEVFLNLANILNTILCIILIKNV"
+     gene            complement(176701..177417)
+                     /gene="DP238L CDS"
+                     /locus_tag="IM014_gp178"
+                     /db_xref="GeneID:59227011"
+     CDS             complement(176701..177417)
+                     /gene="DP238L CDS"
+                     /locus_tag="IM014_gp178"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927268.1"
+                     /db_xref="GeneID:59227011"
+                     /translation="MARGQNIRKRTFSDMDTPSDKNIGIHTNSLPKNNLYRRILFKGK
+                     ISNYSISKDSLAKDHSSNHSISKNGLIGKKRPAPLDISFQNMNSSISSSTQKKTRILD
+                     EEIKDQSLSNENDRDSPVIVDITLKPSYMSKTSRITEIIHKMKELNMNRIEDGSSFNK
+                     KRSEHDDKNILLHTMEMEEEDCEIEEDIAIDSPYLNTSLSEDDTDSIVGTDYSEEEKE
+                     TISETESSSDDESYSLYDSF"
+     gene            177594..178652
+                     /gene="MGF 360-16R CDS"
+                     /locus_tag="IM014_gp179"
+                     /db_xref="GeneID:59226967"
+     CDS             177594..178652
+                     /gene="MGF 360-16R CDS"
+                     /locus_tag="IM014_gp179"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927269.1"
+                     /db_xref="GeneID:59226967"
+                     /translation="MLSLQTIAKMAVATNTYSKYHYPILKVFGLWWKNNTLNGPIKIC
+                     NHCNNIMVGEYPMCYNHGMSLDIALIRAVKERNISLVQLFTEWGGNIDYGALCANTPS
+                     MQRLCKSLGAKPPKGRMYMDALIHLSDTLNDNDLIRGYEIFDDNSVLDCVNLIRLKIM
+                     LTLKARIPLMEQLDQIALKQLLQRYWYAMAVQHNLTIAIHYFDNHIPNIKPFSLRCAL
+                     YFNDPFKIHDACRTVNMDPNEMMNIACQQDLNFQSIYYCYLLGADINQAMLMSLKYGH
+                     LSNMWFCIDLGADAFKEAGALAEKKNKRVLQHILGLNIFKRELIPPCKDPDPYQIQIL
+                     LKNYILKNVSTVFTYYCQ"
+     gene            <178506..178652
+                     /gene="DP63R no incication vs FR682468"
+                     /locus_tag="IM014_gp180"
+                     /db_xref="GeneID:59227056"
+     misc_feature    <178506..178652
+                     /gene="DP63R no incication vs FR682468"
+                     /locus_tag="IM014_gp180"
+     gene            complement(178732..180360)
+                     /gene="MGF 505-11L CDS"
+                     /locus_tag="IM014_gp181"
+                     /db_xref="GeneID:59226969"
+     CDS             complement(178732..180360)
+                     /gene="MGF 505-11L CDS"
+                     /locus_tag="IM014_gp181"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927270.1"
+                     /db_xref="GeneID:59226969"
+                     /translation="MFSLQKKALQHIYMTPENASQLTKDLLQHLGLYWNGPIVKMDTV
+                     IHLHNNIFSNRSVLKYALAKQANISIIETLVLWVEPEYALAQALKHNRKDVLECIFSY
+                     HLTTPKYHHIMHLTSSQELFEFFHLFICKSKNYNARMECLLYAATLYNFPNILEKNRE
+                     YIIRHSIGNSLFAIACKERHIHLIAWFVTAGVLDTYDDSTLFNTAFRLGDYSLLEVAC
+                     DLPIIYPDYLIISMMQTAIQKNYFRFFKKLLTHFNIYRPIIITDAAYYNRRKILLLLL
+                     NQNVFNNFAILCALSAAIKGHASKKTLNLLISQLDSQMTVIDSVYYSIIKYNNIDCIL
+                     LLMQIKTFRLETLVSIAVHGDNIDIIAACKAFLPKDTLYHLVLKMAIISRNHKLFKLY
+                     TEKENPMYIFTTMKAIISNLVNYTVVQAVAIEYLRKFHQEKQLPIVPLLMVLAEHNYI
+                     TKFKKACYAANMSDQKVKRALIKCLFIASQKNYCQIFKYCFGSLLKVLSKHERVKFFN
+                     SVVFAKKLASYYDHQNMIHLIDSLIERFRYLIKD"
+     gene            complement(180479..180904)
+                     /gene="MGF 100-1L CDS"
+                     /locus_tag="IM014_gp182"
+                     /db_xref="GeneID:59227070"
+     CDS             complement(180479..180904)
+                     /gene="MGF 100-1L CDS"
+                     /locus_tag="IM014_gp182"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927271.1"
+                     /db_xref="GeneID:59227070"
+                     /translation="MGNKESKYLEMCSEEAWLNIPNIFKCIFIRKLFYNKWLKYQEKK
+                     LKKSLKLLSFYHPKKDFVGIRDMLQMAPGGSYFITDNMTEEFLMLVVKHPEDGSAEFT
+                     KLCLKGSCIVIDGYYYDNLHIFISETPDIYKYPLIRYDR"
+     gene            complement(181269..181577)
+                     /gene="MGF 100-3L CDS"
+                     /locus_tag="IM014_gp183"
+                     /db_xref="GeneID:59227032"
+     CDS             complement(181269..181577)
+                     /gene="MGF 100-3L CDS"
+                     /locus_tag="IM014_gp183"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927272.1"
+                     /db_xref="GeneID:59227032"
+                     /translation="MGNRLNGSYLSNTDMSIEDKQNKYNEAIEDCKICNKVYIKQSGK
+                     IDKKELTRIKKLDFFYSQKSDHEIERMFFNVPSGTFLLTDDATNENLFIAQKDLETAH
+                     "
+     gene            complement(181676..181984)
+                     /gene="I7L CDS"
+                     /locus_tag="IM014_gp184"
+                     /db_xref="GeneID:59227034"
+     CDS             complement(181676..181984)
+                     /gene="I7L CDS"
+                     /locus_tag="IM014_gp184"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927273.1"
+                     /db_xref="GeneID:59227034"
+                     /translation="MGNHPIKQDMKTCDYYHGEKKLKYMRRMLYNEPLGTYAVSSLFG
+                     CDMIVLTWNCTISGRTLHRRIHTRFGQYYHNNCYYTKIDDIIGDYPDTFYRPLYRYKP
+                     "
+     gene            complement(182044..182151)
+                     /gene="hypthetical"
+                     /locus_tag="IM014_gp185"
+                     /db_xref="GeneID:59227018"
+     CDS             complement(182044..182151)
+                     /gene="hypthetical"
+                     /locus_tag="IM014_gp185"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927274.1"
+                     /db_xref="GeneID:59227018"
+                     /translation="MMNIIKIRGKIFFAVLLEEDISLNTLSPNAVIRKI"
+     gene            complement(182198..182509)
+                     /gene="I8L CDS"
+                     /locus_tag="IM014_gp186"
+                     /db_xref="GeneID:59227008"
+     CDS             complement(182198..182509)
+                     /gene="I8L CDS"
+                     /locus_tag="IM014_gp186"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927275.1"
+                     /db_xref="GeneID:59227008"
+                     /translation="MGNRLIKKDLKKCEYYYGEQQNLKQIWRLLFNEPLGTYVVSSFL
+                     KKNYVVISFSCPTNTRIMHLRINICYDLYCINGEYYEKIDDFIRLYPHIFYRPLYRYK
+                     S"
+     gene            182604..182741
+                     /gene="ASFV G ACD 01870 CDS"
+                     /locus_tag="IM014_gp187"
+                     /db_xref="GeneID:59227019"
+     CDS             182604..182741
+                     /gene="ASFV G ACD 01870 CDS"
+                     /locus_tag="IM014_gp187"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927276.1"
+                     /db_xref="GeneID:59227019"
+                     /translation="MYFQQTRSILIKNDAVFILNLGLKFKEVFINYNHGNFFSNCLCK
+                     K"
+     gene            182704..182994
+                     /gene="I9R CDS"
+                     /locus_tag="IM014_gp188"
+                     /db_xref="GeneID:59226923"
+     CDS             182704..182994
+                     /gene="I9R CDS"
+                     /locus_tag="IM014_gp188"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927277.1"
+                     /db_xref="GeneID:59226923"
+                     /translation="MGTFSVTASAKSDDAVCKYLEEPIDENYRNILRNEHVKKNLNEA
+                     LNRHITTYNPVVDWCNNYSTFSSQDFDEYKIYIHSDLMDGRPRPKKTWCVIM"
+     gene            complement(183070..183582)
+                     /gene="I10L CDS"
+                     /locus_tag="IM014_gp189"
+                     /db_xref="GeneID:59227020"
+     CDS             complement(183070..183582)
+                     /gene="I10L CDS"
+                     /locus_tag="IM014_gp189"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927278.1"
+                     /db_xref="GeneID:59227020"
+                     /translation="MFYPVVQVLIGIILVIILILGFYHLKHKPPKKKCKTDTDCKDKG
+                     HHCVRGTCTDKSCLEAVKQDIKDIKLDPTIRSCDYAPGFYRFNATTADLQSPFGKTRI
+                     DLGRIWTTWSKEDECCQSLCLQHKGCIGWEFDEVSLGGTGECYYYLNPHLALKNSNNN
+                     TVMGIARNVL"
+     gene            complement(183821..184102)
+                     /gene="L11L CDS"
+                     /locus_tag="IM014_gp190"
+                     /db_xref="GeneID:59227009"
+     CDS             complement(183821..184102)
+                     /gene="L11L CDS"
+                     /locus_tag="IM014_gp190"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927279.1"
+                     /db_xref="GeneID:59227009"
+                     /translation="MDFFLLKKIFFFVDNRMLEPMLVMAPIPLVLIFLYSYFKIKLHK
+                     LITIALFLGCLFFILRDFCFPPMLWTQLHNITSSINILGNKSFQVQCNK"
+     gene            184332..185045
+                     /gene="MGF 360-18R CDS"
+                     /locus_tag="IM014_gp191"
+                     /db_xref="GeneID:59227027"
+     CDS             184332..185045
+                     /gene="MGF 360-18R CDS"
+                     /locus_tag="IM014_gp191"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927280.1"
+                     /db_xref="GeneID:59227027"
+                     /translation="MLEIVLATLLGDLQRLRVLTPQQRAVAFFRANTKELEDFLCSDG
+                     QSEEVLSGPLLNRLLEPSGPLDILTGYHLFRQNPKAGQLRGLEVKMLERLYDANIYNI
+                     LSRLRPEKVRNKAIELYWVFRAIHICHAPLVLDIVRYEEPDFAELAFICAAYFGEPQV
+                     MYLLYKYMPLTRAVLTDAIRISLESNNQVGICYAYLMGGSLKGLVSAPLRKRLRAKLR
+                     SQRKKKDVLSPHDFLLLLQ"
+     gene            complement(185028..185240)
+                     /gene="DP71L CDS"
+                     /locus_tag="IM014_gp192"
+                     /db_xref="GeneID:59227057"
+     CDS             complement(185028..185240)
+                     /gene="DP71L CDS"
+                     /locus_tag="IM014_gp192"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927281.1"
+                     /db_xref="GeneID:59227057"
+                     /translation="MGRRRKKRTNDAKHVHFATAVEVWEADDIERKGPWEQVAVDRFR
+                     FQRRIASVEELLSAVLLRQKKLLEQQ"
+     gene            185339..185629
+                     /gene="DP96R CDS"
+                     /locus_tag="IM014_gp193"
+                     /db_xref="GeneID:59226970"
+     CDS             185339..185629
+                     /gene="DP96R CDS"
+                     /locus_tag="IM014_gp193"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927282.1"
+                     /db_xref="GeneID:59226970"
+                     /translation="MSTHDCSLKEKPVDMNDISEKSVVVDNAPEKPAGANHIPEKSAR
+                     EMTSSEWIAEYWKGIKRGNDVPCCCPRKMTSADKKFSVFGKGSLMRSIQKNN"
+     gene            complement(185929..186087)
+                     /gene="ASFV G ACD 01940 CDS"
+                     /locus_tag="IM014_gp194"
+                     /db_xref="GeneID:59226972"
+     CDS             complement(185929..186087)
+                     /gene="ASFV G ACD 01940 CDS"
+                     /locus_tag="IM014_gp194"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927283.1"
+                     /db_xref="GeneID:59226972"
+                     /translation="MDIWYLKYVIAYILLLTMLVIGLIYRIIVLIYRSIQAQKNVVCN
+                     NALALFAM"
+     gene            186240..187049
+                     /gene="MGF 360-19Ra CDS"
+                     /locus_tag="IM014_gp195"
+                     /db_xref="GeneID:59226924"
+     CDS             186240..187049
+                     /gene="MGF 360-19Ra CDS"
+                     /locus_tag="IM014_gp195"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927284.1"
+                     /db_xref="GeneID:59226924"
+                     /translation="MPSTLQVLAKKVLALGEHKENEHISREYYYHILKCCGLWWHEAP
+                     IILCYDGSEQMMIKTPIFEEGILLNTALMKAVQENNYELIKLFTEWGANINYGLISIN
+                     TEHARDLCRKLGAKEMLEGNEFIQIIFKTLDDTTSSNIILCHELFTNNPLLENVNMGE
+                     MRMIIYWRMKNLTNLLLNNDSISEILTKFWYGIAVKYNLKDAIQYFYQRFMDFNEWRV
+                     TCALSFNNVNDLHKMYITEKVHMNNDEMMNLACSIQDRNLSTIYYCFLLGG"
+     gene            187063..187332
+                     /gene="MGF 360-19Rb CDS"
+                     /locus_tag="IM014_gp196"
+                     /db_xref="GeneID:59227058"
+     CDS             187063..187332
+                     /gene="MGF 360-19Rb CDS"
+                     /locus_tag="IM014_gp196"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927285.1"
+                     /db_xref="GeneID:59227058"
+                     /translation="MLTSVLNYNIFNLFFCIDLGADAFEEGKTLAKQKGYNEIVEILS
+                     LDIIYSPNTDFSSKIEPEHISSLLKNFYPKNLFAFDRCNPGLYYS"
+     gene            complement(187401..187532)
+                     /gene="ASFV G ACD 01960 CDS"
+                     /locus_tag="IM014_gp197"
+                     /db_xref="GeneID:59227059"
+     CDS             complement(187401..187532)
+                     /gene="ASFV G ACD 01960 CDS"
+                     /locus_tag="IM014_gp197"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927286.1"
+                     /db_xref="GeneID:59227059"
+                     /translation="MVAFKNIKKTLSFRQQQIVCRRPQTIFRVFCTIKYFFWSGLLL"
+     gene            187978..189048
+                     /gene="MGF 360-21R CDS"
+                     /locus_tag="IM014_gp198"
+                     /db_xref="GeneID:59226925"
+     CDS             187978..189048
+                     /gene="MGF 360-21R CDS"
+                     /locus_tag="IM014_gp198"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927287.1"
+                     /db_xref="GeneID:59226925"
+                     /translation="MSTPLSLQTLVKKVLATQHISKEHYFILKYCGLWWHEAPITICI
+                     DEDSQILIKSASFKEGLSLDIALMKVVQENNHDLIELFTKWGADINSSLVTVNTEYTR
+                     NLCQKLGAKEALNERDILQIFYKTRHLKTSSNIILYNELFSNNLLFQNIERLSLIVYR
+                     GLKNLSINFILDDISFSEMLTRYWYSMAILYNLTEAIQYFYQRYRHFKDWRLICGLSF
+                     NNLSDLHEVYNLEKTDIDIDEMMKLTCSTYDGNYSTIYYCFMLGADINRAMLTSVINF
+                     HIGNLFLCIDLGADAFEDSMELAKQKNNNILVEILSFKNYYSSNTSLLSIKTTDPEKI
+                     NALLDEEKYESKNMLMYEELSH"
+     gene            complement(189037..189231)
+                     /gene="ASFV G ACD 01980 CDS"
+                     /locus_tag="IM014_gp199"
+                     /db_xref="GeneID:59227062"
+     CDS             complement(189037..189231)
+                     /gene="ASFV G ACD 01980 CDS"
+                     /locus_tag="IM014_gp199"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927288.1"
+                     /db_xref="GeneID:59227062"
+                     /translation="MIKKKNYFFGQHLFVRIVDKSAGNNNIYNFFLGEKNNYVTSYIP
+                     IGDLSPSESSVIKNNFVSMR"
+     repeat_region   complement(189208..190584)
+                     /gene="Repeat 1"
+     gene            complement(189738..189884)
+                     /gene="ASFV G ACD 01990 CDS"
+                     /locus_tag="IM014_gp201"
+                     /db_xref="GeneID:59226926"
+     CDS             complement(189738..189884)
+                     /gene="ASFV G ACD 01990 CDS"
+                     /locus_tag="IM014_gp201"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927289.1"
+                     /db_xref="GeneID:59226926"
+                     /translation="MNIYLVWFLYILLGNLILAVIYCVIDEVVCDNIHIKKNVAAPEM
+                     PRRF"
+     gene            190005..190169
+                     /gene="DP60R CDS"
+                     /locus_tag="IM014_gp202"
+                     /db_xref="GeneID:59226928"
+     CDS             190005..190169
+                     /gene="DP60R CDS"
+                     /locus_tag="IM014_gp202"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_009927290.1"
+                     /db_xref="GeneID:59226928"
+                     /translation="MSLWPPQKKVFTVGFITGGVTPVMVNFVWPAAQPQKKINYNRKK
+                     KYFRPRRFKK"
 ORIGIN      
         1 actgctgtag gcgtcaaaga ttaaaattat tactactgct gtaggcgtta aacattaaaa
        61 ttattactac tgctgtaggc gttaaagatt aaaaatatta gtactgctgc aggcgttaaa
@@ -3185,3 +6541,4 @@ ORIGIN
    190501 taacgcctac agcagtagta ataattttaa tgtttaacgc ctacagcagt agtaataatt
    190561 ttaatctttg acgcctacag cagt
 //
+
