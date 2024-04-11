@@ -128,12 +128,12 @@ rule ancestral:
             --inference {params.inference}
         """
 
-'''rule translate:
+rule translate:
     message: "Translating amino acid sequences"
     input:
         tree = rules.refine.output.tree,
         node_data = rules.ancestral.output.node_data,
-        reference = reference #"data/reference_asf.gb" # replace with reference after fixing
+        reference = reference
     output:
         node_data = "results/aa_muts.json"
     shell:
@@ -143,7 +143,7 @@ rule ancestral:
             --ancestral-sequences {input.node_data} \
             --reference-sequence {input.reference} \
             --output-node-data {output.node_data} \
-        """'''
+        """
 
 rule traits:
     message: "Inferring ancestral traits for {params.columns!s}"
@@ -172,7 +172,7 @@ rule export:
         branch_lengths = rules.refine.output.node_data,
         traits = rules.traits.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
-        #aa_muts = rules.translate.output.node_data,
+        aa_muts = rules.translate.output.node_data,
         colors = colors,
         lat_longs = lat_longs,
         auspice_config = auspice_config
